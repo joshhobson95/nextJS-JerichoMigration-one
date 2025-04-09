@@ -1,42 +1,99 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, 
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
 }
-
-html,
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
+	line-height: 1;
+
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
+
+
+/* .rich-text styles (specific) */
+.rich-text-editor{
+	padding: 100px;
+    margin-bottom: 100px;
+}
+.rich-text{
+	display: flex;
+	justify-content: center;
+	align-self: center !important;
+}
+.rich-text ol{  
+	list-style: decimal;
+	list-style-position: inside;
+	margin: 0;
+	padding: 0;
+}
+.rich-text ul {
+  list-style: circle;
+  list-style-position: inside;
   margin: 0;
+  padding: 0;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+/* Increase specificity for strong and em elements within .rich-text */
+.rich-text strong {
+  font-weight: 800;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+.rich-text em {
+  font-style: italic;
+}
+
+/* Override link styles within .rich-text */
+.rich-text a {
+  text-decoration: underline;
+  color: blue;
+}
+
+.rich-text ol ol {
+  list-style-type: square; /* You can change this to your preferred style */
+  margin-left: 20px; /* Adjust the left margin to create further indentation */
+}
+.rich-text ul ul {
+	list-style-type: square; /* You can change this to your preferred style */
+	margin-left: 20px; /* Adjust the left margin to create further indentation */
   }
-}
+
+
+  .tree_catalog_title{
+    font-size: 46pt;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 2px #000;
+  }
