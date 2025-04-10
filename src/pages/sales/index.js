@@ -5,21 +5,19 @@ import axios from 'axios';
 import styles from './sales.module.css'
 
 // Fetch sales data on the server side with getStaticProps
-export async function getStaticProps() {
+export async function getServerSideProps() {
   try {
-    // Fetch sales data from the API route
-    const res = await axios.get("http://localhost:3000/api/sales");
-    const salesData = res.data;
+    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/sales`);
+    if (!res.ok) throw new Error("Failed to fetch");
 
-    return {
-      props: { salesData },
-      revalidate: 60 * 60 * 24, // Cache for 24 hours, adjust as necessary
-    };
+    const salesData = await res.json();
+    return { props: { salesData } };
   } catch (error) {
-    console.log(error);
-    return { props: { salesData: [] } }; // Return empty array if error occurs
+    console.error("Error fetching sales data:", error);
+    return { props: { salesData: [] } }; // Provide fallback data
   }
 }
+
 
 function Sales({ salesData }) {
   // Calculate the current week range
