@@ -1,26 +1,31 @@
-// pages/sales.js
-
 import React from 'react';
 import axios from 'axios';
 import styles from './sales.module.css'
 
-// Fetch sales data on the server side with getStaticProps
+
+// Fetch sales data from the internal API route using getStaticProps
 export async function getStaticProps() {
   try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/sales`);
+    // Determine the base URL based on the environment
+    const baseUrl = process.env.NODE_ENV === 'production' 
+      ? 'https://nextjs-jerichomigration-one.onrender.com' // Replace with your production domain
+      : 'http://localhost:3000'; // Local development URL
+
+    // Make the request using the full URL in production
+    const res = await fetch(`${baseUrl}/api/sales`);
+    
     if (!res.ok) throw new Error("Failed to fetch");
 
     const salesData = await res.json();
     return { 
       props: { salesData },
-      revalidate: 60,  // Optional: revalidate every 60 seconds for Incremental Static Regeneration (ISR)
+      revalidate: 60,  // Optional: revalidate every 60 seconds for ISR (Incremental Static Regeneration)
     };
   } catch (error) {
     console.error("Error fetching sales data:", error);
     return { props: { salesData: [] } }; // Provide fallback data
   }
 }
-
 
 function Sales({ salesData }) {
   // Calculate the current week range
