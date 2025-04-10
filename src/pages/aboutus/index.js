@@ -1,14 +1,13 @@
 import React from 'react';
 import styles from './aboutus.module.css'; // Assuming you renamed your CSS file to AboutUs.module.css
-
-// import rickandjen from '../../Assets/rickandjen.png'
-// import bys from '../../Assets/BeforeYouSaySomething.jpg'
-// import StaffPictures from './StaffPictures'
-// import Bios from './Bios'
+import rickandjen from '../../../public/assets/rickandjen.png'
+import bys from '../../../public/assets/BeforeYouSaySomething.jpg'
+import StaffPictures from './StaffPictures';
+import Bios from './Bios';
 
 function Aboutus() {
   return (
-    <div className={styles.AboutUs}> {/* Scoped class name using CSS module */}
+    <div className={styles.AboutUs}> 
 
       <div className={styles.aboutus_welcome}>
         <h1> About Us here at Jericho</h1>
@@ -21,8 +20,8 @@ function Aboutus() {
 
         <div className={styles.aboutus_body_top}>
           <h1>Meet Our Team</h1>
-          {/* <StaffPictures />
-          <Bios /> */}
+          <StaffPictures />
+          <Bios />
 
           <p className={styles.staff_p}>
             To our returning employees, we send warm greetings and a big thank you for joining us for another season. We truly appreciate your experience and loyalty. To our new employees, we hope to share with you the excitement of learning your job, meeting new people, and lots of fun working with plants, trees, and flowers.
@@ -34,7 +33,7 @@ function Aboutus() {
           <h1>About the Owners</h1>
           <div className={styles.about_the_owners}>
 
-            <img alt="Rick and Jen Hobson" className={styles.rickandjen} />
+            <img src={rickandjen.src} alt="Rick and Jen Hobson" className={styles.rickandjen} />
 
             <p className={styles.ato_p}>
               Gardening expert Richard Hobson and his wife Jennifer, Landscape Designer, have assembled an outstanding staff of experienced nursery professionals. They started Jericho Nursery in 2005.
@@ -71,7 +70,7 @@ function Aboutus() {
           <div className={styles.bys}>
             <h2 className={styles.bys_header}> This is a story about four people named Everybody, Somebody, Anybody and Nobody. </h2>
             <div className={styles.bys_pic_container}>
-              <img alt="Great Advice from Jericho Nursery" className={styles.bys_pic} />
+              <img src={bys.src} alt="Great Advice from Jericho Nursery" className={styles.bys_pic} />
             </div>
             <div>
               <p>
