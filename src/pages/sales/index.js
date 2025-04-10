@@ -7,8 +7,11 @@ import styles from './sales.module.css'
 // Fetch sales data on the server side with getStaticProps
 export async function getStaticProps() {
   try {
+
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL;
+
     // Fetch sales data from the API route
-    const res = await axios.get("http://localhost:3000/api/sales");
+    const res = await axios.get(`${apiUrl}/api/sales`);
     const salesData = res.data;
 
     return {
