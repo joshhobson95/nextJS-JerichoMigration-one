@@ -5,13 +5,16 @@ import axios from 'axios';
 import styles from './sales.module.css'
 
 // Fetch sales data on the server side with getStaticProps
-export async function getServerSideProps() {
+export async function getStaticProps() {
   try {
     const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/sales`);
     if (!res.ok) throw new Error("Failed to fetch");
 
     const salesData = await res.json();
-    return { props: { salesData } };
+    return { 
+      props: { salesData },
+      revalidate: 60,  // Optional: revalidate every 60 seconds for Incremental Static Regeneration (ISR)
+    };
   } catch (error) {
     console.error("Error fetching sales data:", error);
     return { props: { salesData: [] } }; // Provide fallback data
