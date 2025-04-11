@@ -1,6 +1,6 @@
 
 import Link from "next/link";
-import styles from "./GardenResources.module.css";
+import styles from "./gardenresources.module.css";
 import Head from "next/head";
 
 
