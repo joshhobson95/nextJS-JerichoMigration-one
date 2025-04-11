@@ -1,34 +1,41 @@
-"use client";
+'use client';
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import NavBarDesktop from './NavBarDesktop';
+import NavBarMobile from './NavBarMobile';
 import RotatingBanner from './RotatingBanner';
-import logo from '../../../public/assets/Logo.png'
+import logo from '../../../public/assets/Logo.png';
 import styles from './header.module.css';
 
 function Header() {
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(null);  // Start with null to indicate "hydrating"
 
   useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth < 500);
-    };
+    if (typeof window !== 'undefined') {
+      const handleResize = () => {
+        setIsMobile(window.innerWidth < 500);
+      };
 
-    // Run once on mount
-    handleResize();
+      handleResize(); // Run immediately to set initial state
 
-    // Add event listener
-    window.addEventListener('resize', handleResize);
+      window.addEventListener('resize', handleResize);
 
-    // Cleanup
-    return () => window.removeEventListener('resize', handleResize);
+      return () => {
+        window.removeEventListener('resize', handleResize);
+      };
+    }
   }, []);
+
+  // If the state is still null (during hydration), we don't render anything yet
+  if (isMobile === null) {
+    return <div>Loading...</div>;  // Or any loading UI you prefer
+  }
 
   return (
     <div className={styles.header_wrapper}>
       {isMobile ? (
         <div>
-          {/* <NavBarMobile /> */}
+          <NavBarMobile />
           <div className={styles.mobile_photo_banner}>
             <RotatingBanner />
             <Link href='/'>
