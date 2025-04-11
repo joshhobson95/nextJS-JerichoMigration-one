@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './GiftCard.module.css';
+import styles from './giftcard.module.css';
 import GiftCardIcon from '../../../public/svgs/GiftCardIcon';
 import Head from 'next/head';
 
