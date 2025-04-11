@@ -44,6 +44,7 @@ function Sales({ salesData }) {
 
   const currentWeekRange = getCurrentWeekRange();
 
+
   return (
     <div className={styles.sales}>
 
@@ -61,7 +62,7 @@ function Sales({ salesData }) {
 
         <div className={styles.sales_card_container}>
           {salesData.map((item) => (
-            <div className={styles.sales_card} key={item.id}> 
+            <div className={styles.sales_card} key={item.salestableid}> 
               <div className={styles.sales_card_top}>
                 <img src={item.img_url} className={styles.sales_card_img} alt={item.name} />
               </div>

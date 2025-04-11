@@ -1,26 +1,55 @@
-/* Simple header styles */
-.header {
-    background-color: #333;
-    padding: 20px;
-  }
-  
-  .navList {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-  }
-  
-  .navItem {
-    margin-right: 20px;
-  }
-  
-  .navItem a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  .navItem a:hover {
-    text-decoration: underline;
-  }
-  
+.header{
+  height: fit-content;
+  z-index: 9;
+}
+
+.header_wrapper ul{
+list-style: none;
+}
+
+.logo{
+    height: auto;
+    max-height: 28vh;
+    max-width: 100%;
+    width: auto;
+    margin: 2rem auto;
+    align-self: center;
+}
+
+.mobile_banner_logo{
+  position: relative;
+  margin-top: 3vh;
+  max-width: 97%;
+  width: auto;
+  padding: 0.5rem;
+  z-index: 2;
+}
+.mobile_banner{
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  height: 17vh;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 5rem;
+}
+.mobile_photo_banner{
+  height: 20vh;
+}
+.active {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 1;
+}
+
+
+
+
+
+
+@media (min-width: 749px) { 
+
+.mobile_banner_logo{
+  margin-top: 1vh;
+}
+}
