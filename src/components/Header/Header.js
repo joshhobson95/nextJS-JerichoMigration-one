@@ -9,7 +9,7 @@ import styles from './header.module.css';
 
 
 function Header() {
-  const [isMobile, setIsMobile] = useState(null);  // Start with null to indicate "hydrating"
+  const [isMobile, setIsMobile] = useState(null); 
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
@@ -17,8 +17,7 @@ function Header() {
         setIsMobile(window.innerWidth < 500);
       };
 
-      handleResize(); // Run immediately to set initial state
-
+      handleResize();
       window.addEventListener('resize', handleResize);
 
       return () => {
@@ -27,9 +26,9 @@ function Header() {
     }
   }, []);
 
-  // If the state is still null (during hydration), we don't render anything yet
+
   if (isMobile === null) {
-    return <div>Loading...</div>;  // Or any loading UI you prefer
+    return <div>Loading...</div>; 
   }
 
   return (
