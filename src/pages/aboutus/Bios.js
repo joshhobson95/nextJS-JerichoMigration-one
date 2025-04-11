@@ -1,7 +1,7 @@
 'use client'; // This is needed for client-side components in Next.js
 
 import React, { useState } from 'react';
-import styles from './Bios.module.css';
+import styles from './bios.module.css';
 
 
 const Bios = () => {
