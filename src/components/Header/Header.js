@@ -7,6 +7,7 @@ import RotatingBanner from './RotatingBanner';
 import logo from '../../../public/assets/Logo.png';
 import styles from './header.module.css';
 
+
 function Header() {
   const [isMobile, setIsMobile] = useState(null);  // Start with null to indicate "hydrating"
 

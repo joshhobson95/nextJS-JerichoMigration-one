@@ -19,4 +19,4 @@ function CallButton() {
   )
 }
 
-export default CallButton
+export default CallButton;
