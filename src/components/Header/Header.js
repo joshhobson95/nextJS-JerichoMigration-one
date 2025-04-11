@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import NavBarDesktop from './NavBarDesktop';
 import NavBarMobile from './NavBarMobile';
-import RotatingBanner from './RotatingBanner';
+import RotatingBanner from '../RotatingBanner/RotatingBanner';
 import logo from '../../../public/assets/Logo.png';
 import styles from './header.module.css';
 

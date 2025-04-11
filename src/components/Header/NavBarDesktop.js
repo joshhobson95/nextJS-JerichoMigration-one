@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import RotatingBanner from "./RotatingBanner";
+import RotatingBanner from "../RotatingBanner/RotatingBanner";
 import logo from '../../../public/assets/Logo.png';
 import BlogIcon from "../../../public/svgs/BlogIcon";
 import ContactUsIcon from "../../../public/svgs/ContactUsIcon"
