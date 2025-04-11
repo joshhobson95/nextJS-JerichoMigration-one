@@ -5,7 +5,7 @@ import NavBarDesktop from './NavBarDesktop';
 import NavBarMobile from './NavBarMobile';
 import RotatingBanner from '../RotatingBanner/RotatingBanner';
 import logo from '../../../public/assets/Logo.png';
-import styles from './header.module.css';
+import styles from './HeaderStyles.module.css'
 
 
 function Header() {
