@@ -21,7 +21,6 @@ list-style: none;
   margin-top: 3vh;
   max-width: 97%;
   width: auto;
-  padding: 0.5rem;
   z-index: 2;
 }
 .mobile_banner{
@@ -40,6 +39,11 @@ list-style: none;
 .active {
   transition: opacity 0.5s ease-in-out;
   opacity: 1;
+}
+.logo_div{
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 
