@@ -162,7 +162,7 @@ function NavBarMobile() {
                   <Link href='/radio'>
                     <li className="navbar__dropdownItem_mobile">Radio Show</li>
                   </Link>
-                  <Link href='/seminars'>
+                  <Link href='/workshops'>
                     <li className="navbar__dropdownItem_mobile">Workshops</li>
                   </Link>
                   <Link href='/clubs'>

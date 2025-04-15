@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './trees.module.css'
+import Link from 'next/link';
 
 
 function Trees() {
@@ -27,30 +28,35 @@ return (
 
     <div className={styles.tree_categories}>
 
+  <Link href="/plantcatalog/trees/shadetrees">
+  <div>
+    <h2>Shade Trees</h2>
+    <img 
+      src="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/shade.jpg" 
+      alt="Shade Trees in Albuquerque, New Mexico and surrounding areas" 
+    />
+  </div>
+</Link>
+
+<Link href="/plantcatalog/trees/ornamentaltrees">
       <div className={styles.tree_categories_inner}>
-      <a to='/shadetrees'>
-      <h2>Shade Trees</h2>
-      <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/shade.jpg' alt='Shade Trees in Albuqueruque, New Mexico and surrounding areas'/>
-      </a>
-      </div>
-      <div className={styles.tree_categories_inner}>
-      <a to='/ornamentaltrees'>
       <h2>Ornamental Trees</h2>
       <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/flowering/floweringcherry.jpg' alt='Ornamental Trees in Albuqueruque, New Mexico and surrounding areas'/>
-      </a>
       </div>
+</Link>
+<Link href="/plantcatalog/trees/fruittrees"k>
       <div className={styles.tree_categories_inner}>
-      <a to='/fruittrees'>
       <h2>Fruit Trees</h2>
       <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit.jpg' alt='Fruit and Nut Trees in Albuqueruque, New Mexico and surrounding areas'/>
-      </a>
       </div>
+</Link>
+<Link href="/plantcatalog/trees/coniferoustrees">
       <div className={styles.tree_categories_inner}>
-      <a to='/conifers'>
       <h2>Coniferous Trees</h2>
       <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/Pines.jpg' alt='Conifers and Pine Trees in Albuqueruque, New Mexico and surrounding areas'/>
-      </a>
       </div>
+</Link>
+
     </div>
 
  

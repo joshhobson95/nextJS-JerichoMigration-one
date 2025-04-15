@@ -1,6 +1,6 @@
-import React, {useState} from 'react'
+import React from 'react'
 import styles from './plantcatalog.module.css'
-
+import Link from 'next/link';
 
 
 function PlantCatalog() {
@@ -56,7 +56,7 @@ function PlantCatalog() {
   </div>
 </a> */}
 
-<a to='/trees'>
+<Link href='plantcatalog/trees'>
 <div className={styles.plant_category}>
 <div className={styles.plant_image_container}>
     <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Tree.jpg' alt='Shade and Fruit Trees available at Jericho Nursery in Albuquerque, New Mexico'/>
@@ -67,7 +67,7 @@ function PlantCatalog() {
 
     </div>
   </div>
-</a>
+</Link>
 
 <a to='/shrubs'>
 <div className={styles.plant_category}>

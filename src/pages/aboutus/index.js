@@ -4,6 +4,10 @@ import rickandjen from '../../../public/assets/rickandjen.png'
 import bys from '../../../public/assets/BeforeYouSaySomething.jpg'
 import StaffPictures from './StaffPictures';
 import Bios from './Bios';
+import Quality from '../../../public/svgs/Quality';
+import Selection from '../../../public/svgs/Selection';
+import Service from '../../../public/svgs/Service';
+import Knowledge from '../../../public/svgs/Knowledge';
 
 function Aboutus() {
   return (
@@ -55,15 +59,19 @@ function Aboutus() {
           <div className={styles.values}>
             <div className={styles.values_column}>
               <h3>Quality</h3>
+              <Quality />
             </div>
             <div className={styles.values_column}>
               <h3>Selection</h3>
+              <Selection />
             </div>
             <div className={styles.values_column}>
               <h3>Service</h3>
+              <Service />
             </div>
             <div className={styles.values_column}>
               <h3>Knowledge</h3>
+              <Knowledge />
             </div>
           </div>
 
