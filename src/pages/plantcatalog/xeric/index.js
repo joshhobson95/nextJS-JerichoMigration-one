@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import styles from './Xeric.module.css';
+import styles from './xeric.module.css';
 
 function Xeric() {
   return (

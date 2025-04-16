@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './XericBedding.module.css';
+import styles from './xericbedding.module.css';
 import PlantSlider from "@/components/PlantSlider/PlantSlider";
 import xericbedding from "@/plantdata/Xeric/XericBeddingData";
 

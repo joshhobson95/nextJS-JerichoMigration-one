@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './ConiferousShrubs.module.css';
+import styles from './coniferousshrubs.module.css';
 import PlantSlider from "@/components/PlantSlider/PlantSlider";
 import coniferousshrubs from "@/plantdata/Shrubs/ConiferousShrubData";
 

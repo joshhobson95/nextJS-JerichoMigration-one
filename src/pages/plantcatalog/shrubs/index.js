@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Shrubs.module.css'
+import styles from './shrubs.module.css'
 import Link from 'next/link'
 
 function Shrubs() {

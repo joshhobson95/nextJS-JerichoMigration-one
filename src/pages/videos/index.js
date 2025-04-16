@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Videos.module.css';
+import styles from './videos.module.css';
 import LatestYouTube from '../../components/LatestYoutube/LatestYoutube';
 import Head from 'next/head';
 
