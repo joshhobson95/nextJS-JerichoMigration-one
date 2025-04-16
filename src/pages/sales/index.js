@@ -25,6 +25,7 @@ export async function getStaticProps() {
 }
 
 function Sales({ salesData }) {
+  
   // Calculate the current week range
   function getCurrentWeekRange() {
     const today = new Date();

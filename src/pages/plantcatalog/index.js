@@ -17,7 +17,7 @@ function PlantCatalog() {
 
 
 
-<a to='/annuals'>
+<Link href='plantcatalog/annuals'>
   <div className={styles.plant_category}>
     <div className={styles.plant_image_container}>
     <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/annuals.jpg' alt='Annual plants available at Jericho Nursery in Albuquerque, New Mexico' />
@@ -29,9 +29,9 @@ function PlantCatalog() {
 
     </div>
   </div>
-</a>
+</Link>
 
-<a to='/perennials'>
+<Link href='plantcatalog/perennials'>
 <div className={styles.plant_category}>
 <div className={styles.plant_image_container}>
     <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/penstemon-4925491_1920.jpg' alt='Perrenial plants available at Jericho Nursery in Albuquerque, New Mexico'/>
@@ -42,9 +42,9 @@ function PlantCatalog() {
 
     </div>
   </div>
-</a>
+</Link>
 
-{/* <a to='/roses'>
+{/* <a href='/roses'>
   <div className='plant_category'>
   <div className='plant_image_container'>
     <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/roses.jpg' alt='Roses available at Jericho Nursery in Albuquerque, New Mexico'/>
@@ -69,7 +69,7 @@ function PlantCatalog() {
   </div>
 </Link>
 
-<a to='/shrubs'>
+<Link href='plantcatalog/shrubs'>
 <div className={styles.plant_category}>
 <div className={styles.plant_image_container}>
     <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/shrub.jpg'alt='Shrubs available at Jericho Nursery in Albuquerque, New Mexico' />
@@ -80,8 +80,8 @@ function PlantCatalog() {
 
     </div>
   </div>
-</a>
-{/* <a to='/vines'>
+</Link>
+{/* <a href='/vines'>
 <div className={styles.plant_category}>
 <div className={styles.plant_image_container}>
     <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Vines/trumpetVine.jpg' alt='Vines available at Jericho Nursery in Albuquerque, New Mexico' />
@@ -93,7 +93,7 @@ function PlantCatalog() {
   </div>
 </a> */}
 
-<a to='/xeric'>
+<Link href='plantcatalog/xeric'>
 <div className={styles.plant_category}>
 <div className={styles.plant_image_container}>
     <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/xeric.jpg' alt='Xeric plants available at Jericho Nursery in Albuquerque, New Mexico'/>
@@ -103,11 +103,8 @@ function PlantCatalog() {
       <p>Xeric plants are ideal for water-wise gardening, thriving in dry, low-water conditions. These hardy plants are well-suited for Albuquerque’s hot, arid climate and require minimal irrigation once established. At Jericho Nursery, we offer a variety of xeric plants, including succulents, water-wise trees and drought-tolerant shrubs, that add beauty and sustainability to your garden.</p>
     </div>
   </div>
-</a>
-
-
+</Link>
   </div>
- 
 </div>
   )
 }

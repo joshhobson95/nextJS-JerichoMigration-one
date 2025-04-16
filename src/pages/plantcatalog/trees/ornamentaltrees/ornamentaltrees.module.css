@@ -49,18 +49,17 @@
     justify-content: center;
     flex-direction: column;
     background-color: #a1a1a181;
-    padding: 0.5rem;
+    padding: 1.5rem;
     margin: 1.5rem 0rem ;
-  }
-  
-  .tree_catalog_title{
+}
+
+
+.tree_catalog_title{
     font-size: 26pt;
     font-weight: 700;
     margin-bottom: 2rem;
-    text-shadow: 1px 1px 2px rgb(0, 0, 0);
-  }
-  
-  
+    text-shadow: 1px 1px 2px #000;
+}
   
   
   
