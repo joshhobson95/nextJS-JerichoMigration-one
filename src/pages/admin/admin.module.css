@@ -1,0 +1,25 @@
+.admin_container{
+    background-color: #242424;
+    padding: 2rem;
+    font-size: 20pt;
+    text-align: center;
+}
+.admin_inner{
+    border: 2px solid white;
+    border-radius: 12px;
+    margin: 2rem;
+    padding: 2rem;
+}
+.admin_container h1{
+    margin: 2rem;
+}
+
+
+@media (min-width:1025px) { 
+
+
+    .admin_container{
+        font-size: 30pt;
+    }
+
+}

@@ -1,0 +1,181 @@
+.banner{
+    height: auto;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.b_img{
+    background-image: url('../../../../public/assets/Bulbs.jpg');
+    height: auto;
+    width: 100vw;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   padding-bottom: 2rem;
+}
+.b_1{
+    height: auto;
+    width: 85vw;
+    padding: 1rem;
+    margin-top: 2.5vh;
+    background-color: #242424;
+    z-index: 2;
+    border-radius: 12px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+}
+.b_2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+.banner h1{
+    color: #ACDC95;
+    font-size: 26pt;
+    font-weight: 800;
+}
+.b_h4{
+    color: white;
+    font-size: 16pt;
+    padding: 0 1rem;
+    padding-bottom: 0.5vh;
+    font-weight: 500;
+}
+.b_h42{
+    color: white;
+    font-size: 16pt;
+    font-weight: 600 !important;
+    padding: 0 1rem;
+    padding-bottom: 0.5vh;
+    font-weight: 500;
+}
+.b_h4g{
+    background: -webkit-linear-gradient(left, #FFFFFF, #DBBA4B);
+    background: -o-linear-gradient(right, #FFFFFF, #DBBA4B);
+    background: -moz-linear-gradient(right,  #FFFFFF, #DBBA4B);
+    background: linear-gradient(to right,  #FFFFFF, #DBBA4B); 
+   -webkit-text-fill-color: transparent;
+   margin-left: 16vw;
+   font-size: 12pt;
+   font-weight: 600;
+   padding-top: 2vh;
+   padding-bottom: 0.5rem;
+}
+.banner_button{
+    height: auto;
+    width: auto;
+    padding: 1rem 1.25rem;
+    background-color: #4FA673 !important;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Raleway';
+    font-size: 12pt;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+    margin-top: 5vh;
+    cursor: pointer;
+    transition: 1s;
+    margin-bottom: 1rem;
+}
+.banner_button:hover{
+    color: #4FA673 !important;
+    background-color: #ffffff !important;
+}
+.banner_img1{
+    margin-top: 1rem;
+    border-radius: 12px;
+    width: 200px;
+    align-self: center;
+}
+.spotify{
+    height: 1rem;
+}
+.spotify_p{
+    color: white;
+    font-size: 9pt;
+}
+.spotify_container{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+@media (min-width:1025px) { 
+.banner{
+height: auto;
+width: auto;
+}
+.b_1{
+    width: 35vw !important;
+    padding-bottom: 1rem;
+}
+.banner h1{
+    font-size: 30pt;
+}
+.b_h4{
+    font-size: 18pt;
+}
+.b_h42{
+    color: white;
+    font-size: 26pt;
+    font-weight: 600 !important;
+    padding: 0 1rem;
+    padding-bottom: 0.5vh;
+    font-weight: 500;
+    width: 25vw;
+    align-self: center;
+}
+.banner button{
+    font-size: 18pt !important; 
+    border-radius: 20px;
+}
+.banner_img1{
+height: 20vh;
+width: auto;
+align-self: center;
+padding-top: 1rem;
+}
+.spotify{
+    height: 2rem;
+}
+.spotify_p{
+    color: white;
+    font-size: 12pt;
+    padding-top: 0.5rem;
+    padding-right: .4rem;
+}
+.spotify_container{
+    justify-content: flex-end;
+}
+}
+
+@media (min-width:2000px) { 
+    .banner{
+        height: auto;
+        width: auto;
+        }
+        .b_1{
+            width: 45vw;
+            padding-bottom: 1rem;
+        }
+        .banner h1{
+            font-size: 60pt;
+        }
+        .b_h4{
+            font-size: 22pt;
+        }
+        .b_h4g{
+            font-size: 26pt;
+        }
+        .banner button{
+            font-size: 22pt !important; 
+            border-radius: 20px;
+        }
+  }
+
+

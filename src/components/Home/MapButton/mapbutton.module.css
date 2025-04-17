@@ -1,0 +1,21 @@
+.map_button_home{
+    height: auto;
+    width: auto;
+    padding: 1rem 1.25rem;
+    background-color: #DBBA4B;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Raleway';
+    font-size: 12pt;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+    cursor: pointer;
+    margin: 1rem;
+    box-shadow: 1px 3px 10px 5px rgba(0, 0, 0, 0.25);
+}
+.map_button_home:hover{
+    background-color: #ffffff;
+    color: #DBBA4B;
+    transition: 1s
+}
