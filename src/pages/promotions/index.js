@@ -7,7 +7,7 @@ import Head from 'next/head';
 
 
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
     try {
   
       const apiUrl = process.env.NEXT_PUBLIC_API_URL;
@@ -18,7 +18,7 @@ export async function getStaticProps() {
   
       return {
         props: { promotionsData },
-        revalidate: 60 * 60 * 24,
+ 
       };
     } catch (error) {
       console.log(error);

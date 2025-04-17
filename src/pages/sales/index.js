@@ -4,23 +4,22 @@ import React from 'react';
 import axios from 'axios';
 import styles from './sales.module.css'
 
-// Fetch sales data on the server side with getStaticProps
-export async function getStaticProps() {
+export async function getServerSideProps() {
   try {
 
     const apiUrl = process.env.NEXT_PUBLIC_API_URL;
 
-    // Fetch sales data from the API route
+   
     const res = await axios.get(`${apiUrl}/api/sales`);
     const salesData = res.data;
 
     return {
       props: { salesData },
-      revalidate: 60 * 60 * 24, // Cache for 24 hours, adjust as necessary
+    
     };
   } catch (error) {
     console.log(error);
-    return { props: { salesData: [] } }; // Return empty array if error occurs
+    return { props: { salesData: [] } }; 
   }
 }
 
