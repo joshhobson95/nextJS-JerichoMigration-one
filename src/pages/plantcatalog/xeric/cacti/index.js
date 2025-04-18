@@ -52,75 +52,93 @@ function Cacti() {
             </div>
           </div> */}
 
-          <div className={styles.attribution_container}>
-            <button className={styles.attribution_button} onClick={toggleVisible}>
-              {visibleAttribution ? "Hide Image Attributions" : "View Image Attributions"}
-            </button>
-
-            {visibleAttribution && (
-              <div className={styles.attribution_content}>
-                <div className={styles.single_attribution}>
-                  <span><strong>Red Yucca Image</strong></span>
-                  <ul>
-                    <li><strong>Title:</strong> <em>Hesperaloe parviflora, Ponteilla.jpg</em></li>
-                    <li>
-                      <strong>Photographer:</strong>{" "}
-                      <a href="https://commons.wikimedia.org/wiki/User:Sylenius" target="_blank" rel="noopener noreferrer">Sylenius</a>
-                    </li>
-                    <li>
-                      <strong>Source:</strong>{" "}
-                      <a href="https://commons.wikimedia.org/wiki/File:Hesperaloe_parviflora,_Ponteilla.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>
-                    </li>
-                    <li>
-                      <strong>License:</strong>{" "}
-                      <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en" target="_blank" rel="noopener noreferrer">CC BY-SA 3.0</a>
-                    </li>
-                    <li><strong>Modifications:</strong> Resized and cropped into a circular frame</li>
-                  </ul>
-                </div>
-
-                <div className={styles.single_attribution}>
-                  <span><strong>Navajo Yucca Image</strong></span>
-                  <ul>
-                    <li><strong>Title:</strong> <em>Yucca baileyi in Christchurch Botanic Gardens 03.jpg</em></li>
-                    <li>
-                      <strong>Photographer:</strong>{" "}
-                      <a href="https://commons.wikimedia.org/wiki/User:Tournasol7" target="_blank" rel="noopener noreferrer">Krzysztof Golik</a>
-                    </li>
-                    <li>
-                      <strong>Source:</strong>{" "}
-                      <a href="https://commons.wikimedia.org/wiki/File:Yucca_baileyi_in_Christchurch_Botanic_Gardens_03.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>
-                    </li>
-                    <li>
-                      <strong>License:</strong>{" "}
-                      <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>
-                    </li>
-                    <li><strong>Modifications:</strong> Resized and cropped into a circular frame</li>
-                  </ul>
-                </div>
-
-                <div className={styles.single_attribution}>
-                  <span><strong>Twin-flowered Agave Image</strong></span>
-                  <ul>
-                    <li><strong>Title:</strong> <em>Agave geminiflora - Twin-flowered agave 01-1.jpg</em></li>
-                    <li>
-                      <strong>Photographer:</strong>{" "}
-                      <a href="https://commons.wikimedia.org/wiki/User:Zcebeci" target="_blank" rel="noopener noreferrer">Zeynel Cebeci</a>
-                    </li>
-                    <li>
-                      <strong>Source:</strong>{" "}
-                      <a href="https://commons.wikimedia.org/wiki/File:Agave_geminiflora_-_Twin-flowered_agave_01-1.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>
-                    </li>
-                    <li>
-                      <strong>License:</strong>{" "}
-                      <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank" rel="noopener noreferrer">CC BY-SA 4.0</a>
-                    </li>
-                    <li><strong>Modifications:</strong> Resized and cropped into a circular frame</li>
-                  </ul>
-                </div>
-              </div>
-            )}
-          </div>
+         
+        <div className="attribution-container">
+      <button className="attribution-button" onClick={toggleVisible}>
+        {visibleAttribution ? "Hide Image Attributions" : "View Image Attributions"}
+      </button>
+      
+      {visibleAttribution && (
+        <div className="attribution-content">
+          
+          <div className="single_attribution">
+          <span><strong>Red Yucca Image</strong></span>
+          <ul>
+            <li><strong>Title:</strong> <em>Hesperaloe parviflora, Ponteilla.jpg</em></li>
+            <li>
+              <strong>Photographer:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/User:Sylenius" target="_blank" rel="noopener noreferrer">
+              Sylenius
+              </a>
+            </li>
+            <li>
+              <strong>Source:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/File:Hesperaloe_parviflora,_Ponteilla.jpg" target="_blank" rel="noopener noreferrer">
+                Wikimedia Commons
+              </a>
+            </li>
+            <li>
+              <strong>License:</strong>{" "}
+              <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en" target="_blank" rel="noopener noreferrer">
+                CC BY-SA 3.0
+              </a>
+            </li>
+            <li><strong>Modifications:</strong> Resized and cropped into a circular frame</li>
+          </ul>
+        </div>
+          <div className="single_attribution">
+          <span><strong>Navajo Yucca Image</strong></span>
+          <ul>
+            <li><strong>Title:</strong> <em>Yucca baileyi in Christchurch Botanic Gardens 03.jpg</em></li>
+            <li>
+              <strong>Photographer:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/User:Tournasol7" target="_blank" rel="noopener noreferrer">
+              Krzysztof Golik
+              </a>
+            </li>
+            <li>
+              <strong>Source:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/File:Yucca_baileyi_in_Christchurch_Botanic_Gardens_03.jpg" target="_blank" rel="noopener noreferrer">
+                Wikimedia Commons
+              </a>
+            </li>
+            <li>
+              <strong>License:</strong>{" "}
+              <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank" rel="noopener noreferrer">
+                CC BY-SA 4.0
+              </a>
+            </li>
+            <li><strong>Modifications:</strong> Resized and cropped into a circular frame</li>
+          </ul>
+        </div>
+        <div className="single_attribution">
+          <span><strong>Twin-flowered Agave Image</strong></span>
+          <ul>
+            <li><strong>Title:</strong> <em>Agave geminiflora - Twin-flowered agave 01-1.jpg</em></li>
+            <li>
+              <strong>Photographer:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/User:Zcebeci" target="_blank" rel="noopener noreferrer">
+              Zeynel Cebeci
+              </a>
+            </li>
+            <li>
+              <strong>Source:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/File:Agave_geminiflora_-_Twin-flowered_agave_01-1.jpg" target="_blank" rel="noopener noreferrer">
+                Wikimedia Commons
+              </a>
+            </li>
+            <li>
+              <strong>License:</strong>{" "}
+              <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank" rel="noopener noreferrer">
+                CC BY-SA 4.0
+              </a>
+            </li>
+            <li><strong>Modifications:</strong> Resized and cropped into a circular frame</li>
+          </ul>
+        </div>
+        </div>
+      )}
+      </div> 
         </div>
       </div>      
     </div>

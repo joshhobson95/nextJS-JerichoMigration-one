@@ -30,6 +30,7 @@
     font-size: 24pt;
     margin: 1rem;
     background-color: #242424a9;
+    font-weight: 300;
 }
 
 
@@ -139,6 +140,9 @@
 @media (min-width:1650px) {
     .conifer_top_text{
         margin: 2rem 10rem;
+    }
+    .conifer_header_background_image{
+        width: 65vw;
     }
 }
 

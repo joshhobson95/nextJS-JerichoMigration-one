@@ -28,6 +28,7 @@
     font-size: 24pt;
     margin: 1rem;
     background-color: #242424a9;
+    font-weight: 300;
 }
 .coniferous_shrub_top_text p{
     text-align: left;
@@ -134,6 +135,9 @@
 @media (min-width:1650px) {
     .coniferous_shrub_top_text{
         margin: 2rem 10rem;
+    }
+    .coniferous_shrub_header_background_image{
+        width: 65vw;
     }
 }
 

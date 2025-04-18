@@ -15,7 +15,7 @@ function Broadleaf() {
       <div className={styles.broadleaf_tree_container}>
         <div className={styles.broadleaf_top_text}> 
           <div className={styles.broadleaf_header_background_image}>
-            <h2>NM Broadleaf Evergreen Shrubs</h2>
+            <h2>New Mexico Broadleaf Evergreens</h2>
           </div>
           <p>
             Broadleaf evergreen shrubs provide lush greenery year-round, making them an excellent choice for adding structure, privacy, and color to your landscape, even in the depths of winter. Unlike deciduous plants that lose their leaves in the fall, these shrubs maintain their dense foliage throughout the seasons, offering a natural windbreak, noise barrier, and habitat for birds. Many broadleaf evergreens, such as Indian hawthorn, red-tip photinia, and yaupon holly, are also heat and drought tolerant, making them well-suited for Albuquerque’s dry climate.

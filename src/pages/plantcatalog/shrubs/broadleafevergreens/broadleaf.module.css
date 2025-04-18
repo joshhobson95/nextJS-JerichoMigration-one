@@ -27,6 +27,7 @@
     font-size: 24pt;
     margin: 1rem;
     background-color: #242424a9;
+    font-weight: 300;
 }
 .broadleaf_top_text p{
     text-align: left;
@@ -133,6 +134,9 @@
 @media (min-width:1650px) {
     .broadleaf_top_text{
         margin: 2rem 10rem;
+    }
+    .broadleaf_header_background_image{
+        width: 65vw;
     }
 }
 

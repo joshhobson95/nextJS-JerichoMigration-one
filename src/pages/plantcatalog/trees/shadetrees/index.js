@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import styles from './shadetrees.module.css'
 import PlantSlider from "@/components/PlantSlider/PlantSlider";
 import shadedata from "@/plantdata/Trees/ShadeData";
@@ -6,11 +6,11 @@ import shadedata from "@/plantdata/Trees/ShadeData";
 function Shade() {
 
 
-//   const [visibleAttribution, setVisibleAttribution] = useState();
+  const [visibleAttribution, setVisibleAttribution] = useState();
 
-//   const toggleVisible = () => {
-//     setVisibleAttribution(!visibleAttribution)
-//   }
+  const toggleVisible = () => {
+    setVisibleAttribution(!visibleAttribution)
+  }
 
 
   return (
@@ -147,7 +147,7 @@ function Shade() {
   </div>
   </div>  
 
-  {/* <div className="attribution-container">
+  <div className="attribution-container">
       <button className="attribution-button" onClick={toggleVisible}>
         {visibleAttribution ? "Hide Image Attributions" : "View Image Attributions"}
       </button>
@@ -292,7 +292,7 @@ function Shade() {
 
         </div>
       )}
-      </div>  */}
+      </div> 
 
 </div>
   )

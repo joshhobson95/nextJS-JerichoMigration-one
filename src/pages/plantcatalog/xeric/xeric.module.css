@@ -176,17 +176,30 @@
     .xeric_categories h2{
         font-size: 36pt;
     }
+    .xeric_body_top_text {
+        margin: 2rem 6rem;
+        font-size: 18pt;
+    }
 }
+
+@media (min-width: 1650px) {
+    .xeric_body_top_text {
+        margin: 2rem 10rem;
+    }
+}
+
 
 @media (min-width:1900px) {
     .xeric_categories img{
         width: 57vw;
         height: 17vw;
     }
+ 
     .xeric_body_top_text{
         justify-content: center;
-        text-align: center;
+        margin: 2rem 24rem;
     }
+
 
 }
 

@@ -992,6 +992,7 @@ top: -10px;
 
 
 
+
   @media (min-width:851px) { 
     .home_gallery_photo{
       width: 45vw;
@@ -1560,3 +1561,30 @@ margin-top: 3rem;
   justify-content: center;
   align-items: center;
   }
+
+
+
+
+/* ATTRIBUTION */
+.attribution-container{
+  margin: 1rem;
+}
+.attribution-container ul{
+list-style: none;
+}
+.attribution-button{
+  margin: 2rem;
+    height: auto;
+    width: auto;
+    background-color: #406632;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Raleway';
+    font-size: 12pt;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+    cursor: pointer;
+    padding: 1rem;
+
+}
