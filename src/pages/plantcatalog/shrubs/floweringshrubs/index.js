@@ -2,10 +2,45 @@ import React from "react";
 import styles from './flowering.module.css';
 import PlantSlider from "@/components/PlantSlider/PlantSlider";
 import floweringshrubdata from "@/plantdata/Shrubs/FloweringShrubData";
+import Head from "next/head";
 
 function Flowering() {
   return (
     <div className={styles.Flowering}> 
+    <Head>
+  <title>Flowering Shrubs for New Mexico Gardens | Jericho Nursery</title>
+  <meta
+    name="description"
+    content="Discover a variety of flowering shrubs that thrive in New Mexico gardens. Jericho Nursery offers beautiful shrubs that bloom year after year."
+  />
+  <meta property="og:title" content="Flowering Shrubs for New Mexico Gardens | Jericho Nursery" />
+  <meta
+    property="og:description"
+    content="Shop flowering shrubs at Jericho Nursery. Our selection offers vibrant blooms and stunning flowers perfect for New Mexico’s climate, adding color and beauty to your garden."
+  />
+  <meta
+    property="og:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Flowering_Shrub.jpg"
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.jerichonursery.com/plant-catalog/shrubs/flowering" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Flowering Shrubs for New Mexico Gardens | Jericho Nursery" />
+  <meta
+    name="twitter:description"
+    content="Explore our collection of flowering shrubs. These shrubs bring beauty and vibrant color to your New Mexico garden, offering blooms throughout the seasons."
+  />
+  <meta
+    name="twitter:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Flowering_Shrub.jpg"
+  />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.png" />
+  <link rel="canonical" href="https://www.jerichonursery.com/plant-catalog/shrubs/flowering" />
+</Head>
+
       <div className={styles.flowering_tree_container}>
         <div className={styles.flowering_top_text}> 
           <div className={styles.flowering_header_background_image}>

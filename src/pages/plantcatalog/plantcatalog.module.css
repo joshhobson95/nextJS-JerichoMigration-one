@@ -71,7 +71,7 @@
 
 
   
-  .plant_category h3 {
+  .plant_category h2 {
     font-size: 26pt;
     font-weight: 800;
     margin: 1.5rem 0;
@@ -79,7 +79,7 @@
     display: inline-block;
   }
   
-  .plant_category h3::after {
+  .plant_category h2::after {
     content: '';
     position: absolute;
     width: 0;
@@ -90,7 +90,7 @@
     transition: width .5s ease; /* Match the transition duration */
   }
   
-  .plant_category:hover h3::after {
+  .plant_category:hover h2::after {
     width: 100%;
   }
 
@@ -148,7 +148,7 @@
     .plant_text{
       margin: 1rem 2rem
     }
-    .plant_category h3{
+    .plant_category h2{
       font-size: 30pt;
     }
     .plant_category p{
@@ -167,7 +167,7 @@
     }
   }
   @media (min-width:1500px) {
-    .plant_category h3{
+    .plant_category h2{
       font-size: 34pt;
     }
   }
@@ -182,7 +182,7 @@
     .plant_category{
       margin: 3rem 12rem;
     }
-    .plant_category h3{
+    .plant_category h2{
       font-size: 36pt;
     }
     .plant_category p{

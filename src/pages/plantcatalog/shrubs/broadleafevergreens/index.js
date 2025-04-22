@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styles from './broadleaf.module.css'; 
 import PlantSlider from "@/components/PlantSlider/PlantSlider";
 import broadleafevergreens from "@/plantdata/Shrubs/BroadleafEvergreenData";
+import Head from "next/head";
 
 function Broadleaf() {
   const [visibleAttribution, setVisibleAttribution] = useState();
@@ -12,6 +13,40 @@ function Broadleaf() {
 
   return (
     <div className={styles.Broadleaf}> 
+<Head>
+  <title>Broadleaf Evergreen Shrubs for New Mexico Gardens | Jericho Nursery</title>
+  <meta
+    name="description"
+    content="Browse our selection of broadleaf evergreen shrubs for New Mexico gardens. Jericho Nursery offers a variety of evergreen shrubs that maintain foliage year-round."
+  />
+  <meta property="og:title" content="Broadleaf Evergreen Shrubs for New Mexico Gardens | Jericho Nursery" />
+  <meta
+    property="og:description"
+    content="Shop for broadleaf evergreen shrubs at Jericho Nursery. These shrubs offer year-round greenery, ideal for adding structure and texture to your New Mexico garden."
+  />
+  <meta
+    property="og:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Broadleaf_Evergreen_Shrub.jpg"
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.jerichonursery.com/plant-catalog/shrubs/broadleaf-evergreens" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Broadleaf Evergreen Shrubs for New Mexico Gardens | Jericho Nursery" />
+  <meta
+    name="twitter:description"
+    content="Find broadleaf evergreen shrubs at Jericho Nursery. These shrubs thrive in New Mexico’s climate and offer beautiful, year-round foliage for your garden."
+  />
+  <meta
+    name="twitter:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Broadleaf_Evergreen_Shrub.jpg"
+  />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.png" />
+  <link rel="canonical" href="https://www.jerichonursery.com/plant-catalog/shrubs/broadleaf-evergreens" />
+</Head>
+
       <div className={styles.broadleaf_tree_container}>
         <div className={styles.broadleaf_top_text}> 
           <div className={styles.broadleaf_header_background_image}>

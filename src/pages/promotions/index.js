@@ -43,6 +43,13 @@ function Promotions({promotionsData}) {
   return (
 <div className={styles.promotions}>
 
+<Head>
+        <title>Discover New Arrivals at Jericho Nursery</title>
+        <meta name="description" content="Check out the latest products at Jericho Nursery. Discover new plants and gardening essentials to enhance your outdoor spaces." />
+        <meta property="og:title" content="New Arrivals at Jericho Nursery" />
+        <meta property="og:description" content="Explore the newest additions to our collection at Jericho Nursery. Find the perfect plants and gardening products to elevate your garden or home." />
+</Head>
+
 <div className={styles.promotions_welcome}>
   <h1>New Product</h1>
   <br />

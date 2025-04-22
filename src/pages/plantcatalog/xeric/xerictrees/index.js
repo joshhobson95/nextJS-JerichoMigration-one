@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styles from './xerictrees.module.css';
 import PlantSlider from "@/components/PlantSlider/PlantSlider";
 import xerictrees from "@/plantdata/Xeric/XericTreeData";
+import Head from "next/head";
 
 
 function XericTrees() {
@@ -13,6 +14,40 @@ function XericTrees() {
 
   return (
     <div className={styles.XericTrees}>
+      <Head>
+  <title>Xeric Trees for New Mexico Gardens | Jericho Nursery</title>
+  <meta
+    name="description"
+    content="Shop xeric trees that are perfect for New Mexico's dry, arid climate. Jericho Nursery offers drought-tolerant tree varieties that thrive in xeric landscapes."
+  />
+  <meta property="og:title" content="Xeric Trees for New Mexico Gardens | Jericho Nursery" />
+  <meta
+    property="og:description"
+    content="Discover xeric trees that are ideal for New Mexico’s dry conditions. Jericho Nursery provides a variety of drought-resistant trees for low-maintenance landscaping."
+  />
+  <meta
+    property="og:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric_Trees.jpg"
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.jerichonursery.com/plant-catalog/xeric/trees" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Xeric Trees for New Mexico Gardens | Jericho Nursery" />
+  <meta
+    name="twitter:description"
+    content="Explore a variety of xeric trees that are perfect for New Mexico gardens. These drought-tolerant trees provide structure and beauty while minimizing water usage."
+  />
+  <meta
+    name="twitter:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric_Trees.jpg"
+  />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.png" />
+  <link rel="canonical" href="https://www.jerichonursery.com/plant-catalog/xeric/trees" />
+</Head>
+
       <div className={styles.xeric_tree_container}>
         <div className={styles.xeric_top_text}>
           <div className={styles.xeric_tree_header_background_image}>

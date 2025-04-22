@@ -8,10 +8,20 @@ import Quality from '../../../public/svgs/Quality';
 import Selection from '../../../public/svgs/Selection';
 import Service from '../../../public/svgs/Service';
 import Knowledge from '../../../public/svgs/Knowledge';
+import Head from 'next/head';
 
 function Aboutus() {
   return (
     <div className={styles.AboutUs}> 
+
+<Head>
+        <title>About Us - Jericho Nursery</title>
+        <meta name="description" content="Learn about Jericho Nursery, your trusted source for quality plants, gardening supplies, and expert advice. Discover our commitment to providing exceptional service and fostering a love for gardening." />
+        <meta property="og:title" content="About Us - Jericho Nursery" />
+        <meta property="og:description" content="Learn about Jericho Nursery, your trusted source for quality plants, gardening supplies, and expert advice. Discover our commitment to providing exceptional service and fostering a love for gardening." />
+        <meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg" />
+        <meta property="og:type" content="website" />
+</Head>
 
       <div className={styles.aboutus_welcome}>
         <h1> About Us here at Jericho</h1>

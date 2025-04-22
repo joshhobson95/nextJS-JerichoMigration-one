@@ -1,155 +1,90 @@
-import React, {useState, useEffect} from 'react'
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import React, { useState, useEffect } from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import axios from 'axios';
 
-
-
 function Gallery() {
-
-  const [galleryData, setGalleryData] = useState([])
+  const [galleryData, setGalleryData] = useState([]);
   const [visible, setVisible] = useState(true);
 
-
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setVisible(false);
-    }, 5000);
-
+    const timer = setTimeout(() => setVisible(false), 5000);
     return () => clearTimeout(timer);
   }, []);
-
 
   useEffect(() => {
     axios
       .get(`https://jericho-server-eb9k.onrender.com/gallery`)
-      .then((res) => {
-        setGalleryData(res.data);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
+      .then((res) => setGalleryData(res.data))
+      .catch((err) => console.log(err));
   }, []);
 
-
-
-    const settings = {
-        className: "center",
-        centerMode: true,
-        infinite: true,
-        dots: true,
-        appendDots: dots => (
-          <div>
-            <ul>{dots}</ul>
-          </div>
-        ),
-        customPaging: i => (
-          <span id='flower-dot' class="material-symbols-outlined">
-.
-</span>
-        ),
-        centerPadding: "10px",
-        slidesToShow: 3,
-        speed: 500,
-        responsive: [
-          {
-            breakpoint: 2024,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1,
-              infinite: true,
-              dots: true
-            }
-          },
-          {
-            breakpoint: 1824,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1,
-              infinite: true,
-              dots: true
-            }
-          },
-          {
-            breakpoint: 1424,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1,
-              infinite: true,
-              dots: true
-            }
-          },
-          {
-            breakpoint: 824,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              infinite: true,
-              dots: true,
-              initialSlide: 2
-            }
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              initialSlide: 2
-            }
-          }
-        ]
-      };
-
-      const PrevArrow = (props) => {
-        const { className, style, onClick } = props;
-        return (
-          <div className={className} style={{ ...style, display: 'block' }} onClick={onClick}>
-            Previous
-          </div>
-        );
-      };
+  const PrevArrow = ({ className, onClick }) => (
+    <div className={`${className} custom-arrow prev-arrow`} onClick={onClick}>
       
-      const NextArrow = (props) => {
-        const { className, style, onClick } = props;
-        return (
-          <div className={className} style={{ ...style, display: 'block' }} onClick={onClick}>
-            Next
-          </div>
-        );
-      };
+    </div>
+  );
 
+  const NextArrow = ({ className, onClick }) => (
+    <div className={`${className} custom-arrow next-arrow`} onClick={onClick}>
+      
+    </div>
+  );
 
+  const settings = {
+    className: 'center',
+    centerMode: true,
+    infinite: true,
+    dots: true,
+    appendDots: dots => <ul>{dots}</ul>,
+    customPaging: () => (
+      <span id="flower-dot" className="material-symbols-outlined">-</span>
+    ),
+    centerPadding: '10px',
+    slidesToShow: 3,
+    speed: 500,
+    prevArrow: <PrevArrow />,
+    nextArrow: <NextArrow />,
+    responsive: [
+      {
+        breakpoint: 1424,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 824,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+  };
 
-    
   return (
-    <div className='h_carousel'>
-      <h1>Come Grow With Us!</h1>
-      {visible ? (<p>Swipe to see more photos..</p>) : ('')}
-      <div className='sliderWrapper'>
-        <Slider {...settings} prevArrow={<PrevArrow />} nextArrow={<NextArrow />}>
-            {galleryData.map((item) => (
-              <div className='home_gallery_card'> 
-             <div className='home_photo_gallery_container'>
-             <img src={item.img_url} className='home_gallery_photo' alt={item.alt_text} title={item.name}/>
-             <span className='photo_name'>{item.name}</span>
-             </div>
-                    </div>
-            ))}
-
-            
+    <div className="h_carousel">
+      <h1>Spring has Sprung!</h1>
+      {visible && <p>Swipe to see more photos..</p>}
+      <div className="sliderWrapper">
+        <Slider {...settings}>
+          {galleryData.map((item) => (
+            <div className="home_gallery_card" key={item.id}>
+              <div className="home_photo_gallery_container">
+                <img
+                  src={item.img_url}
+                  className="home_gallery_photo"
+                  alt={item.alt_text}
+                  title={item.name}
+                />
+                <span className="photo_name">{item.name}</span>
+              </div>
+            </div>
+          ))}
         </Slider>
       </div>
-
-
-
-
-
-
-
-
     </div>
-  )
+  );
 }
 
-export default Gallery
+export default Gallery;

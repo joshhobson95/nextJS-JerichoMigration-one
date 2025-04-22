@@ -2,11 +2,46 @@ import React from "react";
 import styles from './coniferousshrubs.module.css';
 import PlantSlider from "@/components/PlantSlider/PlantSlider";
 import coniferousshrubs from "@/plantdata/Shrubs/ConiferousShrubData";
+import Head from "next/head";
 
 
 function ConiferousShrubs() {
   return (
     <div className={styles.ConiferousShrubs}>
+<Head>
+  <title>Coniferous Shrubs for New Mexico Gardens | Jericho Nursery</title>
+  <meta
+    name="description"
+    content="Discover coniferous shrubs that thrive in New Mexico’s climate. Jericho Nursery offers evergreen shrubs that add year-round greenery to your garden."
+  />
+  <meta property="og:title" content="Coniferous Shrubs for New Mexico Gardens | Jericho Nursery" />
+  <meta
+    property="og:description"
+    content="Explore evergreen coniferous shrubs that provide year-round greenery and structure. Perfect for Albuquerque’s unique climate."
+  />
+  <meta
+    property="og:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Coniferous_Shrub.jpg"
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.jerichonursery.com/plant-catalog/shrubs/coniferous" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Coniferous Shrubs for New Mexico Gardens | Jericho Nursery" />
+  <meta
+    name="twitter:description"
+    content="Jericho Nursery offers coniferous shrubs perfect for New Mexico gardens. These evergreen shrubs provide beauty, privacy, and shelter throughout the year."
+  />
+  <meta
+    name="twitter:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Coniferous_Shrub.jpg"
+  />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.png" />
+  <link rel="canonical" href="https://www.jerichonursery.com/plant-catalog/shrubs/coniferous" />
+</Head>
+
       <div className={styles.coniferous_shrub_tree_container}>
         <div className={styles.coniferous_shrub_top_text}>
           <div className={styles.coniferous_shrub_header_background_image}>

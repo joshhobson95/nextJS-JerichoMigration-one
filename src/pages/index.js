@@ -33,11 +33,34 @@ export default function Home() {
 
   return (
     <>
-      <Head>
-      <title>Jericho Nursery</title>
-        <meta name="description" content="Welcome to Jericho Nursery, a leading provider of quality plants and gardening supplies. Discover our wide selection of products and services for all your gardening needs." />
-        <meta name="keywords" content="Jericho Nursery, plants, gardening, supplies, Albuqueruque, New Mexico, Southwest, xeric, xeriscape, flower, frequent, club, alameda, north valley, abq, horticulture, garden experts, hobson, jericho, nursery, all, your, yard, and, garden, needs" />
-      </Head>
+    <Head>
+     
+      <title>Jericho Nursery | Albuquerque's Favorite Garden Center</title>
+
+   
+      <meta
+        name="description"
+        content="Discover Albuquerque’s top-rated garden center. Jericho Nursery offers plants, flowers, trees, gardening supplies, expert advice, and unbeatable local service."
+      />
+      <meta property="og:title" content="Jericho Nursery | Albuquerque's Favorite Garden Center" />
+      <meta
+        property="og:description"
+        content="Shop plants, flowers, trees, and gardening supplies at Jericho Nursery. Locally owned, expert-run, and fully stocked for every season."
+      />
+      <meta
+        property="og:image"
+        content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg"
+      />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://www.jerichonursery.com/" />
+
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="icon" href="/favicon.png" />
+
+      <link rel="canonical" href="https://www.jerichonursery.com/" />
+    </Head>
+
+
 
       <div className={`home ${raleway.className}`}>  
         <div className="welcome">

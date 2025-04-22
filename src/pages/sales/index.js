@@ -3,6 +3,7 @@
 import React from 'react';
 import axios from 'axios';
 import styles from './sales.module.css'
+import Head from 'next/head';
 
 export async function getServerSideProps() {
   try {
@@ -47,6 +48,12 @@ function Sales({ salesData }) {
 
   return (
     <div className={styles.sales}>
+      <Head>
+        <title>Shop This Week's Deals at Jericho Nursery</title>
+        <meta name="description" content="Explore our collection of high-quality plants at Jericho Nursery. Find the perfect plants to beautify your garden or home." />
+        <meta property="og:title" content="Shop High-Quality Plants at Jericho Nursery" />
+        <meta property="og:description" content="Explore our collection of high-quality plants at Jericho Nursery. Find the perfect plants to beautify your garden or home." />
+      </Head>
 
 
       <div className={styles.sales_welcome}>

@@ -1,10 +1,45 @@
 import React from 'react'
 import styles from './shrubs.module.css'
 import Link from 'next/link'
+import Head from 'next/head'
 
 function Shrubs() {
   return (
     <div className={styles.Shrubs}>
+      <Head>
+  <title>Shrubs for New Mexico Gardens | Jericho Nursery</title>
+  <meta
+    name="description"
+    content="Browse our collection of shrubs that thrive in New Mexico’s climate. Jericho Nursery offers a variety of shrubs for adding structure, beauty, and greenery to your landscape."
+  />
+  <meta property="og:title" content="Shrubs for New Mexico Gardens | Jericho Nursery" />
+  <meta
+    property="og:description"
+    content="Explore our selection of shrubs perfect for New Mexico gardens. From ornamental to evergreen shrubs, we have varieties that will flourish in Albuquerque’s climate."
+  />
+  <meta
+    property="og:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrub.jpg"
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.jerichonursery.com/plant-catalog/shrubs" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Shrubs for New Mexico Gardens | Jericho Nursery" />
+  <meta
+    name="twitter:description"
+    content="Shop for shrubs that thrive in New Mexico’s unique climate. Jericho Nursery offers shrubs that bring beauty, texture, and year-round greenery to your garden."
+  />
+  <meta
+    name="twitter:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrub.jpg"
+  />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.png" />
+  <link rel="canonical" href="https://www.jerichonursery.com/plant-catalog/shrubs" />
+</Head>
+
 
       <div className={styles.shrubs_welcome}>
         <h1>New Mexico Shrubs</h1>

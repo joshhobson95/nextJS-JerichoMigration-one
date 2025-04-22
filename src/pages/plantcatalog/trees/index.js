@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './trees.module.css'
 import Link from 'next/link';
+import Head from 'next/head';
 
 
 function Trees() {
@@ -10,6 +11,40 @@ return (
 
 
 <div className={styles.Trees}>
+<Head>
+  <title>Trees for New Mexico Gardens | Jericho Nursery</title>
+  <meta
+    name="description"
+    content="Explore a variety of trees perfect for New Mexico gardens. From shade trees to fruit trees, Jericho Nursery offers trees that thrive in the local climate."
+  />
+  <meta property="og:title" content="Trees for New Mexico Gardens | Jericho Nursery" />
+  <meta
+    property="og:description"
+    content="Find the ideal trees for your garden at Jericho Nursery. Whether you're looking for shade trees or fruit-bearing trees, we have the perfect selection for New Mexico’s climate."
+  />
+  <meta
+    property="og:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Tree.jpg"
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.jerichonursery.com/plant-catalog/trees" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Trees for New Mexico Gardens | Jericho Nursery" />
+  <meta
+    name="twitter:description"
+    content="Browse our selection of trees ideal for New Mexico gardens. Jericho Nursery offers trees for every need, from shade to fruit-bearing options, perfect for the local environment."
+  />
+  <meta
+    name="twitter:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Tree.jpg"
+  />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.png" />
+  <link rel="canonical" href="https://www.jerichonursery.com/plant-catalog/trees" />
+</Head>
+
 
   <div className={styles.trees_welcome}>
     <h1>New Mexico Trees</h1>

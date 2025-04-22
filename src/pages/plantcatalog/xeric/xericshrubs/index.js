@@ -2,10 +2,45 @@ import React from "react";
 import styles from './xericshrubs.module.css';
 import PlantSlider from "@/components/PlantSlider/PlantSlider";
 import xericshrubs from "@/plantdata/Xeric/XericShrubData";
+import Head from "next/head";
 
 function XericShrubs() {
   return (
     <div className={styles.XericShrubs}> 
+    <Head>
+  <title>Xeric Shrubs for New Mexico Gardens | Jericho Nursery</title>
+  <meta
+    name="description"
+    content="Browse our selection of xeric shrubs ideal for New Mexico's dry landscape. Jericho Nursery offers drought-tolerant shrubs that provide beauty and structure year-round."
+  />
+  <meta property="og:title" content="Xeric Shrubs for New Mexico Gardens | Jericho Nursery" />
+  <meta
+    property="og:description"
+    content="Discover xeric shrubs for your New Mexico garden. These drought-resistant shrubs provide year-round beauty and low-maintenance landscaping solutions."
+  />
+  <meta
+    property="og:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric_Shrubs.jpg"
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.jerichonursery.com/plant-catalog/xeric/shrubs" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Xeric Shrubs for New Mexico Gardens | Jericho Nursery" />
+  <meta
+    name="twitter:description"
+    content="Find a variety of xeric shrubs that are perfect for New Mexico’s xeric gardens. Jericho Nursery offers a variety of drought-tolerant shrubs for easy, low-maintenance landscapes."
+  />
+  <meta
+    name="twitter:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric_Shrubs.jpg"
+  />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.png" />
+  <link rel="canonical" href="https://www.jerichonursery.com/plant-catalog/xeric/shrubs" />
+</Head>
+
       <div className={styles.xeric_tree_container}>
         <div className={styles.xeric_top_text}> 
           <div className={styles.xeric_shrub_header_background_image}>

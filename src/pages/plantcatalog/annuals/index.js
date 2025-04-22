@@ -1,10 +1,45 @@
 import React from 'react'
 import styles from './annuals.module.css'
 import Link from 'next/link'
+import Head from 'next/head'
 
 function Annuals() {
   return (
     <div className={styles.Annuals}>
+      <Head>
+  <title>Annual Plants for New Mexico Gardens | Jericho Nursery</title>
+  <meta
+    name="description"
+    content="Discover a vibrant selection of annual plants perfect for New Mexico gardens. From sunflowers to marigolds, these fast-growing plants bring bold color and energy to your outdoor spaces."
+  />
+  <meta property="og:title" content="Annual Plants for New Mexico Gardens | Jericho Nursery" />
+  <meta
+    property="og:description"
+    content="Browse our curated collection of annual plants that thrive in New Mexico’s climate. These colorful and fast-growing plants are ideal for adding seasonal beauty and variety to your garden."
+  />
+  <meta
+    property="og:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/annuals.jpg"
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.jerichonursery.com/plant-catalog/annuals" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Annual Plants for New Mexico Gardens | Jericho Nursery" />
+  <meta
+    name="twitter:description"
+    content="Explore a variety of annual plants perfect for New Mexico's climate. Brighten your garden with seasonal flowers and fast-growing plants that bring bold color and beauty to any space."
+  />
+  <meta
+    name="twitter:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/annuals.jpg"
+  />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.png" />
+  <link rel="canonical" href="https://www.jerichonursery.com/plant-catalog/annuals" />
+</Head>
+
 
         <div className={styles.annuals_welcome}>
             <h1>New Mexico Annuals</h1>

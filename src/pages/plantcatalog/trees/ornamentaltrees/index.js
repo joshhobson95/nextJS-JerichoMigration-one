@@ -2,6 +2,7 @@ import React from "react";
 import styles from './ornamentaltrees.module.css'
 import PlantSlider from "@/components/PlantSlider/PlantSlider";
 import ornamentaldata from "@/plantdata/Trees/OrnamentalData";
+import Head from "next/head";
 
 
 function Ornamental() {
@@ -9,6 +10,40 @@ function Ornamental() {
 
   return (
 <div className={styles.Ornamental}> 
+<Head>
+  <title>Ornamental Trees for New Mexico Gardens | Jericho Nursery</title>
+  <meta
+    name="description"
+    content="Browse our selection of ornamental trees perfect for New Mexico landscapes. Jericho Nursery offers trees that add color, texture, and beauty to your garden."
+  />
+  <meta property="og:title" content="Ornamental Trees for New Mexico Gardens | Jericho Nursery" />
+  <meta
+    property="og:description"
+    content="Explore ornamental trees that enhance your garden with stunning foliage, blossoms, and unique shapes. Perfect for Albuquerque’s climate."
+  />
+  <meta
+    property="og:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Ornamental_Tree.jpg"
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.jerichonursery.com/plant-catalog/trees/ornamental" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Ornamental Trees for New Mexico Gardens | Jericho Nursery" />
+  <meta
+    name="twitter:description"
+    content="Jericho Nursery offers a variety of ornamental trees that thrive in New Mexico’s unique climate, perfect for adding year-round beauty and character to your garden."
+  />
+  <meta
+    name="twitter:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Ornamental_Tree.jpg"
+  />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.png" />
+  <link rel="canonical" href="https://www.jerichonursery.com/plant-catalog/trees/ornamental" />
+</Head>
+
 
 
 

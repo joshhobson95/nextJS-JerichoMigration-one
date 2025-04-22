@@ -2,6 +2,7 @@ import React from "react";
 import styles from './fruit.module.css'
 import PlantSlider from "@/components/PlantSlider/PlantSlider";
 import fruitdata from "@/plantdata/Trees/FruitData";
+import Head from "next/head";
 
 function Fruit() {
 
@@ -11,6 +12,40 @@ function Fruit() {
 
   return (
 <div className={styles.Fruit}> 
+<Head>
+  <title>Fruit Trees for New Mexico Gardens | Jericho Nursery</title>
+  <meta
+    name="description"
+    content="Discover the best fruit trees for New Mexico gardens. Jericho Nursery offers a variety of fruit-bearing trees that thrive in the local climate."
+  />
+  <meta property="og:title" content="Fruit Trees for New Mexico Gardens | Jericho Nursery" />
+  <meta
+    property="og:description"
+    content="Find the perfect fruit trees for your garden at Jericho Nursery. We offer a variety of fruit-bearing trees that grow well in Albuquerque’s climate."
+  />
+  <meta
+    property="og:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Fruit_Tree.jpg"
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.jerichonursery.com/plant-catalog/trees/fruit" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Fruit Trees for New Mexico Gardens | Jericho Nursery" />
+  <meta
+    name="twitter:description"
+    content="Shop Jericho Nursery's fruit trees, ideal for New Mexico’s climate. From apples to peaches, our fruit trees will thrive in your Albuquerque garden."
+  />
+  <meta
+    name="twitter:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Fruit_Tree.jpg"
+  />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.png" />
+  <link rel="canonical" href="https://www.jerichonursery.com/plant-catalog/trees/fruit" />
+</Head>
+
 
 
 

@@ -1,10 +1,45 @@
 import React from 'react';
 import Link from 'next/link';
 import styles from './xeric.module.css';
+import Head from 'next/head';
 
 function Xeric() {
   return (
     <div className={styles.Xeric}>
+      <Head>
+  <title>Xeric Plants for New Mexico Gardens | Jericho Nursery</title>
+  <meta
+    name="description"
+    content="Explore a wide variety of xeric plants perfect for New Mexico’s arid climate. Jericho Nursery offers drought-tolerant plants for landscaping, including cacti, yucca, agave, and more."
+  />
+  <meta property="og:title" content="Xeric Plants for New Mexico Gardens | Jericho Nursery" />
+  <meta
+    property="og:description"
+    content="Discover drought-tolerant xeric plants that thrive in New Mexico’s dry climate. Jericho Nursery offers a range of low-water plants for every landscape need."
+  />
+  <meta
+    property="og:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric_Plants.jpg"
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.jerichonursery.com/plant-catalog/xeric" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Xeric Plants for New Mexico Gardens | Jericho Nursery" />
+  <meta
+    name="twitter:description"
+    content="Shop xeric plants that thrive in New Mexico’s arid climate. Jericho Nursery offers a variety of drought-resistant plants, including cacti, yucca, agave, and more."
+  />
+  <meta
+    name="twitter:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric_Plants.jpg"
+  />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.png" />
+  <link rel="canonical" href="https://www.jerichonursery.com/plant-catalog/xeric" />
+</Head>
+
       <div className={styles.xeric_welcome}>
         <h1>New Mexico Xeric Plants</h1>
       </div>

@@ -1,10 +1,46 @@
 import React from 'react'
 import styles from './perennials.module.css'
 import Link from 'next/link'
+import Head from 'next/head'
+
 
 function Perennials() {
   return (
     <div className={styles.Perennials}>
+      <Head>
+  <title>Perennial Plants for New Mexico Gardens | Jericho Nursery</title>
+  <meta
+    name="description"
+    content="Browse our selection of perennials that will return year after year in New Mexico gardens. From hardy flowers to ornamental plants, perennials offer long-lasting beauty and low-maintenance care."
+  />
+  <meta property="og:title" content="Perennial Plants for New Mexico Gardens | Jericho Nursery" />
+  <meta
+    property="og:description"
+    content="Discover a wide variety of perennials perfect for New Mexico's climate. These long-lasting plants add beauty to your garden year after year, from blooming flowers to ornamental shrubs."
+  />
+  <meta
+    property="og:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/penstemon-4925491_1920.jpg"
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.jerichonursery.com/plant-catalog/perennials" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Perennial Plants for New Mexico Gardens | Jericho Nursery" />
+  <meta
+    name="twitter:description"
+    content="Shop for perennials that thrive in New Mexico’s climate. These low-maintenance plants return year after year, adding lasting beauty and structure to your garden."
+  />
+  <meta
+    name="twitter:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/penstemon-4925491_1920.jpg"
+  />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.png" />
+  <link rel="canonical" href="https://www.jerichonursery.com/plant-catalog/perennials" />
+</Head>
+
       <div className={styles.perennials_welcome}>
         <h1>New Mexico Perennials</h1>
       </div>

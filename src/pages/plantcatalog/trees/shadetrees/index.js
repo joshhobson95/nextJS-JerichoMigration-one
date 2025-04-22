@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import styles from './shadetrees.module.css'
 import PlantSlider from "@/components/PlantSlider/PlantSlider";
 import shadedata from "@/plantdata/Trees/ShadeData";
+import Head from "next/head";
 
 function Shade() {
 
@@ -15,6 +16,40 @@ function Shade() {
 
   return (
 <div className={styles.Shade}> 
+<Head>
+  <title>Shade Trees for New Mexico Gardens | Jericho Nursery</title>
+  <meta
+    name="description"
+    content="Discover a variety of shade trees perfect for New Mexico’s climate. Jericho Nursery offers hardy shade trees that provide much-needed relief from the intense sun."
+  />
+  <meta property="og:title" content="Shade Trees for New Mexico Gardens | Jericho Nursery" />
+  <meta
+    property="og:description"
+    content="Explore our selection of shade trees ideal for New Mexico gardens. These trees provide natural shade and beauty, perfect for any landscape in Albuquerque."
+  />
+  <meta
+    property="og:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shade_Tree.jpg"
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.jerichonursery.com/plant-catalog/trees/shade" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Shade Trees for New Mexico Gardens | Jericho Nursery" />
+  <meta
+    name="twitter:description"
+    content="Shop for shade trees perfect for the Albuquerque climate. Jericho Nursery offers trees that will keep your garden cool and provide year-round beauty."
+  />
+  <meta
+    name="twitter:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shade_Tree.jpg"
+  />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.png" />
+  <link rel="canonical" href="https://www.jerichonursery.com/plant-catalog/trees/shade" />
+</Head>
+
 
 
 

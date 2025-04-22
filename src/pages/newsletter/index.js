@@ -1,9 +1,19 @@
 import React from 'react';
 import styles from './newsletter.module.css';
+import Head from 'next/head';
 
 function Newsletter() {
   return (
     <div className={styles.newsletter}>
+
+      <Head>
+      <title>Sign Up for Our Newsletter - Jericho Nursery</title>
+      <meta name="description" content="Stay up to date with the latest gardening tips, seasonal specials, and exclusive updates from Jericho Nursery. Sign up for our newsletter and never miss a bloom!" />
+      <meta property="og:title" content="Subscribe to the Jericho Nursery Newsletter" />
+      <meta property="og:description" content="Join our mailing list for expert gardening advice, upcoming events, and special offers from Jericho Nursery. It’s the best way to stay connected with our garden community!" />
+      <meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg" />
+      <meta property="og:type" content="website" />
+      </Head>
   
       <div className={styles.newsletter_welcome}>
         <div className={styles.welcome_text}>

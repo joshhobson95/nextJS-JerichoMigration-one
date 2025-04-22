@@ -2,6 +2,9 @@ import React from "react";
 import styles from './coniferoustrees.module.css'
 import PlantSlider from "@/components/PlantSlider/PlantSlider";
 import coniferdata from "@/plantdata/Trees/ConiferData";
+import Head from "next/head";
+
+
 function Conifer() {
 
 
@@ -11,6 +14,40 @@ function Conifer() {
 
   return (
 <div className={styles.Conifer}> 
+<Head>
+  <title>Coniferous Trees for New Mexico Gardens | Jericho Nursery</title>
+  <meta
+    name="description"
+    content="Explore our selection of coniferous trees for New Mexico gardens. Jericho Nursery offers hardy, evergreen trees that provide year-round greenery and structure."
+  />
+  <meta property="og:title" content="Coniferous Trees for New Mexico Gardens | Jericho Nursery" />
+  <meta
+    property="og:description"
+    content="Shop for evergreen coniferous trees that thrive in Albuquerque’s climate, offering lush greenery and wind protection for your garden."
+  />
+  <meta
+    property="og:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Coniferous_Tree.jpg"
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.jerichonursery.com/plant-catalog/trees/coniferous" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Coniferous Trees for New Mexico Gardens | Jericho Nursery" />
+  <meta
+    name="twitter:description"
+    content="Jericho Nursery offers a wide selection of coniferous trees, ideal for New Mexico’s climate. These evergreen trees bring year-round greenery to your garden."
+  />
+  <meta
+    name="twitter:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Coniferous_Tree.jpg"
+  />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.png" />
+  <link rel="canonical" href="https://www.jerichonursery.com/plant-catalog/trees/coniferous" />
+</Head>
+
 
 
 
