@@ -415,6 +415,11 @@ margin-bottom: 6vh;
         line-height: 2 !important;
         padding: 3rem 2rem;
     }
+    .loading_anim{
+        display: flex;
+        justify-content: center;
+        padding: 3rem;
+    }
 
 
 

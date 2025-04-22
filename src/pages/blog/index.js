@@ -42,7 +42,7 @@ export default function BlogList() {
     let end = Math.min(start + maxVis, pages)
     if (end - start < maxVis) start = Math.max(0, end - maxVis)
   
-    // Skip rendering the first page if it's already rendered manually
+
     if (start === 0) start = 1
   
     for (let i = start; i < end; i++) {

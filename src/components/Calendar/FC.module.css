@@ -40,6 +40,7 @@
   .flip_card:hover .flip_card_inner,
   .flip_card.flipped .flip_card_inner {
     transform: rotateY(180deg);
+
   }
   
   .flip_card_front, .flip_card_back {
@@ -57,6 +58,7 @@
   
   .flip_card_back {
     transform: rotateY(180deg);
+    
   }
 
   

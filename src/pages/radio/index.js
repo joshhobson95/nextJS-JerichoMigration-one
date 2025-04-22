@@ -38,9 +38,11 @@ function Radio() {
           <h2>KKOB | 96.3 FM | 770 AM</h2>
         </div>
 
+    <div className={styles.radio_container_outer}>
         <div className={styles.radio_container}>
         <RadioMic />
         </div>
+    </div>
 
   
 

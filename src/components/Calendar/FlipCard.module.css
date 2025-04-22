@@ -22,7 +22,10 @@
 }
 
 .flip_card.flipped .flip_card_inner {
-  transform: rotateY(180deg); /* Rotate the inner card when flipped */
+  transform: rotateY(180deg); 
+}
+.flip_card.flipped .flip_card_front{
+  display: none;
 }
 
 .flip_card_front, .flip_card_back {
