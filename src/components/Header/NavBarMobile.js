@@ -165,9 +165,6 @@ function NavBarMobile() {
                   <Link href='/workshops'>
                     <li className="navbar__dropdownItem_mobile">Workshops</li>
                   </Link>
-                  <Link href='/clubs'>
-                    <li className="navbar__dropdownItem_mobile">Clubs around Abq</li>
-                  </Link>
                 </ul>
               )}
               {openFFC && (

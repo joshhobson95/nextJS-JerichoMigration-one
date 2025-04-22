@@ -67,9 +67,6 @@ function Footer() {
         <Link className={styles.na} href='/gardenresources'>
           <li>Garden Resources</li>
         </Link>
-        <Link className={styles.na} href='/clubs'>
-          <li>Clubs around ABQ</li>
-        </Link>
       </ul>
     </div>
 

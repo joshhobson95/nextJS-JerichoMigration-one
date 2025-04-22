@@ -96,7 +96,6 @@ const NavBarDesktop = () => {
                 <li className="navbar__dropdownItem"><Link href="/radio">Radio Show</Link></li>
                 <li className="navbar__dropdownItem"><Link href="/workshops">Workshops</Link></li>
                 <li className="navbar__dropdownItem"><Link href="/gardenresources">Garden Resources</Link></li>
-                <li className="navbar__dropdownItem"><Link href="/clubs">Clubs around Abq</Link></li>
             </ul>
           </li>
 

@@ -1,12 +1,12 @@
 .Videos{
     height: auto;
     padding-top: 5vh;
-    width: 100vw;
     background-image: linear-gradient(#DBBA4B, #4BA7DB, #DB4BD5CF) ;
     display: flex;
     justify-content: center;
     flex-direction: column;
     overflow: hidden;
+    text-align: center;
 }
 .videos_welcome{
     margin: 5vh;
