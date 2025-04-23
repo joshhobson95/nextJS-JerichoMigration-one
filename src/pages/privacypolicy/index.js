@@ -1,9 +1,18 @@
 import React from 'react'
 import styles from './privacypolicy.module.css'
+import Head from 'next/head';
 
 function PrivacyPolicy() {
   return (
     <div className={styles.privacy_policy_outer}>
+        <Head>
+        <title>Privacy Policy - Jericho Nursery</title>
+        <meta name="description" content="Review the Privacy Policy of Jericho Nursery. Learn how we collect, use, and protect your personal information when you interact with our website or services." />
+        <meta property="og:title" content="Privacy Policy - Jericho Nursery" />
+        <meta property="og:description" content="Find out how Jericho Nursery handles your data. Our Privacy Policy covers data collection, usage, and your rights regarding personal information." />
+        <meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg" />
+        <meta property="og:type" content="website" />
+        </Head>
       <div className={styles.privacy_policy_inner}>
         <h1>Jericho Nursery Privacy Policy</h1>
         <p>

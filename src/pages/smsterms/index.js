@@ -1,10 +1,19 @@
 import React from 'react'
 import styles from './smsterms.module.css'
 import Link from 'next/link'
+import Head from 'next/head'
 
 function SMS() {
   return (
     <div className={styles.sms_terms_outer}>
+      <Head>
+        <title>SMS Terms - Jericho Nursery</title>
+        <meta name="description" content="Read the terms and conditions for receiving SMS messages from Jericho Nursery. Learn about message frequency, data rates, and how to opt out at any time." />
+        <meta property="og:title" content="SMS Terms & Conditions - Jericho Nursery" />
+        <meta property="og:description" content="Review our SMS program terms and conditions. Understand how we handle messaging, privacy, and your options for opting in or out of Jericho Nursery text alerts." />
+        <meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg" />
+        <meta property="og:type" content="website" />
+      </Head>
 
 <div className={styles.sms_terms_inner}>
 

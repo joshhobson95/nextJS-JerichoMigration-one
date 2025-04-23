@@ -18,7 +18,7 @@ function FAQ() {
     <meta name="description" content="Explore Jericho Nursery's comprehensive Planting Guide and Warranty, ensuring your gardening experience is supported by expert advice and quality assurance." />
     <meta property="og:title" content="Grower's Assurance - Planting Guide and Warranty | Jericho Nursery" />
     <meta property="og:description" content="Explore Jericho Nursery's comprehensive Planting Guide and Warranty, ensuring your gardening experience is supported by expert advice and quality assurance." />
-    <meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/SEO_photos/swgarden.jpg" />
+    <meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg" />
     <meta property="og:type" content="website" />
     </Head>
 
