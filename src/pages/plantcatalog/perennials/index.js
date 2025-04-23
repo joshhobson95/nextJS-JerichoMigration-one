@@ -2,6 +2,8 @@ import React from 'react'
 import styles from './perennials.module.css'
 import Link from 'next/link'
 import Head from 'next/head'
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL;
+
 
 
 function Perennials() {
@@ -23,7 +25,7 @@ function Perennials() {
     content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/penstemon-4925491_1920.jpg"
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.jerichonursery.com/plant-catalog/perennials" />
+  <meta property="og:url" content={`${baseUrl}/plantcatalog/perennials`} />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Perennial Plants for New Mexico Gardens | Jericho Nursery" />
@@ -38,7 +40,8 @@ function Perennials() {
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="/favicon.png" />
-  <link rel="canonical" href="https://www.jerichonursery.com/plant-catalog/perennials" />
+  <link rel="canonical" href={`${baseUrl}/plantcatalog/perennials`} />
+
 </Head>
 
       <div className={styles.perennials_welcome}>

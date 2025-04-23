@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './trees.module.css'
 import Link from 'next/link';
 import Head from 'next/head';
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL;
 
 
 function Trees() {
@@ -27,7 +28,7 @@ return (
     content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Tree.jpg"
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.jerichonursery.com/plant-catalog/trees" />
+  <meta property="og:url" content={`${baseUrl}/plantcatalog/trees`} />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Trees for New Mexico Gardens | Jericho Nursery" />
@@ -42,7 +43,7 @@ return (
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="/favicon.png" />
-  <link rel="canonical" href="https://www.jerichonursery.com/plant-catalog/trees" />
+  <link rel="canonical" href={`${baseUrl}/plantcatalog/trees`} />
 </Head>
 
 

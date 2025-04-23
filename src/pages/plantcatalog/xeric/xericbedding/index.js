@@ -3,6 +3,7 @@ import styles from './xericbedding.module.css';
 import PlantSlider from "@/components/PlantSlider/PlantSlider";
 import xericbedding from "@/plantdata/Xeric/XericBeddingData";
 import Head from "next/head";
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL;
 
 function XericBedding() {
   return (
@@ -20,10 +21,10 @@ function XericBedding() {
   />
   <meta
     property="og:image"
-    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric_Groundcover.jpg"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/succulent-1031033_1920.jpg"
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.jerichonursery.com/plant-catalog/xeric/bedding-groundcover" />
+  <meta property="og:url" content={`${baseUrl}/plantcatalog/xeric/xericbedding`} />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Xeric Bedding & Groundcover for New Mexico Gardens | Jericho Nursery" />
@@ -33,12 +34,12 @@ function XericBedding() {
   />
   <meta
     name="twitter:image"
-    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric_Groundcover.jpg"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/succulent-1031033_1920.jpg"
   />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="/favicon.png" />
-  <link rel="canonical" href="https://www.jerichonursery.com/plant-catalog/xeric/bedding-groundcover" />
+  <link rel="canonical" href={`${baseUrl}/plantcatalog/xeric/xericbedding`} />
 </Head>
 
       <div className={styles.xeric_tree_container}>

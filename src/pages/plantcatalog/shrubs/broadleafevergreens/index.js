@@ -3,6 +3,7 @@ import styles from './broadleaf.module.css';
 import PlantSlider from "@/components/PlantSlider/PlantSlider";
 import broadleafevergreens from "@/plantdata/Shrubs/BroadleafEvergreenData";
 import Head from "next/head";
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL;
 
 function Broadleaf() {
   const [visibleAttribution, setVisibleAttribution] = useState();
@@ -26,10 +27,10 @@ function Broadleaf() {
   />
   <meta
     property="og:image"
-    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Broadleaf_Evergreen_Shrub.jpg"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/deciduous/hedge-3337522_1920.jpg"
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.jerichonursery.com/plant-catalog/shrubs/broadleaf-evergreens" />
+  <meta property="og:url" content={`${baseUrl}/plantcatalog/shrubs/broadleafevergreens`} />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Broadleaf Evergreen Shrubs for New Mexico Gardens | Jericho Nursery" />
@@ -39,12 +40,13 @@ function Broadleaf() {
   />
   <meta
     name="twitter:image"
-    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Broadleaf_Evergreen_Shrub.jpg"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/deciduous/hedge-3337522_1920.jpg"
   />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="/favicon.png" />
-  <link rel="canonical" href="https://www.jerichonursery.com/plant-catalog/shrubs/broadleaf-evergreens" />
+  <link rel="canonical" href={`${baseUrl}/plantcatalog/shrubs/broadleafevergreens`} />
+
 </Head>
 
       <div className={styles.broadleaf_tree_container}>

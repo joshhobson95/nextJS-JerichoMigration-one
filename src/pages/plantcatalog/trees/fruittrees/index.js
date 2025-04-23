@@ -3,6 +3,7 @@ import styles from './fruit.module.css'
 import PlantSlider from "@/components/PlantSlider/PlantSlider";
 import fruitdata from "@/plantdata/Trees/FruitData";
 import Head from "next/head";
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL;
 
 function Fruit() {
 
@@ -25,10 +26,10 @@ function Fruit() {
   />
   <meta
     property="og:image"
-    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Fruit_Tree.jpg"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/cherries-1595610_1920.jpg"
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.jerichonursery.com/plant-catalog/trees/fruit" />
+  <meta property="og:url" content={`${baseUrl}/plantcatalog/trees/fruittrees`} />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Fruit Trees for New Mexico Gardens | Jericho Nursery" />
@@ -38,12 +39,12 @@ function Fruit() {
   />
   <meta
     name="twitter:image"
-    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Fruit_Tree.jpg"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/fruit/cherries-1595610_1920.jpg"
   />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="/favicon.png" />
-  <link rel="canonical" href="https://www.jerichonursery.com/plant-catalog/trees/fruit" />
+  <link rel="canonical" href={`${baseUrl}/plantcatalog/trees/fruittrees`} />
 </Head>
 
 

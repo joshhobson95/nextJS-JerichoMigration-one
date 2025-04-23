@@ -3,6 +3,7 @@ import styles from './ornamentaltrees.module.css'
 import PlantSlider from "@/components/PlantSlider/PlantSlider";
 import ornamentaldata from "@/plantdata/Trees/OrnamentalData";
 import Head from "next/head";
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL;
 
 
 function Ornamental() {
@@ -23,10 +24,10 @@ function Ornamental() {
   />
   <meta
     property="og:image"
-    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Ornamental_Tree.jpg"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/flowering/crabapple.jpg"
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.jerichonursery.com/plant-catalog/trees/ornamental" />
+  <meta property="og:url" content={`${baseUrl}/plantcatalog/trees/ornamentaltrees`} />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Ornamental Trees for New Mexico Gardens | Jericho Nursery" />
@@ -36,12 +37,12 @@ function Ornamental() {
   />
   <meta
     name="twitter:image"
-    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Ornamental_Tree.jpg"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/flowering/crabapple.jpg"
   />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="/favicon.png" />
-  <link rel="canonical" href="https://www.jerichonursery.com/plant-catalog/trees/ornamental" />
+  <link rel="canonical" href={`${baseUrl}/plantcatalog/trees/ornamentaltrees`} />
 </Head>
 
 

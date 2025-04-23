@@ -2,6 +2,8 @@ import React from 'react'
 import styles from './plantcatalog.module.css'
 import Link from 'next/link';
 import Head from 'next/head';
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL;
+
 
 
 function PlantCatalog() {
@@ -28,7 +30,7 @@ function PlantCatalog() {
         content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/PlantCatalog.jpg"
       />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.jerichonursery.com/plant-catalog" />
+      <meta property="og:url" content={`${baseUrl}/plantcatalog`} />
 
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content="New Mexico Plant Catalog | Jericho Nursery" />
@@ -44,7 +46,7 @@ function PlantCatalog() {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/favicon.png" />
 
-      <link rel="canonical" href="https://www.jerichonursery.com/plant-catalog" />
+      <link rel="canonical" href={`${baseUrl}/plantcatalog`} />
 </Head>
 
 

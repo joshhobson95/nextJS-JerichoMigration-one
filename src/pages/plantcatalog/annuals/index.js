@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './annuals.module.css'
 import Link from 'next/link'
 import Head from 'next/head'
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL;
 
 function Annuals() {
   return (
@@ -22,7 +23,7 @@ function Annuals() {
     content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/annuals.jpg"
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.jerichonursery.com/plant-catalog/annuals" />
+  <meta property="og:url" content={`${baseUrl}/plantcatalog/annuals`} />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Annual Plants for New Mexico Gardens | Jericho Nursery" />
@@ -37,7 +38,8 @@ function Annuals() {
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="/favicon.png" />
-  <link rel="canonical" href="https://www.jerichonursery.com/plant-catalog/annuals" />
+  <link rel="canonical" href={`${baseUrl}/plantcatalog/annuals`} />
+
 </Head>
 
 

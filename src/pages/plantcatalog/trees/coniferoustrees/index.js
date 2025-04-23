@@ -3,6 +3,7 @@ import styles from './coniferoustrees.module.css'
 import PlantSlider from "@/components/PlantSlider/PlantSlider";
 import coniferdata from "@/plantdata/Trees/ConiferData";
 import Head from "next/head";
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL;
 
 
 function Conifer() {
@@ -27,10 +28,10 @@ function Conifer() {
   />
   <meta
     property="og:image"
-    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Coniferous_Tree.jpg"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/austrainPine.jpg"
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.jerichonursery.com/plant-catalog/trees/coniferous" />
+  <meta property="og:url" content={`${baseUrl}/plantcatalog/trees/coniferoustrees`} />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Coniferous Trees for New Mexico Gardens | Jericho Nursery" />
@@ -40,12 +41,12 @@ function Conifer() {
   />
   <meta
     name="twitter:image"
-    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Coniferous_Tree.jpg"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/conifer/austrainPine.jpg"
   />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="/favicon.png" />
-  <link rel="canonical" href="https://www.jerichonursery.com/plant-catalog/trees/coniferous" />
+  <link rel="canonical" href={`${baseUrl}/plantcatalog/trees/coniferoustrees`} />
 </Head>
 
 

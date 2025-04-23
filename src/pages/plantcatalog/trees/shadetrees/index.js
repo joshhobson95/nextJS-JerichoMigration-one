@@ -3,6 +3,7 @@ import styles from './shadetrees.module.css'
 import PlantSlider from "@/components/PlantSlider/PlantSlider";
 import shadedata from "@/plantdata/Trees/ShadeData";
 import Head from "next/head";
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL;
 
 function Shade() {
 
@@ -29,10 +30,10 @@ function Shade() {
   />
   <meta
     property="og:image"
-    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shade_Tree.jpg"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/ElmTree.jpg"
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.jerichonursery.com/plant-catalog/trees/shade" />
+  <meta property="og:url" content={`${baseUrl}/plantcatalog/trees/shadetrees`} />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Shade Trees for New Mexico Gardens | Jericho Nursery" />
@@ -42,12 +43,12 @@ function Shade() {
   />
   <meta
     name="twitter:image"
-    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shade_Tree.jpg"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/ElmTree.jpg"
   />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="/favicon.png" />
-  <link rel="canonical" href="https://www.jerichonursery.com/plant-catalog/trees/shade" />
+  <link rel="canonical" href={`${baseUrl}/plantcatalog/trees/shadetrees`} />
 </Head>
 
 

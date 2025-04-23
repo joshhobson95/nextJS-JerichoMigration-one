@@ -3,6 +3,7 @@ import styles from './xericshrubs.module.css';
 import PlantSlider from "@/components/PlantSlider/PlantSlider";
 import xericshrubs from "@/plantdata/Xeric/XericShrubData";
 import Head from "next/head";
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL;
 
 function XericShrubs() {
   return (
@@ -20,10 +21,10 @@ function XericShrubs() {
   />
   <meta
     property="og:image"
-    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric_Shrubs.jpg"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/shrubs/bees-5032464_1920(1).jpg"
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.jerichonursery.com/plant-catalog/xeric/shrubs" />
+  <meta property="og:url" content={`${baseUrl}/plantcatalog/xeric/xericshrubs`} />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Xeric Shrubs for New Mexico Gardens | Jericho Nursery" />
@@ -33,12 +34,12 @@ function XericShrubs() {
   />
   <meta
     name="twitter:image"
-    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric_Shrubs.jpg"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/shrubs/bees-5032464_1920(1).jpg"
   />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="/favicon.png" />
-  <link rel="canonical" href="https://www.jerichonursery.com/plant-catalog/xeric/shrubs" />
+  <link rel="canonical" href={`${baseUrl}/plantcatalog/xeric/xericshrubs`} />
 </Head>
 
       <div className={styles.xeric_tree_container}>

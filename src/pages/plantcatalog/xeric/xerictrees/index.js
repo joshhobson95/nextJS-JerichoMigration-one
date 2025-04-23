@@ -3,6 +3,7 @@ import styles from './xerictrees.module.css';
 import PlantSlider from "@/components/PlantSlider/PlantSlider";
 import xerictrees from "@/plantdata/Xeric/XericTreeData";
 import Head from "next/head";
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL;
 
 
 function XericTrees() {
@@ -27,10 +28,10 @@ function XericTrees() {
   />
   <meta
     property="og:image"
-    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric_Trees.jpg"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/cactus/Chitalpa3.jpg"
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.jerichonursery.com/plant-catalog/xeric/trees" />
+  <meta property="og:url" content={`${baseUrl}/plantcatalog/xeric/xerictrees`} />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Xeric Trees for New Mexico Gardens | Jericho Nursery" />
@@ -40,12 +41,12 @@ function XericTrees() {
   />
   <meta
     name="twitter:image"
-    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric_Trees.jpg"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/cactus/Chitalpa3.jpg"
   />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="/favicon.png" />
-  <link rel="canonical" href="https://www.jerichonursery.com/plant-catalog/xeric/trees" />
+  <link rel="canonical" href={`${baseUrl}/plantcatalog/xeric/xerictrees`} />
 </Head>
 
       <div className={styles.xeric_tree_container}>

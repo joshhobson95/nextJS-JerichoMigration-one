@@ -2,6 +2,8 @@ import React from 'react'
 import styles from './shrubs.module.css'
 import Link from 'next/link'
 import Head from 'next/head'
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL;
+
 
 function Shrubs() {
   return (
@@ -19,10 +21,10 @@ function Shrubs() {
   />
   <meta
     property="og:image"
-    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrub.jpg"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/shrub.jpg"
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.jerichonursery.com/plant-catalog/shrubs" />
+  <meta property="og:url" content={`${baseUrl}/plantcatalog/shrubs`} />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Shrubs for New Mexico Gardens | Jericho Nursery" />
@@ -32,12 +34,13 @@ function Shrubs() {
   />
   <meta
     name="twitter:image"
-    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrub.jpg"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/shrub.jpg"
   />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="/favicon.png" />
-  <link rel="canonical" href="https://www.jerichonursery.com/plant-catalog/shrubs" />
+  <link rel="canonical" href={`${baseUrl}/plantcatalog/shrubs`} />
+
 </Head>
 
 

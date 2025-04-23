@@ -3,6 +3,7 @@ import styles from './cacti.module.css';
 import PlantSlider from "@/components/PlantSlider/PlantSlider";
 import cactusdata from "@/plantdata/Xeric/CactusData";
 import Head from "next/head";
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL;
 
 function Cacti() {
   const [visibleAttribution, setVisibleAttribution] = useState();
@@ -26,10 +27,10 @@ function Cacti() {
   />
   <meta
     property="og:image"
-    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Cacti_Yucca_Agave.jpg"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/cactus/prickly-pears-2663349875y6280934.jpg"
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.jerichonursery.com/plant-catalog/xeric/cacti-yucca-agave" />
+  <meta property="og:url" content={`${baseUrl}/plantcatalog/xeric/cacti`} />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Cacti, Yucca & Agave for New Mexico Gardens | Jericho Nursery" />
@@ -39,12 +40,12 @@ function Cacti() {
   />
   <meta
     name="twitter:image"
-    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Cacti_Yucca_Agave.jpg"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/cactus/prickly-pears-2663349875y6280934.jpg"
   />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="/favicon.png" />
-  <link rel="canonical" href="https://www.jerichonursery.com/plant-catalog/xeric/cacti-yucca-agave" />
+  <link rel="canonical" href={`${baseUrl}/plantcatalog/xeric/cacti`} />
 </Head>
 
       <div className={styles.xeric_tree_container}>

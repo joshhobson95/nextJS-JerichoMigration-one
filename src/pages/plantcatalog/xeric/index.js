@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import styles from './xeric.module.css';
 import Head from 'next/head';
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL;
 
 function Xeric() {
   return (
@@ -19,10 +20,10 @@ function Xeric() {
   />
   <meta
     property="og:image"
-    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric_Plants.jpg"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/xeric.jpg"
   />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.jerichonursery.com/plant-catalog/xeric" />
+  <meta property="og:url" content={`${baseUrl}/plantcatalog/xeric`} />
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Xeric Plants for New Mexico Gardens | Jericho Nursery" />
@@ -32,12 +33,12 @@ function Xeric() {
   />
   <meta
     name="twitter:image"
-    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric_Plants.jpg"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/xeric.jpg"
   />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" href="/favicon.png" />
-  <link rel="canonical" href="https://www.jerichonursery.com/plant-catalog/xeric" />
+  <link rel="canonical" href={`${baseUrl}/plantcatalog/xeric`} />
 </Head>
 
       <div className={styles.xeric_welcome}>
