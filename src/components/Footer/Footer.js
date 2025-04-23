@@ -61,7 +61,7 @@ function Footer() {
         <Link className={styles.na} href='/radio'>
           <li>Radio Show</li>
         </Link>
-        <Link className={styles.na} href='/seminars'>
+        <Link className={styles.na} href='/workshops'>
           <li>Workshops</li>
         </Link>
         <Link className={styles.na} href='/gardenresources'>
