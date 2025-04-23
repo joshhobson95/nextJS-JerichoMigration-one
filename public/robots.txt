@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.jerichonursery.com/
+
+# Sitemaps
+Sitemap: https://www.jerichonursery.com/sitemap.xml
