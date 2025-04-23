@@ -13,7 +13,7 @@ function Banner() {
 
 
   return (
-    <div className={styles.banner}>
+    <section className={styles.banner}>
         <div className={styles.b_img}>
         <div className={styles.b_1}
         data-aos="fade-left"
@@ -23,7 +23,7 @@ function Banner() {
         data-aos-once="true"
         >
             <div className={styles.b_2}>
-            <h4 className={styles.b_h42}> Garden Talk with Rick Hobson</h4>
+            <h2 className={styles.b_h42}> Garden Talk with Rick Hobson</h2>
             <img src='https://www.omnycontent.com/d/programs/a7b0bd27-d748-4fbe-ab3b-a6fa0049bcf6/fdd9f235-b300-4ebc-93c5-afe200dfddf2/image.jpg?t=1681320560&size=small' alt='zebra_plant' className={styles.banner_img1}/>
             </div>
 <Link href='/radio'>
@@ -42,7 +42,7 @@ function Banner() {
            
         </div>
         </div>
-    </div>
+    </section>
   )
 }
 

@@ -17,7 +17,7 @@ function Partners() {
   };
 
   return (
-    <div className={styles.Partners}>
+    <main className={styles.Partners}>
       <Head>
         <title>Our Partners - Jericho Nursery</title>
         <meta
@@ -44,7 +44,7 @@ function Partners() {
 
       <div className={styles.partners_body}>
         <div className={styles.partners_body_top}>
-          <h1>Garden Talk Sponsors</h1>
+          <h2>Garden Talk Sponsors</h2>
           <p>Support the proud sponsors of Jericho Nursery's Garden Talk Radio Show.</p>
           <div className={styles.gts_pics}>
             <a
@@ -147,7 +147,7 @@ function Partners() {
 
       <div className={styles.partners_body_two}>
         <div className={styles.partners_body_bottom}>
-          <h1>Local Companies We Do Business With</h1>
+          <h2>Local Companies We Do Business With</h2>
           <div className={styles.lp_img_container}>
             <img
               src="https://lirp.cdn-website.com/d0a1fad2/dms3rep/multi/opt/logo-468x143-255w.png"
@@ -186,9 +186,9 @@ function Partners() {
       </div>
 
       <div className={styles.partners_conclusion}>
-        <h1>A Special thanks to all our Supporters</h1>
+        <h4>A Special thanks to all our Supporters</h4>
       </div>
-    </div>
+    </main>
   );
 }
 

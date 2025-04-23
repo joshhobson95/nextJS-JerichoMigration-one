@@ -35,14 +35,14 @@ export default function Home() {
     <>
     <Head>
      
-      <title>Jericho Nursery | Albuquerque's Favorite Garden Center</title>
+      <title>Jericho Nursery | All your Yard and Garden needs</title>
 
    
       <meta
         name="description"
         content="Discover Albuquerque’s top-rated garden center. Jericho Nursery offers plants, flowers, trees, gardening supplies, expert advice, and unbeatable local service."
       />
-      <meta property="og:title" content="Jericho Nursery | Albuquerque's Favorite Garden Center" />
+      <meta property="og:title" content="Jericho Nursery | All your Yard and Garden needs" />
       <meta
         property="og:description"
         content="Shop plants, flowers, trees, and gardening supplies at Jericho Nursery. Locally owned, expert-run, and fully stocked for every season."
@@ -65,9 +65,9 @@ export default function Home() {
       <div className={`home ${raleway.className}`}>  
         <div className="welcome">
           <div className="w">
-            <h4 className="w_1">Welcome to</h4>
+            <p className="w_1">Welcome to</p>
             <h1 className="w_2">Jericho Nursery</h1>
-            <h4 className="w_3">All your Yard and Garden needs</h4>
+            <p className="w_3">All your Yard and Garden needs</p>
           </div>
         </div>
 
@@ -80,9 +80,9 @@ export default function Home() {
         </div>
 
         <div className="desktop_hours_and">
-          <h3>505-899-7555</h3>
-          <h3>Monday–Saturday 9–6 | Sundays 11–5</h3>
-          <h3>101 Alameda Blvd</h3>
+          <p>505-899-7555</p>
+          <p>Monday–Saturday 9–6 | Sundays 11–5</p>
+          <p>101 Alameda Blvd</p>
         </div>
 
         <Gallery />

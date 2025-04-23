@@ -5,7 +5,7 @@ import Head from 'next/head';
 
 function Instagram() {
   return (
-    <div className={styles.instagram_outer_shell}>
+    <main className={styles.instagram_outer_shell}>
       <Head>
         <title>Jericho Nursery - Instagram</title>
         <meta name="description" content="Follow Jericho Nursery on Instagram for the latest gardening tips, products, and updates." />
@@ -35,7 +35,7 @@ function Instagram() {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
 

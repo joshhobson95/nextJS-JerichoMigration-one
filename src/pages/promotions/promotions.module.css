@@ -57,13 +57,13 @@
 box-shadow: 0px 0px 19px 11px rgba(189,189,107,0.18);
 
 }
-.promotions_card h1{
+.promotions_card h2{
     font-size: 18pt;
     font-weight: 800;
     padding: 0.5rem;
     text-decoration: underline;
 }
-.promotions_card h2{
+.promotions_card h3{
     color: #DBBA4B;
     padding: 0.5rem;
     font-weight: 600;
@@ -85,11 +85,11 @@ box-shadow: 0px 0px 19px 11px rgba(189,189,107,0.18);
     padding: 0.5rem;
 }
 
-.promotions_body_header h1{
+.promotions_body_header h2{
     font-size: 20pt;
     font-weight: 700;
     color: #DBBA4B;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(83, 62, 62, 0.5);
 }
 .promotions_card_bottom{
     padding-top: 0.5rem;
@@ -119,7 +119,7 @@ box-shadow: 0px 0px 19px 11px rgba(189,189,107,0.18);
 .promotions_body_header {
     padding: 4rem;
 }
-.promotions_body_header h1{
+.promotions_body_header h2{
     font-size: 50pt;
     font-weight: 700;
     background-color: #361a36;
@@ -130,7 +130,7 @@ box-shadow: 0px 0px 19px 11px rgba(189,189,107,0.18);
     padding-bottom: 4rem;
     width: 80vw;
 }
-.promotions_card h1{
+.promotions_card h3{
     font-size: 32pt;
     padding: 2rem;
 }

@@ -47,7 +47,7 @@ function Sales({ salesData }) {
 
 
   return (
-    <div className={styles.sales}>
+    <main className={styles.sales}>
       <Head>
         <title>Shop This Week's Deals at Jericho Nursery</title>
         <meta name="description" content="Explore our collection of high-quality plants at Jericho Nursery. Find the perfect plants to beautify your garden or home." />
@@ -64,7 +64,7 @@ function Sales({ salesData }) {
 
       <div className={styles.sales_body}>
         <div className={styles.sales_body_header}>
-          <h1>Sales this week</h1>
+          <h2>Sales this week</h2>
         </div>
 
         <div className={styles.sales_card_container}>
@@ -74,10 +74,10 @@ function Sales({ salesData }) {
                 <img src={item.img_url} className={styles.sales_card_img} alt={item.name} />
               </div>
               <div className={styles.sales_card_bottom}>
-                <h1>{item.name}</h1>
-                <h3>{item.description}</h3>
-                <h2>{item.price}</h2>
-                <h2>{item.discount}</h2>
+                <h2>{item.name}</h2>
+                <p>{item.description}</p>
+                <h3>{item.price}</h3>
+                <h3>{item.discount}</h3>
 
                 <div className={styles.sales_card_overflow}>
                   <div>
@@ -91,7 +91,7 @@ function Sales({ salesData }) {
           ))}
         </div>
       </div>
-    </div>
+    </main>
   );
 }
 

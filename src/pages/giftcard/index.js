@@ -5,7 +5,7 @@ import Head from 'next/head';
 
 function GiftCard() {
   return (
-    <div className={styles.GiftCard_Main}>
+    <main className={styles.GiftCard_Main}>
       <Head>
         <title>Gift Cards - Jericho Nursery</title>
         <meta name="description" content="Buy gift cards for any occasion and let your loved ones choose their perfect gift." />
@@ -55,7 +55,7 @@ function GiftCard() {
           <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" draggable="false" />
         </form> 
       </div>
-    </div>
+    </main>
   );
 }
 

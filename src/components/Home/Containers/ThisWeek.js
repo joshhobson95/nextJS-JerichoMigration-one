@@ -28,14 +28,14 @@ const secondItem= salesData.filter((item, index) => index === 1)[0]?.name;
 
 return (
   
-<div className={styles.home_container_outer}>
+<section className={styles.home_container_outer}>
     <div className={styles.home_container}>
         <div className={styles.home_container_header}>
             <div className={styles.hc_icon}>
                 <img src={icon1.src} className={styles.c_icon} alt='' />
             </div>
             <div className={styles.home_container_header_text}>
-                <h3>This Week's Specials</h3>
+                <h2>This Week's Specials</h2>
             </div>
         </div>
 
@@ -55,7 +55,7 @@ return (
             </div>
         </div>
     </div>
-</div>
+</section>
 
   
   )

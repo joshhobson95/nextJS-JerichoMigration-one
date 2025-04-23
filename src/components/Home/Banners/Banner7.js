@@ -14,7 +14,7 @@ function Banner7() {
 
 
   return (
-    <div className={styles.banner7}>
+    <section className={styles.banner7}>
         <div className={styles.b_img7}>
         <div className={styles.b_7}
         data-aos="fade-left"
@@ -23,7 +23,7 @@ function Banner7() {
         data-aos-mirror="true"
         data-aos-once="true"
         >
-            <h1 className={styles.b_h527}>Discover our New Plant Catalog</h1>
+            <h2 className={styles.b_h527}>Discover our New Plant Catalog</h2>
             <p className={styles.b_h47}>Explore a World of Greenery – Find Plants Perfect for New Mexico Gardens</p>
             <div className={styles.banner_7_lower}>
             <Link href='/plantcatalog'>
@@ -32,7 +32,7 @@ function Banner7() {
             </div>
         </div>
         </div>
-    </div>
+    </section>
   )
 }
 

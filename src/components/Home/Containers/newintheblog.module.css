@@ -16,7 +16,7 @@
 
 }
 
-.nb_container h3{
+.nb_container h2{
     font-size: 26pt;
     font-weight: 600;
     padding:1rem;
@@ -105,7 +105,7 @@ box-shadow: 0px 0px 47px 5px rgba(219,185,75,0.52);
         width: 70vw;
         font-size: 18pt;
     }
-    .nb_container_outer h3{
+    .nb_container_outer h2{
         font-size: 26pt;
         padding: 1rem;
         font-weight: 600;
@@ -161,7 +161,6 @@ overflow: hidden;
 margin: 0;
 }
 
-
 .blog_intro{
     overflow: hidden;
 text-overflow: ellipsis;
@@ -169,8 +168,6 @@ display: -webkit-box;
 -webkit-line-clamp: 6; 
 -webkit-box-orient: vertical;
 }
-
-
 
  }
 

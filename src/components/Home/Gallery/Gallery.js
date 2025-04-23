@@ -39,7 +39,7 @@ function Gallery() {
     dots: true,
     appendDots: dots => <ul>{dots}</ul>,
     customPaging: () => (
-      <span id="flower-dot" className="material-symbols-outlined">-</span>
+      <span className="material-symbols-outlined">-</span>
     ),
     centerPadding: '10px',
     slidesToShow: 3,
@@ -64,7 +64,7 @@ function Gallery() {
 
   return (
     <div className="h_carousel">
-      <h1>Spring has Sprung!</h1>
+      <h2>Spring has Sprung!</h2>
       {visible && <p>Swipe to see more photos..</p>}
       <div className="sliderWrapper">
         <Slider {...settings}>

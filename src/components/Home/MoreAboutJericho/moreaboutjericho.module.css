@@ -19,7 +19,7 @@
     align-self: center;
     margin-bottom: 2rem;
 }
-.maj_header h1{
+.maj_header h2{
     font-size: 26pt;
     font-weight: 700;
     padding: 1rem 0;
@@ -220,7 +220,7 @@ background-color: white;
             width: auto;
             align-self: center;
         }
-        .maj_header h1{
+        .maj_header h2{
             font-size: 50pt;
             padding: 2.25rem 2.5rem;
         }
@@ -255,7 +255,7 @@ background-color: white;
     .maj_header{
         width: auto;
     }
-    .maj_header h1{
+    .maj_header h2{
         font-size: 50pt;
         padding: 2.25rem 2.5rem;
     }

@@ -7,7 +7,7 @@ import styles from './contactus.module.css'
 
 function ContactUs() {
   return (
-    <div className={styles.contact_us}>
+    <main className={styles.contact_us}>
 <Head>
         <title>Contact Us - Jericho Nursery</title>
         <meta name="description" content="Contact Jericho Nursery for any inquiries, questions, or feedback. We are here to assist you with your gardening needs and provide excellent customer service." />
@@ -32,14 +32,14 @@ function ContactUs() {
 
 
 
-            <h1>Phone</h1>
+            <h2>Phone</h2>
             <p>+1 (505) 899-7555</p>
             <div className={styles.call_button}>
             <CallButton />
             </div>
 
 
-            <h1>Address</h1>
+            <h2>Address</h2>
             <p>101 Alameda Blvd NW
             Albuquerque, NM 87114</p>
             <div className={styles.map_button}>
@@ -47,7 +47,7 @@ function ContactUs() {
             </div>
 
 
-            <h1>Email</h1>
+            <h2>Email</h2>
             <p>Please Complete Captcha</p>
             <div className={styles.email_button}>
             <EmailButton />
@@ -57,7 +57,7 @@ function ContactUs() {
 
 
 
-    </div>
+    </main>
   )
 }
 

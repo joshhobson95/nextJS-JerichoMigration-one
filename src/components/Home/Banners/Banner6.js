@@ -16,7 +16,7 @@ function Banner6() {
 
 
   return (
-    <div className={styles.banner6}>
+    <section className={styles.banner6}>
         <div className={styles.b_img6}>
         <div className={styles.b_6}
         data-aos="fade-left"
@@ -29,11 +29,11 @@ function Banner6() {
             <div className={styles.inner_banner_ffc}>
             <img className={styles.banner_ffc_logo} src={newffc.src}/>
                 </div>
-                <h4 className={styles.b_h52}>Introducing the New 
+                <h2 className={styles.b_h52}>Introducing the New 
             <span id={styles.word1}>Frequent</span>
             <span id={styles.word2}>Flower</span>
             <span id={styles.word3}>Club</span>
-            </h4>
+            </h2>
             </div>
             <div>
             <img className={styles.banner_ffc} src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/New_FFC/main-Flower'/>
@@ -57,7 +57,7 @@ function Banner6() {
            
         </div>
         </div>
-    </div>
+    </section>
   )
 }
 

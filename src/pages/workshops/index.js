@@ -10,7 +10,7 @@ function Workshops() {
 
 
   return (
-    <div className={styles.Seminars}>
+    <main className={styles.Seminars}>
       <Head>
         <title>Gardening Workshops - Jericho Nursery</title>
         <meta name="description" content="Join our gardening workshops at Jericho Nursery to enhance your gardening skills, learn new techniques, and connect with fellow gardeners." />
@@ -29,7 +29,7 @@ function Workshops() {
 
       <div className={styles.seminars_body_main}>
         <div className={styles.seminars_body_top}>
-          <h1>This Year's Workshops</h1>
+          <h2>This Year's Workshops</h2>
           <img alt="Workshops at Jericho Nursery" src={seminar_pic.src} className={styles.seminar_pic} />
           <p>
             For a limited time, Jericho Nursery is offering their enriching workshops at an affordable price of just $10. As an added bonus, participants will receive a complimentary $10 gift card to the nursery...
@@ -53,7 +53,7 @@ function Workshops() {
 
         <div className={styles.seminar_pic_section}></div>
 
-        {/* Uncomment this block if needed */}
+
         {/* <div className={styles.seminars_body_bottom}>
           <h1>Click the Button Below to Sign up for Workshops</h1> 
           <div className={styles.seminar_form}>
@@ -64,7 +64,7 @@ function Workshops() {
           </div>
         </div> */}
      
-    </div>
+    </main>
   );
 }
 

@@ -40,7 +40,7 @@
    color: white;
    margin-bottom: 4rem;
 }
-.seminars_body_top h1{
+.seminars_body_top h2{
     color: #DBBA4B;
     font-size: 30pt;
     font-weight: 700;
@@ -200,7 +200,7 @@ width: 23rem;
         font-size: 18pt;
         margin: 2rem 10rem;
     }
-    .seminars_body_main h1{
+    .seminars_body_main h2{
         font-size: 50pt;
     }
     .seminars_body_mid{

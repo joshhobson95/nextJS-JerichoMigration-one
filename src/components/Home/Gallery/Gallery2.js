@@ -70,7 +70,7 @@ function Gallery2() {
 
   return (
     <div className="h2_carousel">
-      <h1>All your Yard and Garden needs</h1>
+      <h2>All your Yard and Garden needs</h2>
       {visible && <p>Swipe to see more photos..</p>}
 
       <div className="sliderWrapper">

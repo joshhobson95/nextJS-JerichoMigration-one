@@ -34,7 +34,7 @@ function GardeningCalendar() {
 
     return (
 
-        <div className={styles.home_container_outer}>
+        <section className={styles.home_container_outer}>
         <div className={styles.gc_container}>
             <div className={styles.home_container_header}>
                 <div className={styles.hc_icon}>
@@ -59,7 +59,7 @@ function GardeningCalendar() {
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     
     
     

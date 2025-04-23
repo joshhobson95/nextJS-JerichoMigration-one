@@ -12,7 +12,7 @@ import Head from 'next/head';
 
 function Aboutus() {
   return (
-    <div className={styles.AboutUs}> 
+    <main className={styles.AboutUs}> 
 
 <Head>
         <title>About Us - Jericho Nursery</title>
@@ -158,7 +158,7 @@ function Aboutus() {
         </div>
 
       </div>
-    </div>
+    </main>
   );
 }
 

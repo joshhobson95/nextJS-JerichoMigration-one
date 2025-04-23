@@ -7,7 +7,7 @@ function Videos() {
   const channelId = 'UCzQXGhQyfMHt_e8wH9drt7g';
 
   return (
-    <div className={styles.Videos}>
+    <main className={styles.Videos}>
       <Head>
         <title>Jericho Nursery's Video Page</title>
         <meta
@@ -33,16 +33,16 @@ function Videos() {
         </div>
 
         <div className={styles.video_bottom_half}>
-          <h4>
+          <h2>
             Make sure you check out the Jericho Nursery Youtube Page to check out ALL of our videos from throughout the years. Click the button below to be redirected to our YouTube Page. Don't forget to like and subscribe!
-          </h4>
+          </h2>
 
           <a href="https://www.youtube.com/@JerichoNursery">
             <button className={styles.vid_button}>Go to YouTube</button>
           </a>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
 

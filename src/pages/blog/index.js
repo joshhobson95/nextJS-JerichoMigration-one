@@ -68,7 +68,7 @@ export default function BlogList() {
 
 
   return (
-    <div className={styles.Blog}>
+    <main className={styles.Blog}>
     <Head>
       <title>Jericho Nursery Blog - Gardening Tips, Plant Care, and More</title>
       <meta name='description' content='Discover helpful gardening tips, plant care advice, and more on the Jericho Nursery blog.' />
@@ -161,6 +161,6 @@ export default function BlogList() {
       </div>
 
  
-  </div>
+  </main>
   );
 }

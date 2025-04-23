@@ -12,7 +12,7 @@ function FAQ() {
 
   return (
 
-<div className={styles.FAQ}>
+<main className={styles.FAQ}>
     <Head>
         <title>Grower's Assurance - Planting Guide and Warranty | Jericho Nursery</title>
     <meta name="description" content="Explore Jericho Nursery's comprehensive Planting Guide and Warranty, ensuring your gardening experience is supported by expert advice and quality assurance." />
@@ -83,7 +83,7 @@ Disclaimer: Our guarantee excludes clearance items, houseplants, and annuals. We
 
 
  </div>
-</div>
+</main>
   )
 }
 

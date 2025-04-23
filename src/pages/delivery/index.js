@@ -37,7 +37,7 @@ function Delivery() {
   }, []);
 
   return (
-    <div className={styles.delivery}>
+    <main className={styles.delivery}>
       <Head>
         <title>Delivery Service - Jericho Nursery</title>
         <meta name="description" content="Find fast and reliable delivery service for your plant parcels." />
@@ -52,7 +52,7 @@ function Delivery() {
       </div>
 
       <div className={styles.delivery_body}>
-        <h1>Jericho's Delivery Options</h1>
+        <h2>Jericho's Delivery Options</h2>
 
 
        
@@ -89,7 +89,7 @@ function Delivery() {
           <CallButton />
         </div>
       </div>
-    </div>
+    </main>
   );
 }
 

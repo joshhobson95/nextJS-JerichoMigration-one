@@ -46,18 +46,14 @@
     border-radius: 12px;
     color:white;
 }
-.contact_us_body h1{
+.contact_us_body h2{
     font-size: 20pt;
     font-weight: 800;
     text-decoration: underline;
     padding: 1.5rem;
 
 }
-.contact_us_body h2{
-    font-size: 18pt;
-    font-weight: 800;
-    padding: 0.5rem;
-}
+
 .contact_us_body p{
     padding: 0.5rem 1rem;
 }
@@ -130,7 +126,7 @@
     .contact_us_body{
         font-size: 18pt;
     }
-    .contact_us_body h1{
+    .contact_us_body h2{
         font-size: 40pt;
         padding: 3rem 2rem;
     }

@@ -16,7 +16,7 @@ function FFC() {
 
 
   return (
-    <div className={styles.ffc}>
+    <main className={styles.ffc}>
 <Head>
         <title>Frequent Flower Club - Jericho Nursery</title>
         <meta name="description" content="Join the Frequent Flower Club at Jericho Nursery and enjoy exclusive benefits, discounts, and special offers on a wide variety of flowers and plants. Enhance your gardening experience and save with our loyalty program." />
@@ -35,14 +35,15 @@ function FFC() {
         <div className={styles.welcome_text}>
             <h1>Frequent Flower Club</h1>
                 <p>
-                    A new and improved points system, with all the same connectedness you know and love
+     A new and improved points system, with all the same connectedness you know and love
                </p>
         </div>
      </div>
+     
             <div className={styles.ffc_body}>
                         <div className={styles.ffc_body_top}>
                             <div className={styles.header_container}>
-                        <h1>Welcome to Jericho's Frequent Flower Club</h1>
+                        <h2>Welcome to Jericho's Frequent Flower Club</h2>
                             </div>
                         <div className={styles.ffc_introduction}>
                             <img className={styles.jericho_ffc_flower} src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/New_FFC/main-Flower' alt='Jericho FFC homepage'/>
@@ -159,7 +160,7 @@ function FFC() {
                     </div>
                 </div>
             </div>
-</div>
+</main>
   )
 }
 

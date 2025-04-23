@@ -5,7 +5,7 @@ import Head from 'next/head'
 
 function GardeningCalendar() {
   return (
-    <div className={styles.gardening_calendar}>
+    <main className={styles.gardening_calendar}>
         <Head>
         <title>Gardening Calendar - Jericho Nursery</title>
         <meta name="description" content="Stay on top of gardening events and important dates with the Jericho Nursery Gardening Calendar." />
@@ -29,7 +29,7 @@ function GardeningCalendar() {
 
 
 
-    </div>
+    </main>
   )
 }
 

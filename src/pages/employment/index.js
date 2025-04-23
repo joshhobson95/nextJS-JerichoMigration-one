@@ -18,7 +18,7 @@ function WhyWorkHere() {
 
 
   return (
-    <div className={styles.employment}>
+    <main className={styles.employment}>
 <Head>
         <title>Why Work Here - Jericho Nursery</title>
         <meta name="description" content="Discover why Jericho Nursery is a great place to work. Join our team of passionate individuals, enjoy a supportive work environment, and contribute to the joy of gardening in our community." />
@@ -114,7 +114,7 @@ We offer health insurance, 401K & paid vacation after meeting longevity requirem
 </div>
 
 
-    </div>
+    </main>
   )
 }
 

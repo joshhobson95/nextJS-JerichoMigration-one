@@ -27,14 +27,14 @@ function NewintheBlog() {
 
 
     return (
-      <div className={styles.home_container_outer}>
+      <section className={styles.home_container_outer}>
     <div className={styles.nb_container}>
         <div className={styles.home_container_header}>
             <div className={styles.hc_icon}>
                 <img src={icon1.src} className={styles.c_icon} alt='' />
             </div>
             <div className={styles.home_container_header_text}>
-                <h3>New In the Blog</h3>
+                <h2>New In the Blog</h2>
             </div>
 
             <div className={styles.blog_card_container}>
@@ -51,7 +51,7 @@ function NewintheBlog() {
                 <div className={styles.home_blog_text}>
                     {blogData && blogData[0] && blogData[0].rows && (
                         <div className={styles.home_blog_text_title}>
-                            <h1>Read this Week's Newest Blog Post:</h1>
+                            <h3>Read this Week's Newest Blog Post:</h3>
                             <p className={styles.blog_name}>{blogData[0].rows[0].title}</p>
                         </div>
                     )}
@@ -70,7 +70,7 @@ function NewintheBlog() {
             </div>
         </div>
     </div>
-</div>
+</section>
 
 )}
 

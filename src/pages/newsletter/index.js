@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 function Newsletter() {
   return (
-    <div className={styles.newsletter}>
+    <main className={styles.newsletter}>
 
       <Head>
       <title>Sign Up for Our Newsletter - Jericho Nursery</title>
@@ -25,7 +25,7 @@ function Newsletter() {
       <div className={styles.newsletter_body}>
         <div className={styles.newsletter_body_top}>
           <div className={styles.newsletter_introduction}>
-            <h1>Want more Jericho?</h1>
+            <h2>Want more Jericho?</h2>
             <img className={styles.garden_phone} src="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/gardenphone.jpg" alt="Join Jericho Nursery's Newsletter for all your garden updates" />
             <p>
               Sign up for Jericho Nursery’s free Newsletter and Text Alerts to stay updated on everything happening at the nursery each week! Our weekly email brings you the latest news, gardening tips, special promotions, and event announcements, so you never miss out on what’s blooming. Plus, our text alerts provide quick reminders about sales, workshops, and seasonal updates straight to your phone. It’s the best way to stay connected with Jericho Nursery and get expert advice for your garden—all at no cost to you!
@@ -43,7 +43,7 @@ function Newsletter() {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
 

@@ -86,7 +86,7 @@ function Brands() {
 
 
   return (
-    <div className={styles.Brands}>
+    <main className={styles.Brands}>
     <Head>
       <title>Brands Carried by Jericho Nursery</title>
       <meta name="description" content="Discover the top-quality brands carried by Jericho Nursery. Explore a wide range of trusted brands for all your gardening and landscaping needs." />
@@ -119,7 +119,7 @@ function Brands() {
         </div>
       </div>
     </div>
-  </div>
+  </main>
   )
 }
 

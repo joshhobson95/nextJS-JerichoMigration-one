@@ -41,7 +41,7 @@ function Promotions({promotionsData}) {
     
   
   return (
-<div className={styles.promotions}>
+<main className={styles.promotions}>
 
 <Head>
         <title>Discover New Arrivals at Jericho Nursery</title>
@@ -57,7 +57,7 @@ function Promotions({promotionsData}) {
 
 <div className={styles.promotions_body}>
   <div className={styles.promotions_body_header}>
-    <h1>Promotions this Week</h1>
+    <h2>Promotions this Week</h2>
   </div>
 
   <div className={styles.promotions_card_container}> 
@@ -67,10 +67,10 @@ function Promotions({promotionsData}) {
           <img src={item.img_url} className={styles.promotions_card_img} alt='' />
         </div>
         <div className={styles.promotions_card_bottom}>
-          <h1>{item.name}</h1>   
+          <h2>{item.name}</h2>   
           <h3>{item.description}</h3>   
-          <h2>{item.price}</h2>
-          <h2>{item.discount}</h2>
+          <h4>{item.price}</h4>
+          <h4>{item.discount}</h4>
 
           <div className={styles.promotions_card_overflow}>
             <div>
@@ -84,7 +84,7 @@ function Promotions({promotionsData}) {
     ))}
   </div>
 </div>
-</div>
+</main>
 
   )
 }
