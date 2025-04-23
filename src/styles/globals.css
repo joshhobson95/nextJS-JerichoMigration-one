@@ -957,10 +957,7 @@ transform: translateX(-100%);
     border-radius: 12px;
     margin-bottom: 2rem;
 }
-.slick-list img:hover{
-position: relative;
-top: -10px;
-  } 
+
  
   .photo_name{
     align-self: center;
@@ -969,15 +966,10 @@ top: -10px;
     font-weight: 800;
   }
 
-  #flower-dot{
-    font-size: 12pt;
-  }
   .slick-dots {
     bottom: -60px;
   }
-  .slick-dots ul{
-    padding: 0rem;
-  }
+
 
   .slick-active{
     color: #DBBA4B;
@@ -1082,6 +1074,7 @@ top: -10px;
 }
   }
 
+
   .h2_carousel{
     height: auto;
     background: rgb(29, 104, 81);
@@ -1118,36 +1111,32 @@ top: -10px;
     align-self: center;
     -webkit-box-shadow:0px 0px 30px 0px rgba(204,183,130,0.91);
     -moz-box-shadow: 0px 0px 30px 0px rgba(204,183,130,0.91);
-    box-shadow: 0px 0px 30px 0px rgba(204,183,130,0.91);
+    box-shadow: 0px 0px 30px 0px rgba(18, 144, 167, 0.91);
 }
 .slick-list img{
     border-radius: 12px;
     margin-bottom: 2rem;
 }
-.slick-list img:hover{
-position: relative;
-top: -10px;
-  } 
+
+  .slick-active{
+    color: #DBBA4B;
+  }
+  .slick-dots {
+    bottom: -50px !important;
+  }
 
   .photo_name{
     align-self: center;
     padding: 1rem;
   }
 
-  #flower-dot{
-    font-size: 12pt;
-  }
-  .slick-dots ul{
-    padding: 0rem;
-  }
-
-  .slick-active{
-    color: #DBBA4B;
-  }
-
   .h_container_ul{
  top: -90px;
-  }
+}
+
+
+
+  
 
 
 
@@ -1173,10 +1162,7 @@ top: -10px;
     .slick-dots li {
       padding: 0rem 0.5rem;
     }
-    .slick-dots {
 
-      bottom: -50px;
-    }
   }
 
 
@@ -1591,5 +1577,55 @@ list-style: none;
     align-self: center;
     cursor: pointer;
     padding: 1rem;
-
 }
+
+/* Not Found  */
+.not_found{
+  height: auto;
+  background-color: #242424;
+  color: white;
+  font-size: 14pt;
+  font-weight: 800;
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.not_found h1{
+font-size: 22pt;
+text-decoration: underline;
+margin: 2rem;
+}
+.not_found p{
+  margin: 4rem;
+}
+.four_o{
+height: auto;
+width: 65vw;
+align-self: center;
+}
+.fof{
+
+      height: auto;
+      width: auto;
+      padding: 1rem 1.25rem;
+      background-color: #4FA673;
+      border: none;
+      border-radius: 12px;
+      font-family: 'Raleway';
+      font-size: 12pt;
+      font-weight: 600;
+      color: white;
+      align-self: center;
+      cursor: pointer;
+      margin: 1rem;
+      box-shadow: 1px 3px 10px 5px rgba(0, 0, 0, 0.25);
+}
+.fof:hover{
+  background-color: #ffffff;
+  color: #4FA673;
+  transition: 1s
+}
+
+
+

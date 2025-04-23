@@ -39,7 +39,9 @@ function Gallery() {
     dots: true,
     appendDots: dots => <ul>{dots}</ul>,
     customPaging: () => (
-      <span className="material-symbols-outlined">-</span>
+      
+      <span id='flower_dot' class="material-symbols-outlined">yard</span>
+      
     ),
     centerPadding: '10px',
     slidesToShow: 3,
@@ -83,6 +85,7 @@ function Gallery() {
           ))}
         </Slider>
       </div>
+      
     </div>
   );
 }

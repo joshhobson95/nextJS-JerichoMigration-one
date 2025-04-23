@@ -42,7 +42,7 @@ function Gallery2() {
         <ul className="h_container_ul">{dots}</ul>
       </div>
     ),
-    customPaging: () => <span>.</span>,
+    customPaging: () =>    <span class="material-symbols-outlined">yard</span>,
     centerPadding: "10px",
     slidesToShow: 3,
     speed: 500,
