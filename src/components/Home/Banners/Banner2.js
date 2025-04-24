@@ -42,7 +42,7 @@ function Banner2() {
 
 <div className={styles.banner_2_lower}>
 
-<a href='/ffc'>
+<a href="https://www.newsradiokkob.com/2025/04/03/seedsack/" target="_blank" rel="noopener noreferrer">
             <button className={styles.banner_button2}>Sign Up</button>
 </a>
 
