@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import Head from 'next/head';
 import styles from './delivery.module.css'; // You will need to migrate your styles to this file
 import plantbox from '../../../public/assets/plantbox.jpg'
-import CallButton from '../contact/CallButton';
+import CallButton from '../../components/Contact/CallButton';
 
 
 

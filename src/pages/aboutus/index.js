@@ -2,8 +2,8 @@ import React from 'react';
 import styles from './aboutus.module.css'; // Assuming you renamed your CSS file to AboutUs.module.css
 import rickandjen from '../../../public/assets/Rick&Jen.jpg'
 import bys from '../../../public/assets/BeforeYouSaySomething.jpg'
-import StaffPictures from './StaffPictures';
-import Bios from './Bios';
+import StaffPictures from '../../components/AboutUs/StaffPictures';
+import Bios from '../../components/AboutUs/Bios';
 import Quality from '../../../public/svgs/Quality';
 import Selection from '../../../public/svgs/Selection';
 import Service from '../../../public/svgs/Service';

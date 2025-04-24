@@ -1,7 +1,7 @@
 import React from 'react'
-import MapButton from './MapButton'
-import EmailButton from './EmailButton'
-import CallButton from './CallButton'
+import MapButton from '../../components/Contact/MapButton'
+import EmailButton from '../../components/Contact/EmailButton'
+import CallButton from '../../components/Contact/CallButton'
 import Head from 'next/head'
 import styles from './contactus.module.css'
 

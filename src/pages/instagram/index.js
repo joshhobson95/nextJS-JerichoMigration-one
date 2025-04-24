@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './instagram.module.css';
-import InstagramWidget from './InstagramWidget';
+import InstagramWidget from '../../components/Instagram/InstagramWidget';
 import Head from 'next/head';
 
 function Instagram() {

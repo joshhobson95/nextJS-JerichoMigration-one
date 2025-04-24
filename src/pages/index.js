@@ -14,7 +14,7 @@ import NewintheBlog from '@/components/Home/Containers/NewintheBlog';
 import Gallery from '@/components/Home/Gallery/Gallery';
 import Gallery2 from '@/components/Home/Gallery/Gallery2';
 import MoreAboutJericho from '@/components/Home/MoreAboutJericho/MoreAboutJericho';
-import CallButton from "./contact/CallButton";
+import CallButton from "../components/Contact/CallButton";
 import MapButtonHome from "@/components/Home/MapButton/MapButtonHome";
 import HoursButton from "@/components/Home/HoursButton/HoursButton";
 import Popup from '@/components/Home/Popup/Popup';
