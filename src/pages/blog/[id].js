@@ -3,6 +3,7 @@ import Head from 'next/head'
 import axios from 'axios'
 import { useRouter } from 'next/router'
 import styles from './blog.module.css'
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL;
 
 
 
@@ -16,8 +17,26 @@ export default function SingleBlog({ blog }) {
   return (
     <div className={styles.Single_Blog_Post}>
       <Head>
-        <title>{blog.title} | Your Site</title>
-        <meta name="description" content={blog.intro || blog.title} />
+        <title>{blog.title} | Jericho Nursery</title>
+        <meta
+        name="description"
+        content="Explore blog posts from Jericho Nursery, packed with gardening tips, local insights, and more."
+      />
+    <meta
+    property="og:title"
+    content={`${blog.title} | Jericho Nursery`}/>
+      <meta
+        property="og:description"
+        content="Get the latest from Jericho Nursery on gardening in New Mexico."
+      />
+      <meta
+        property="og:image"
+        content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/EvergreenContent/cashHouse.jpg"
+      />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="icon" href="/favicon.png" />
+
+      <link rel="canonical" href={`${baseUrl}/blog/${blog.id}`} />
       </Head>
 
       <div className={styles.single_blog_welcome}>

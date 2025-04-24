@@ -27,7 +27,7 @@ function PlantCatalog() {
       />
       <meta
         property="og:image"
-        content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/PlantCatalog.jpg"
+        content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/EvergreenContent/cashHouse.jpg"
       />
       <meta property="og:type" content="website" />
       <meta property="og:url" content={`${baseUrl}/plantcatalog`} />
@@ -40,7 +40,7 @@ function PlantCatalog() {
       />
       <meta
         name="twitter:image"
-        content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/PlantCatalog.jpg"
+        content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/EvergreenContent/cashHouse.jpg"
       />
 
       <meta name="viewport" content="width=device-width, initial-scale=1" />
