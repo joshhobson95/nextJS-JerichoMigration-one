@@ -7,6 +7,7 @@ import 'aos/dist/aos.css';
 import Banner from "@/components/Home/Banners/Banner";
 import Banner6 from '@/components/Home/Banners/Banner6';
 import Banner7 from '@/components/Home/Banners/Banner7';
+import Banner2 from "@/components/Home/Banners/Banner2";
 import NewThisWeek from '@/components/Home/Containers/ThisWeek';
 import VideosContainer from '@/components/Home/Containers/VideosContainer';
 import GardeningCalendar from '@/components/Home/Containers/GardeningCalendar';
@@ -133,7 +134,7 @@ export default function Home() {
           data-aos-once="true"
           data-aos-anchor-placement="top-center"
         >
-          <Banner6 />
+          <Banner2 />
           <VideosContainer />
         </div>
 

@@ -1,0 +1,135 @@
+.banner_img_{
+    width: 30vw;
+    align-self: center;
+    margin: 1rem;
+}
+.b_22 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  .b_22 h2{
+    color: white;
+    font-size: 18pt;
+    padding: 1rem;
+  }
+  .b_22 ul{
+    color: white;
+    list-style: none;
+    padding-inline-start: 0px;
+  }
+  .b_22 li{
+    padding: 0.5rem;
+  }
+
+.TJs{
+    width: 60vw;
+    align-self: center;
+}
+
+.b_2{
+    height: auto;
+    width: 85vw;
+    padding: 1rem;
+    margin-top: 2.5vh;
+    background-color: #242424;
+    z-index: 2;
+    border-radius: 12px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+}
+.banner_button2{
+    height: auto;
+    width: auto;
+    padding: 1rem 1.25rem;
+    background-color: #df8028;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Raleway';
+    font-size: 12pt;
+    font-weight: 600;
+    color: white;
+    align-self: center;
+    margin-top: 5vh;
+    cursor: pointer;
+    transition: 1s;
+    margin: 1rem;
+}
+.banner_button2:hover{
+    transition: 1s;
+    background-color: white;
+    color: #df8028 ;
+}
+.b_img2{
+    background-image: url('https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/pumpkin_patch.jpg');
+    height: auto;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   padding-bottom: 2rem;
+}
+
+
+@media (min-width:825px) { 
+    .b_22 h2{
+        font-size: 24pt;
+    }
+    .TJs{
+        width: 40vw;
+    }
+    .b_22 ul{
+         font-size: 16pt;
+      }
+      .banner_button2{
+        font-size: 16pt;
+      }  
+}
+
+@media (min-width:1025px) { 
+
+    .b_22 h2{
+        font-size: 24pt;
+        padding: 1rem;
+    }
+    .TJs{
+        width: 30vw;
+    }
+     .b_2{
+        width: 75vw;
+     }    
+}
+
+@media (min-width:1350px) { 
+
+    .TJs{
+        width: 20vw;
+    }
+    .b_2{
+        width: 65vw;
+     }  
+
+}
+
+@media (min-width:1600px) { 
+    .TJs{
+        width: 15vw;
+    }
+    .b_2{
+        width: 55vw;
+     }  
+}
+
+@media (min-width:1900px) { 
+    .TJs{
+        width: 10vw;
+    }
+    
+    .b_22 h2{
+        font-size: 27pt;
+    }
+    .b_2{
+        width: 40vw;
+     }  
+}
+
+
