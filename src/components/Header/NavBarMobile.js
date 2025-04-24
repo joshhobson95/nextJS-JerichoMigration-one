@@ -146,10 +146,7 @@ function NavBarMobile() {
                   <Link href='/gardeningcalendar'>
                     <li className="navbar__dropdownItem_mobile">Gardening Calendar</li>
                   </Link>
-                  <Link href='/gardenresources'>
-                    <li className="navbar__dropdownItem_mobile">Garden Resources</li>
-                  </Link>
-                  <Link href='/login'>
+                  <Link href='/admin'>
                     <li className="navbar__dropdownItem_mobile">Admin Login</li>
                   </Link>
                 </ul>
@@ -164,6 +161,9 @@ function NavBarMobile() {
                   </Link>
                   <Link href='/workshops'>
                     <li className="navbar__dropdownItem_mobile">Workshops</li>
+                  </Link>
+                  <Link href='/gardenresources'>
+                    <li className="navbar__dropdownItem_mobile">Garden Resources</li>
                   </Link>
                 </ul>
               )}

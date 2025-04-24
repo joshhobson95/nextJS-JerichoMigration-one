@@ -363,7 +363,7 @@ justify-content: center;
       justify-content: space-between;
       height: 100vh;
       animation: fadeInLeft 0.5s;
-      margin-top: -4vh;
+      margin-top: -5.5vh;
   }
   .mobile_nav_container p{
    font-size: 10pt;   
