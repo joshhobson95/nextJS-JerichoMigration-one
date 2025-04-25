@@ -1,17 +1,9 @@
-# Allow all bots to crawl the site except sensitive areas
+# *
 User-agent: *
-Disallow: /api/
-Disallow: /admin/
-Disallow: /server/
-Disallow: /private/
-Disallow: /_next/
-Disallow: /middleware/
-Disallow: /login
-Disallow: /register
 Allow: /
 
 # Host
 Host: https://www.jerichonursery.com/
 
-# Sitemap
+# Sitemaps
 Sitemap: https://www.jerichonursery.com/sitemap.xml
