@@ -564,20 +564,7 @@ const shadedata = {
    
   
           
-          {
-            id: 43,
-            name: "Quaking Aspen",
-            scientificName: "Populus tremuloides",
-            image: "https://jfschmidt.com/wp-content/uploads/2023/03/populus-quaking-web-01.jpg",
-            description: "The Quaking Aspen is a fast-growing tree known for its striking white bark and delicate, fluttering leaves that create a distinctive rustling sound in the wind. It forms large groves of genetically identical trees and turns a brilliant golden yellow in the fall. While tolerant of dry conditions, it prefers moist soils and is best suited for higher elevations.",
-            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-            sunRequirement: "Full Sun",
-            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
-            waterRequirement: "Low Water",
-            hardinessZones: "1-7",
-            matureSize: "50' x 30'",
-            native: true
-          },
+  
           
        
           {
