@@ -3,7 +3,8 @@ import styles from './perennials.module.css'
 import Link from 'next/link'
 import Head from 'next/head'
 const baseUrl = process.env.NEXT_PUBLIC_SITE_URL;
-
+import PlantSlider from '@/components/PlantSlider/PlantSlider';
+import perennialdata from '@/plantdata/Perennials/PerennailData';
 
 
 function Perennials() {
@@ -58,50 +59,31 @@ function Perennials() {
         </div>
 
         <div className={styles.plant_examples}>
-          <h3 className={styles.perennial_h3}>Jericho's Top 10 Perennials</h3>
 
-          <div className={styles.plant_examples_inner}>
-            <div className={styles.plant_example_each}>
-              <h6>Allium</h6>
-              <img className={styles.plant_example_circle_image} src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/allium-8108318_1920.jpg' alt='Allium at Jericho Nursery in Albuquerque, New Mexico'/>
-            </div>
-            <div className={styles.plant_example_each}>
-              <h6>Coreopsis</h6>
-              <img className={styles.plant_example_circle_image} src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/Coreopsis.jpg' alt='Coreopsis at Jericho Nursery in Albuquerque, New Mexico'/>
-            </div>
-            <div className={styles.plant_example_each}>
-              <h6>Peony</h6>
-              <img className={styles.plant_example_circle_image} src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/peony.jpg' alt='Peony at Jericho Nursery in Albuquerque, New Mexico'/>
-            </div>
-            <div className={styles.plant_example_each}>
-              <h6>Gaillardia</h6>
-              <img className={styles.plant_example_circle_image} src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/gaillardia.jpg' alt='Gaillardia at Jericho Nursery in Albuquerque, New Mexico'/>
-            </div>
-            <div className={styles.plant_example_each}>
-              <h6>Coral Bells</h6>
-              <img className={styles.plant_example_circle_image} src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/purple-bells-56056_1920.jpg' alt='Coral Bells at Jericho Nursery in Albuquerque, New Mexico'/>
-            </div>
-            <div className={styles.plant_example_each}>
-              <h6>Salvia</h6>
-              <img className={styles.plant_example_circle_image} src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/bees-5032464_1920.jpg' alt='Salvia at Jericho Nursery in Albuquerque, New Mexico'/>
-            </div>
-            <div className={styles.plant_example_each}>
-              <h6>Rudbeckia</h6>
-              <img className={styles.plant_example_circle_image} src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/blackeyedsusan.jpg' alt='Rudbeckia at Jericho Nursery in Albuquerque, New Mexico'/>
-            </div>
-            <div className={styles.plant_example_each}>
-              <h6>Phlox</h6>
-              <img className={styles.plant_example_circle_image} src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/phlox-5091730_1920.jpg' alt='Phlox at Jericho Nursery in Albuquerque, New Mexico'/>
-            </div>
-            <div className={styles.plant_example_each}>
-              <h6>Verbena</h6>
-              <img className={styles.plant_example_circle_image} src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/verbena-6489346_1920.jpg' alt='Verbena at Jericho Nursery in Albuquerque, New Mexico'/>
-            </div>
-            <div className={styles.plant_example_each}>
-              <h6>Yarrow</h6>
-              <img className={styles.plant_example_circle_image} src='https://assets.highcountrygardens.com/media/catalog/product/a/c/achillea-moonshine-yarrow-1.jpg?quality=85&fit=bounds&height=&width=828&auto=webp&format=pjpg' alt='Yarrow at Jericho Nursery in Albuquerque, New Mexico'/>
+
+        <div className={styles.perennial_catalog_sub_section}>
+            <h2 className={styles.perennial_catalog_title}>Bedding Perennials</h2>
+            <div className={styles.catalog_cards}>
+              <PlantSlider plants={perennialdata.bedding} />
             </div>
           </div>
+
+        <div className={styles.perennial_catalog_sub_section}>
+            <h2 className={styles.perennial_catalog_title}>Drought Tolerant Perennials</h2>
+            <div className={styles.catalog_cards}>
+              <PlantSlider plants={perennialdata.droughttolerant} />
+            </div>
+          </div>
+
+        <div className={styles.perennial_catalog_sub_section}>
+            <h2 className={styles.perennial_catalog_title}>Shade Loving Perennails</h2>
+            <div className={styles.catalog_cards}>
+              <PlantSlider plants={perennialdata.shadeloving} />
+            </div>
+          </div>
+        
+    
+        
 
           <div className={styles.perennial_mid_page}>
             <Link className={styles.plant_catalog_link} href='xeric'>

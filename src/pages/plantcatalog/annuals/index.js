@@ -3,8 +3,13 @@ import styles from './annuals.module.css'
 import Link from 'next/link'
 import Head from 'next/head'
 const baseUrl = process.env.NEXT_PUBLIC_SITE_URL;
+import PlantSlider from '@/components/PlantSlider/PlantSlider';
+import annualdata from "@/plantdata/Annuals/AnnualData";
 
 function Annuals() {
+
+
+
   return (
     <div className={styles.Annuals}>
       <Head>
@@ -60,50 +65,31 @@ function Annuals() {
         </div>
 
         <div className={styles.plant_examples}>
-          <h3 className={styles.annual_h3}>Jericho's Top 10 Annuals</h3>
 
-          <div className={styles.plant_examples_inner}>
-            <div className={styles.plant_example_each}>
-              <h6>Geranium</h6>
-              <img className={styles.plant_example_circle_image} src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/geranium.jpg' alt='Geranium at Jericho Nursery in Albuquerque, New Mexico'/>
-            </div>
-            <div className={styles.plant_example_each}>
-              <h6>Marigold</h6>
-              <img className={styles.plant_example_circle_image} src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/marigold.jpg' alt='Marigold at Jericho Nursery in Albuquerque, New Mexico'/>
-            </div>
-            <div className={styles.plant_example_each}>
-              <h6>Petuna</h6>
-              <img className={styles.plant_example_circle_image} src='https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Petunia_Violet.jpg/1024px-Petunia_Violet.jpg' alt='Petuna at Jericho Nursery in Albuquerque, New Mexico'/>
-            </div>
-            <div className={styles.plant_example_each}>
-              <h6>Cosmos</h6>
-              <img className={styles.plant_example_circle_image} src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/cosmos.jpg' alt='Cosmos at Jericho Nursery in Albuquerque, New Mexico'/>
-            </div>
-            <div className={styles.plant_example_each}>
-              <h6>Snapdragon</h6>
-              <img className={styles.plant_example_circle_image} src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/snapdragon.jpg' alt='Snapdragon at Jericho Nursery in Albuquerque, New Mexico'/>
-            </div>
-            <div className={styles.plant_example_each}>
-              <h6>Viola</h6>
-              <img className={styles.plant_example_circle_image} src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/viola.PNG' alt='Violas at Jericho Nursery in Albuquerque, New Mexico'/>
-            </div>
-            <div className={styles.plant_example_each}>
-              <h6>Impatiens</h6>
-              <img className={styles.plant_example_circle_image} src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Impatiens_walleriana_-_flower_view_02.jpg/1024px-Impatiens_walleriana_-_flower_view_02.jpg'alt='Impatients at Jericho Nursery in Albuquerque, New Mexico'/>
-            </div>
-            <div className={styles.plant_example_each}>
-              <h6>Calibrachoa</h6>
-              <img className={styles.plant_example_circle_image} src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/calibrachoa.jpg' alt='Calibrachoa at Jericho Nursery in Albuquerque, New Mexico'/>
-            </div>
-            <div className={styles.plant_example_each}>
-              <h6>Lobelia</h6>
-              <img className={styles.plant_example_circle_image} src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/lobelia.PNG' alt='Lobelia at Jericho Nursery in Albuquerque, New Mexico'/>
-            </div>
-            <div className={styles.plant_example_each}>
-              <h6>Sunflower</h6>
-              <img className={styles.plant_example_circle_image} src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/sunflower-1497092_1920.jpg' alt='Sunflowers at Jericho Nursery in Albuquerque, New Mexico'/>
+        <div className={styles.annual_catalog_sub_section}>
+            <h2 className={styles.annual_catalog_title}>Bedding Annuals</h2>
+            <div className={styles.catalog_cards}>
+              <PlantSlider plants={annualdata.bedding} />
             </div>
           </div>
+
+        <div className={styles.annual_catalog_sub_section}>
+            <h2 className={styles.annual_catalog_title}>Drought Tolerant Annuals</h2>
+            <div className={styles.catalog_cards}>
+              <PlantSlider plants={annualdata.droughttolerant} />
+            </div>
+          </div>
+
+        <div className={styles.annual_catalog_sub_section}>
+            <h2 className={styles.annual_catalog_title}>Shade Loving Annuals</h2>
+            <div className={styles.catalog_cards}>
+              <PlantSlider plants={annualdata.shadeloving} />
+            </div>
+          </div>
+        
+
+
+
 
           <div className={styles.annual_mid_page}>
             <Link className={styles.plant_catalog_link} href='xeric'>

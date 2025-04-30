@@ -116,6 +116,24 @@ font-weight: 700;
 }
 
 
+.perennial_catalog_sub_section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem 0rem;
+    padding: 1rem 0rem;
+    
+}
+
+
+.perennial_catalog_title{
+    font-size: 26pt;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+
 
 @media (min-width:825px) {
     .perennials_welcome h1{
@@ -141,6 +159,10 @@ font-weight: 700;
         font-size: 34pt;
         padding-bottom: 1.5rem;
     }
+    .perennial_catalog_title{
+        font-size: 32pt;
+    }
+
    
 }
 
@@ -186,17 +208,8 @@ font-weight: 700;
     .perennial_h3{
         padding-bottom: 1rem;
     }
-    .perennials_body p{
-        font-size: 18pt;
-    }
-    .perennials_body h2{
-        font-size: 38pt;
-    }
-    .perennials_body h3{
-        font-size: 40pt;
-        padding-bottom: 0rem;
-        margin-bottom: 0rem;
-    }
+
+
 
 
 }

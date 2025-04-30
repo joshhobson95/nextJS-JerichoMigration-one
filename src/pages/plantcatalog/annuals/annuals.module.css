@@ -55,7 +55,6 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 2rem;
     text-align: center;
 }
 .plant_examples_inner{
@@ -93,6 +92,7 @@
 }
 .annuals_body_bottom_text{
     text-align: left;
+    margin: 2rem;
 }
 .annual_mid_page{
     margin: 1.5rem
@@ -109,6 +109,26 @@ font-weight: 700;
     transition: 1s;
     color: #DBBA4B;
 }
+
+
+
+.annual_catalog_sub_section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem 0rem;
+    padding: 1rem 0rem;
+    
+}
+
+
+.annual_catalog_title{
+    font-size: 26pt;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
 
 
 
@@ -137,6 +157,10 @@ font-weight: 700;
         font-size: 34pt;
         padding-bottom: 1.5rem;
     }
+    .annual_catalog_title{
+        font-size: 32pt;
+    }
+
    
 }
 

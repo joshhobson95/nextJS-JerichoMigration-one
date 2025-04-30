@@ -561,12 +561,7 @@ const shadedata = {
       ],
 
       unique: [
-   
-  
-          
-  
-          
-       
+    
           {
             id: 51,
             name: "Mimosa",
@@ -579,10 +574,7 @@ const shadedata = {
             waterRequirement: "Medium Water",
             hardinessZones: '6-9',
             matureSize: "30' x 40'"
-          },
-          
-     
-          
+          },         
           {
             id: 46,
             name: "Japanese Pagoda Tree",
