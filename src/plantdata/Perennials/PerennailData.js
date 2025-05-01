@@ -2,37 +2,21 @@ const perennialdata = {
   bedding: [
     {
       id: 1,
-      name: "Allium",
-      scientificName: "Allium spp.",
+      name: "Red Valerian",
+      scientificName: "Centranthus ruber",
       image:
-        "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/allium-8108318_1920.jpg",
+        "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/perennials/red_valerian.jpg",
       description:
-        "Allium adds bold texture and visual interest to New Mexico gardens with its globe-shaped blooms and upright stems. These hardy ornamentals thrive in dry conditions and bloom in late spring, attracting bees and butterflies. Low-maintenance and drought-tolerant, alliums are perfect for borders, xeriscapes, and pollinator-friendly spaces. They also pair well with grasses and other perennials that like sun and space to grow.",
-      sunIcon:
-        "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/PartSun.png",
-      sunRequirement: "Partial Sun",
-      waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
-        waterRequirement: "Low Water",
-      hardinessZones: "4-9",
-      matureSize: `18" x 12"`,
-    },
-    {
-      id: 2,
-      name: "Peony",
-      scientificName: "Paeonia spp",
-      image:
-        "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/peony.jpg",
-      description:
-        "Peony offers lush, showy blooms in late spring that bring classic beauty and fragrance to New Mexico gardens. While not native to arid climates, peonies can thrive with well-drained soil, regular watering, and some afternoon shade. Their large, layered flowers attract pollinators and make stunning cut arrangements. Once established, they’re long-lived perennials that return reliably each year.",
+        "Red Valerian, or Centranthus ruber, is a vibrant, drought-tolerant perennial that thrives in New Mexico’s dry, sunny conditions. Its clusters of bright red, pink, or white flowers bloom from late spring to summer, attracting pollinators like bees and butterflies. Low-maintenance and resilient, red valerian is perfect for xeriscapes, rock gardens, and along ",
         sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
         sunRequirement: "Full Sun",
-      waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
-      waterRequirement: "Medium Water",
-      hardinessZones: "3-8",
-      matureSize: `30" x 30"`,
+      waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
+      waterRequirement: "Low Water",
+      hardinessZones: "4-9",
+      matureSize: `20" x 20"`,
     },
+ 
    
-
     {
       id: 3,
       name: "Black Eyed Susan",
@@ -124,7 +108,6 @@ const perennialdata = {
         matureSize: `8" x 8"`,
         native: false
       },
-  
     {
       id: 9,
       name: "Bee Balm",
@@ -156,21 +139,7 @@ const perennialdata = {
       hardinessZones: "3-9",
       matureSize: `30" x 20"`,
     },
-    {
-      id: 11,
-      name: "Red Valerian",
-      scientificName: "Centranthus ruber",
-      image:
-        "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/perennials/red_valerian.jpg",
-      description:
-        "Red Valerian, or Centranthus ruber, is a vibrant, drought-tolerant perennial that thrives in New Mexico’s dry, sunny conditions. Its clusters of bright red, pink, or white flowers bloom from late spring to summer, attracting pollinators like bees and butterflies. Low-maintenance and resilient, red valerian is perfect for xeriscapes, rock gardens, and along ",
-        sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-        sunRequirement: "Full Sun",
-      waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
-      waterRequirement: "Low Water",
-      hardinessZones: "4-9",
-      matureSize: `20" x 20"`,
-    },
+
  
   ],
 
@@ -239,7 +208,7 @@ const perennialdata = {
       image:
         "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/perennials/meadow_sage.jpg",
       description:
-        "Meadow Sage, or Salvia pratensis, is a hardy perennial known for its spikes of vibrant purple, blue, or pink flowers that bloom in late spring to early summer. This drought-tolerant plant thrives in New Mexico’s sunny, dry climate, attracting pollinators like bees and butterflies. With minimal care, meadow sage adds color and texture to garden beds, borders, and xeriscapes.",
+        "Meadow Sage, or Midnight Salvia, is a hardy perennial known for its spikes of vibrant purple, blue, or pink flowers that bloom in late spring to early summer. This drought-tolerant plant thrives in New Mexico’s sunny, dry climate, attracting pollinators like bees and butterflies. With minimal care, meadow sage adds color and texture to garden beds, borders, and xeriscapes.",
         sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
         sunRequirement: "Full Sun",
       waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
@@ -387,6 +356,19 @@ const perennialdata = {
         waterRequirement: "Low Water",
         hardinessZones: "6-9",
         matureSize: "2' x 3'",
+      },
+      {
+        id: 33,
+        name: "English Lavendar",
+        scientificName: "Lavandula angustifolia",
+        image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/lavender-4348354_1920.jpg",
+        description: "English lavender thrives in New Mexico’s dry, sunny climate, making it a perfect choice for low-water gardens. This fragrant, drought-tolerant herb prefers well-draining soil and full sun, producing purple blooms that attract bees and butterflies. Once established, it requires minimal watering and resists deer and pests. Its aromatic flowers can be used for culinary, medicinal, or decorative purposes, adding both beauty and function to any garden.",
+        sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+        sunRequirement: "Full Sun",
+        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/LowestWater.png",
+        waterRequirement: "Low Water",
+        hardinessZones: "5-9",
+        matureSize: "1.5' x 1.5'",
       },
   ],
   shadeloving: [

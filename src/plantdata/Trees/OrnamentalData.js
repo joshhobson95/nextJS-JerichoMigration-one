@@ -331,6 +331,20 @@ const ornamentaldata = {
             native: false
         },
         {
+            id: 60,
+            name: "Desert Willow",
+            scientificName: "Chilopsis linearis",
+            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/trees/Chilopsis.jpg",
+            description: "Desert Willow is a native southwestern tree, thriving in New Mexico’s arid climate. Unlike Chitalpa, a hybrid with Northern Catalpa, Desert Willow occurs naturally and is well-adapted to heat and drought. Its showy pink to purple trumpet-shaped flowers bloom from late spring to summer, attracting hummingbirds and pollinators. With slender, green leaves and a graceful, weeping form, it provides light shade without overwhelming nearby plants. Drought-tolerant and low-maintenance, it’s a perfect choice for water-wise landscapes.",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+            sunRequirement: "Full Sun",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
+            waterRequirement: "Low Water",
+            hardinessZones: "7-11",
+            matureSize: "25' x 15'",
+            native: true
+          },
+        {
             id: 24,
             name: "Southern Magnolia",
             scientificName: "Magnolia grandiflora",
@@ -416,20 +430,7 @@ const ornamentaldata = {
             matureSize: "15' x 20'",
             native: true
           },
-          {
-            id: 22,
-            name: "Japanese Maple",
-            scientificName: "Acer palmatum",
-            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/Maple.jpg",
-            description: "The Japanese Maple is a small to medium-sized stunning deciduous tree known for its delicate, deeply lobed leaves and amazing fall colors. It thrives in temperate climates and is often used in ornamental landscapes. In Albuquerque, Japanese Maples MUST HAVE full shade and lots of care and attention. It can easily burn in the New Mexico sun and must be kept out of the western afternoon light, especially during summer months. Adventurous Albuquerque gardeners may try this ornamental tree in a large pot where it can be sequestered from the sun, or in a very shady eastern-facing courtyard.",
-            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Cloudy.png",
-            sunRequirement: "Full Shade",
-            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/High-water.png",
-            waterRequirement: "High Water",
-            hardinessZones: "5-8",
-            matureSize: "15' x 20'",
-            native: false
-          },  
+  
 
 
           

@@ -2,10 +2,10 @@ const shadedata = {
     ash: [
       {
         id: 1,
-        name: "Arizona Ash",
+        name: "Modesto Ash",
         scientificName: "Fraxinus velutina",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Fraxinus-velutina-20080402.JPG/640px-Fraxinus-velutina-20080402.JPG",
-        description: "The Arizona Ash is a fast-growing deciduous tree native to the southwestern United States and parts of Mexico. A male tree produces small flowers in the spring and a female produces winged fruit resembling a maple as shown above. The tree features a rounded canopy with deep green leaves that turn bright golden-yellow in the fall.",
+        description: "The Modesto Ash is a fast-growing deciduous tree native to the southwestern United States and parts of Mexico. A male tree produces small flowers in the spring and a female produces winged fruit resembling a maple as shown above. The tree features a rounded canopy with deep green leaves that turn bright golden-yellow in the fall.",
         sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
@@ -16,29 +16,15 @@ const shadedata = {
       },
       {
         id: 2,
-        name: "Raywood Ashe",
+        name: "Raywood Ash",
         scientificName: "Fraxinus oxycarpa",
-        image: "https://jfschmidt.com/wp-content/uploads/2023/03/fraxinus-raywood-web-01.jpg",
+        image: "https://jfschmidt.com/wp-content/uploads/2023/03/fraxinus-raywood-web-02.jpg",
         description: "The Raywood Ash is a beautiful deciduous tree known for its rich red-purple foliage in the fall. It grows rapidly and is often used for shade in residential and urban areas. This tree can reach impressive heights and provides a dense canopy, offering excellent shade in the warmer months. The Raywood Ash is highly sought after here at Jericho Nursery.",
         sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
         waterRequirement: "Medium Water",
         hardinessZones: "5-9",
-        matureSize: "45' x 30'",
-        native: false
-      },
-      {
-        id: 3,
-        name: "Urbanite Ash",
-        scientificName: "Fraxinus americana",
-        image: "https://jfschmidt.com/wp-content/uploads/2023/03/fraxinus-urbanite-web-01.jpg",
-        description: "Urbanite Ash is a fast-growing deciduous tree highly valued for its uniform shape and strong, upright growth. Due to its tolerance to pollution and compact soil, this tree is particularly suited for urban environments, such as downtown Albuquerque. It's an excellent choice for street plantings and urban parks, where space is limited but shade is needed.",
-        sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
-        sunRequirement: "Full Sun",
-        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
-        waterRequirement: "Medium Water",
-        hardinessZones: "4-9",
         matureSize: "45' x 30'",
         native: false
       },
@@ -182,6 +168,20 @@ const shadedata = {
     ],
 
     willow: [
+      {
+        id: 51,
+        name: "Desert Willow",
+        scientificName: "Chilopsis linearis",
+        image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/trees/Chilopsis.jpg",
+        description: "Desert Willow is a native southwestern tree, thriving in New Mexico’s arid climate. Unlike Chitalpa, a hybrid with Northern Catalpa, Desert Willow occurs naturally and is well-adapted to heat and drought. Its showy pink to purple trumpet-shaped flowers bloom from late spring to summer, attracting hummingbirds and pollinators. With slender, green leaves and a graceful, weeping form, it provides light shade without overwhelming nearby plants. Drought-tolerant and low-maintenance, it’s a perfect choice for water-wise landscapes.",
+        sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+        sunRequirement: "Full Sun",
+        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
+        waterRequirement: "Low Water",
+        hardinessZones: "7-11",
+        matureSize: "25' x 15'",
+        native: true
+      },
         {
             id: 16,
             name: "Globe Willow",
@@ -291,7 +291,21 @@ const shadedata = {
             hardinessZones: "3-9",
             matureSize: "25' x 15'",
             native: true
-          }
+          },
+          {
+            id: 22,
+            name: "Japanese Maple",
+            scientificName: "Acer palmatum",
+            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/Maple.jpg",
+            description: "The Japanese Maple is a small to medium-sized stunning deciduous tree known for its delicate, deeply lobed leaves and amazing fall colors. It thrives in temperate climates and is often used in ornamental landscapes. In Albuquerque, Japanese Maples MUST HAVE full shade and lots of care and attention. It can easily burn in the New Mexico sun and must be kept out of the western afternoon light, especially during summer months. Adventurous Albuquerque gardeners may try this ornamental tree in a large pot where it can be sequestered from the sun, or in a very shady eastern-facing courtyard.",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Cloudy.png",
+            sunRequirement: "Full Shade",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/High-water.png",
+            waterRequirement: "High Water",
+            hardinessZones: "5-8",
+            matureSize: "15' x 20'",
+            native: false
+          },  
           
           
       ],
