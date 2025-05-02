@@ -153,6 +153,20 @@ const annualdata = {
             matureSize: `24" x 12"`,
             native: false
           },
+          {
+            id: 40,
+            name: "Hollyhock",
+            scientificName: "Alcea rosea",
+            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/annuals/hollyhock-843453_1280.jpg",
+            description: "Hollyhock is a tall, striking biennial or short-lived perennial known for its dramatic spires of large, colorful flowers. Blooming from mid to late summer, hollyhocks attract pollinators like bees and hummingbirds. While it can tolerate some drought, it performs best with moderate watering and benefits from rich, well-drained soil. It thrives in full sun and adds a classic cottage-garden look to xeric or traditional landscapes in New Mexico.",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+            sunRequirement: "Full Sun",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
+            waterRequirement: "Medium Water",
+            hardinessZones: "3-9",
+            matureSize: "7' x 3'",
+          }
+          
 
     ],
 

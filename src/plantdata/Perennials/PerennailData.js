@@ -126,7 +126,7 @@ const perennialdata = {
     },
     {
       id: 10,
-      name: "Coneflowers",
+      name: "Coneflower",
       scientificName: "Echinacea purpurea",
       image:
         "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/perennials/coneflower.jpg",
@@ -158,6 +158,33 @@ const perennialdata = {
         matureSize: "2' x 2'",
         native: false
       },
+      {
+        id: 39,
+        name: "Mexican Hyssop",
+        scientificName: "Agastache mexicana",
+        image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/shrubs/Agastache_rupestre.jpg",
+        description: "Mexican hyssop is a vibrant, drought-tolerant perennial that thrives in New Mexico’s dry climate. Known for its clusters of tubular, purple to orange flowers, it attracts hummingbirds and butterflies throughout the summer. This herbaceous plant prefers full sun and well-draining soil, requiring minimal water once established. With its aromatic foliage and ability to tolerate heat, Mexican hyssop is an excellent choice for xeriscaping, pollinator gardens, or adding color and texture to low-water landscapes.",
+        sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+        sunRequirement: "Full Sun",
+        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
+        waterRequirement: "Low Water",
+        hardinessZones: "5-10",
+        matureSize: "4' x 2'",
+      },
+      {
+        id: 41,
+        name: "Chocolate Flower",
+        scientificName: "Berlandiera lyrata",
+        image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/perennials/640px-Kaldari_Berlandiera_lyrata_01.jpg",
+        description: "Chocolate flower is a low-water, heat-loving perennial native to the Southwest. It produces bright yellow, daisy-like blooms with a rich chocolate scent, especially strong in the morning sun. Blooming from spring through fall, this wildflower is ideal for pollinator gardens and xeriscapes. It thrives in full sun, tolerates poor soils, and requires minimal watering once established—making it perfect for New Mexico landscapes.",
+        sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+        sunRequirement: "Full Sun",
+        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
+        waterRequirement: "Low Water",
+        hardinessZones: "4-10",
+        matureSize: "1' x 1'",
+      },
+      
       {
         id: 13,
         name: "Speedwell",
@@ -289,10 +316,10 @@ const perennialdata = {
       },
     {
         id: 22,
-        name: "Firewheel",
+        name: "Native Blanket Flowoer",
         scientificName: "Gaillardia pulchella",
         image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/indian-blanket-9063340_1920.jpg",
-        description: "Firewheel, also known as blanket flower, is a hardy, drought-tolerant perennial that thrives in New Mexico’s arid climate. With its striking, daisy-like flowers in vibrant red, orange, and yellow, Firewheel blooms from spring to fall, adding a burst of color to gardens. It prefers full sun and well-draining soil, making it ideal for xeriscaping, wildflower meadows, and rock gardens. Once established, Firewheel is low-maintenance and requires minimal water, while also attracting pollinators like bees and butterflies.",
+        description: "Native Blanket Flower, also known as Firewheel, is a hardy, drought-tolerant perennial that thrives in New Mexico’s arid climate. With its striking, daisy-like flowers in vibrant red, orange, and yellow, Native Blanket Flower blooms from spring to fall, adding a burst of color to gardens. It prefers full sun and well-draining soil, making it ideal for xeriscaping, wildflower meadows, and rock gardens. Once established, Native Blanket Flower is low-maintenance and requires minimal water, while also attracting pollinators like bees and butterflies.",
         sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
         sunRequirement: "Full Sun",
         waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
@@ -301,6 +328,20 @@ const perennialdata = {
         matureSize: `18" x 8"`,
         native: false
       },
+      {
+        id: 60,
+        name: "Provence Lavender",
+        scientificName: "Lavandula x intermedia 'Provence'",
+        image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/perennials/bee-8088407_1280.jpg",
+        description: "Provence lavender is a fragrant, drought-tolerant shrub prized for its long spikes of purple flowers and silver-green foliage. Blooming from late spring to early summer, it attracts bees and butterflies while adding a calming scent to the garden. Ideal for xeriscaping in New Mexico, it thrives in full sun and well-drained soils, requiring minimal water once established. Its compact, mounded form makes it suitable for borders, herb gardens, and decorative dry landscapes.",
+        sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+        sunRequirement: "Full Sun",
+        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
+        waterRequirement: "Low Water",
+        hardinessZones: "5-9",
+        matureSize: "2' x 2'",
+      },
+      
     {
         id: 23,
         name: "Chrysanthemum",
@@ -315,7 +356,33 @@ const perennialdata = {
         matureSize: "2' x 3'",
         native: false
       },
-
+      {
+        id: 61,
+        name: "New Mexico Primrose",
+        scientificName: "Oenothera berlandieri",
+        image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/perennials/Oenothera_berlandieri.jpg",
+        description: "New Mexico primrose is a tough, drought-tolerant perennial native to the Southwest. It produces bright yellow, cup-shaped flowers that open in the evening and close by midday. The narrow, jagged leaves form a low mat that spreads easily, making it ideal as a groundcover in sunny, dry areas. Well-suited for xeriscaping, this wildflower thrives in full sun and well-drained soil, blooming from spring through fall with minimal water.",
+        sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+        sunRequirement: "Full Sun",
+        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
+        waterRequirement: "Low Water",
+        hardinessZones: "4-9",
+        matureSize: `10" x 18"`,
+      },
+      {
+        id: 62,
+        name: "Gray Creeping Germander",
+        scientificName: "Teucrium aroanium",
+        image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/perennials/Teucrium_aroanium_-_San_Luis_Obispo_Botanical_Garden_-_DSC05878.jpg",
+        description: "Gray Creeping germander is a low-growing, evergreen shrub that forms a dense mat of silvery-gray, aromatic foliage. It blooms in late spring to early summer with spikes of small, pink to purple flowers that attract pollinators like bees and butterflies. This drought-tolerant plant is perfect for xeriscaping and ground covers in New Mexico, thriving in full sun and well-drained soils. It requires minimal water once established and adds both texture and color to dry, rocky landscapes.",
+        sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+        sunRequirement: "Full Sun",
+        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
+        waterRequirement: "Low Water",
+        hardinessZones: "5-9",
+        matureSize: `10" x 12-"`,
+      },
+      
     {
         id: 24,
         name: "Coreopsis",

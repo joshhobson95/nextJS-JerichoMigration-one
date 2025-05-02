@@ -379,6 +379,20 @@ const floweringshrubdata = {
           hardinessZones: "5-9",
           matureSize: "3' x 3'",
         },
+        {
+          id: 60,
+          name: "Provence Lavender",
+          scientificName: "Lavandula x intermedia 'Provence'",
+          image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/perennials/bee-8088407_1280.jpg",
+          description: "Provence lavender is a fragrant, drought-tolerant shrub prized for its long spikes of purple flowers and silver-green foliage. Blooming from late spring to early summer, it attracts bees and butterflies while adding a calming scent to the garden. Ideal for xeriscaping in New Mexico, it thrives in full sun and well-drained soils, requiring minimal water once established. Its compact, mounded form makes it suitable for borders, herb gardens, and decorative dry landscapes.",
+          sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+          sunRequirement: "Full Sun",
+          waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
+          waterRequirement: "Low Water",
+          hardinessZones: "5-9",
+          matureSize: "2' x 2'",
+        },
+        
       ],
       
       roseofsharons: [

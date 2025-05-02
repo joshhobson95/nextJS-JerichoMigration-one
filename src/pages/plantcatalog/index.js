@@ -75,7 +75,7 @@ function PlantCatalog() {
 <Link href='plantcatalog/perennials'>
 <article className={styles.plant_category}>
 <div className={styles.plant_image_container}>
-    <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/penstemon-4925491_1920.jpg' alt='Perrenial plants available at Jericho Nursery in Albuquerque, New Mexico'/>
+    <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/chrysanthemums-3780098_1920.jpg' alt='Perrenial plants available at Jericho Nursery in Albuquerque, New Mexico'/>
     </div>
     <div className={styles.plant_text}>
      <h2>Perennials</h2>

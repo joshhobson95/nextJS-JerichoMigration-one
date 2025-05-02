@@ -342,6 +342,33 @@ const xericbedding =
             hardinessZones: "5-10",
             matureSize: "4' x 2'",
           },
+          {
+            id: 61,
+            name: "New Mexico Primrose",
+            scientificName: "Oenothera berlandieri",
+            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/perennials/Oenothera_berlandieri.jpg",
+            description: "New Mexico primrose is a tough, drought-tolerant perennial native to the Southwest. It produces bright yellow, cup-shaped flowers that open in the evening and close by midday. The narrow, jagged leaves form a low mat that spreads easily, making it ideal as a groundcover in sunny, dry areas. Well-suited for xeriscaping, this wildflower thrives in full sun and well-drained soil, blooming from spring through fall with minimal water.",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+            sunRequirement: "Full Sun",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
+            waterRequirement: "Low Water",
+            hardinessZones: "4-9",
+            matureSize: `10" x 18"`,
+          },
+          {
+            id: 62,
+            name: "Gray Creeping Germander",
+            scientificName: "Teucrium aroanium",
+            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/perennials/Teucrium_aroanium_-_San_Luis_Obispo_Botanical_Garden_-_DSC05878.jpg",
+            description: "Gray Creeping germander is a low-growing, evergreen shrub that forms a dense mat of silvery-gray, aromatic foliage. It blooms in late spring to early summer with spikes of small, pink to purple flowers that attract pollinators like bees and butterflies. This drought-tolerant plant is perfect for xeriscaping and ground covers in New Mexico, thriving in full sun and well-drained soils. It requires minimal water once established and adds both texture and color to dry, rocky landscapes.",
+            sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+            sunRequirement: "Full Sun",
+            waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
+            waterRequirement: "Low Water",
+            hardinessZones: "5-9",
+            matureSize: `10" x 12-"`,
+          },
+          
     ],
     groundcovers: [
         {
