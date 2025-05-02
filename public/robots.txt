@@ -1,6 +1,42 @@
 # *
 User-agent: *
+Disallow: /
+
+# Googlebot
+User-agent: Googlebot
 Allow: /
+
+# Bingbot
+User-agent: Bingbot
+Allow: /
+
+# Slurp
+User-agent: Slurp
+Allow: /
+
+# DuckDuckBot
+User-agent: DuckDuckBot
+Allow: /
+
+# AhrefsBot
+User-agent: AhrefsBot
+Disallow: /
+
+# SemrushBot
+User-agent: SemrushBot
+Disallow: /
+
+# MJ12bot
+User-agent: MJ12bot
+Disallow: /
+
+# baidu
+User-agent: baidu
+Disallow: /
+
+# YandexBot
+User-agent: YandexBot
+Disallow: /
 
 # Host
 Host: https://www.jerichonursery.com/

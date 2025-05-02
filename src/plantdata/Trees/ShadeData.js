@@ -61,6 +61,20 @@ const shadedata = {
     ],
   
     cottonwood: [
+      {
+        id: 12,
+        name: "Valley Cottonwood (Wenzei)",
+        scientificName: "Populus fremontii ssp. wenzellii",
+        image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/cottonwood.jpg",
+        description: "The Valley Cottonwood, or Wenzei, is a Southwestern native with a broad heart-shaped leaf and an upright, rounded growth form. This fast-growing riparian tree thrives in river valleys and floodplains, offering lush summer foliage and golden fall color. Its slightly more compact size and leathery leaves make it suitable for Albuquerque’s climate if planted near irrigation or along natural water features. It supports pollinators and offers valuable shade and habitat in regional ecosystems.",
+        sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+        sunRequirement: "Full Sun",
+        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/High-water.png",
+        waterRequirement: "High Water",
+        hardinessZones: "5-9",
+        matureSize: "60' x 45'",
+        native: true
+      }, 
         {
             id: 7,
             name: "Rio Grande Cottonless Cottonwood",
@@ -103,7 +117,6 @@ const shadedata = {
         matureSize: "70' x 50'",
         native: true
       },
-
       {
         id: 11,
         name: "Jeronimus Sargent Cottonwood",
@@ -121,6 +134,34 @@ const shadedata = {
     ],
   
     elm: [
+      {
+        id: 40,
+        name: "Accolade Elm",
+        scientificName: "Ulmus 'Morton'",
+        image: "https://jfschmidt.com/wp-content/uploads/2023/02/ulmus-accolade-web-01.jpg",
+        description: "The Accolade Elm is a hybrid elm known for its graceful vase shape, glossy dark green leaves, and strong resistance to Dutch elm disease. Furthermore, this elm has been cultivated to spread very little elm seeds while retaining its fast growth rate, making it a great choice for quick shade in your yard or garden. It tolerates heat, drought, and alkaline soils, while offering stunning yellow fall foliage and arching branches that provide ample shade. ",
+        sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+        sunRequirement: "Full Sun",
+        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Medium-water.png",
+        waterRequirement: "Medium Water",
+        hardinessZones: "4-9",
+        matureSize: "70' x 60'",
+        native: false
+      },
+      {
+        id: 14,
+        name: "Emerald Sunshine Elm",
+        scientificName: "Ulmus propinqua 'JFS-Bieberich'",
+        image: "https://jfschmidt.com/wp-content/uploads/2023/03/ulmus-emeraldsunshine-web-01.jpg",
+        description: "The Emerald Sunshine Elm is a compact, drought-tolerant elm with a sturdy structure and excellent pest resistance. Its thick, sandpapery leaves emerge with a reddish tint in spring, mature to rich green in summer, and turn yellow to bronze in fall. This tree was bred for resilience in tough climates, making it a strong performer in Albuquerque landscapes. Its smaller size, tolerance to heat, wind, and urban conditions, and freedom from elm diseases make it an ideal shade tree for smaller yards and street plantings. Also a huge plus, low elm seeds.",
+        sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+        sunRequirement: "Full Sun",
+        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
+        waterRequirement: "Low Water",
+        hardinessZones: "5-9",
+        matureSize: "35' x 25'",
+        native: false
+      },
       {
         id: 12,
         name: "Frontier Elm",

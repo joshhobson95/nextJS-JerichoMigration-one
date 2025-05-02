@@ -122,6 +122,33 @@ function Cacti() {
             <li><strong>Modifications:</strong> Resized and cropped into a circular frame</li>
           </ul>
         </div>
+
+        <div className="single_attribution">
+          <span><strong>Yellow Yucca Image</strong></span>
+          <ul>
+            <li><strong>Title:</strong> <em>Hesperaloe (Agavaceae) Hesperaloe parviflora fh 427.35 TX Kulturpflanze selten gelbblühend.jpg</em></li>
+            <li>
+              <strong>Photographer:</strong>{" "}
+              <a href="https://de.wikipedia.org/wiki/Benutzer:Rebou" target="_blank" rel="noopener noreferrer">
+              Fritz Hochstätter
+              </a>
+            </li>
+            <li>
+              <strong>Source:</strong>{" "}
+              <a href="https://commons.wikimedia.org/wiki/File:Hesperaloe_(Agavaceae)_Hesperaloe_parviflora_fh_427.35_TX_Kulturpflanze_selten_gelbbl%C3%BChend.jpg" target="_blank" rel="noopener noreferrer">
+                Wikimedia Commons
+              </a>
+            </li>
+            <li>
+              <strong>License:</strong>{" "}
+              <a href="https://creativecommons.org/licenses/by-sa/3.0/de/deed.en" target="_blank" rel="noopener noreferrer">
+                CC BY-SA 3.0 DE
+              </a>
+            </li>
+            <li><strong>Modifications:</strong> Resized and cropped into a circular frame</li>
+          </ul>
+        </div>
+
           <div className="single_attribution">
           <span><strong>Navajo Yucca Image</strong></span>
           <ul>

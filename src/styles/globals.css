@@ -919,299 +919,201 @@ transform: translateX(-100%);
 
 
   /* GALLERIES */
-  .h_carousel{
-    height: auto;
-    background-color: #295e57c4;
-    margin-top: 10rem;
-    color: white;
-   padding-bottom: 7vh; 
-}
-.home_gallery_card{
-    margin-top: 2rem;
-    display: flex;
-}
-.h_carousel h2{
-    font-size: 30pt;
-    font-weight: 800;
-    padding: 2rem;
-    text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
-    color: #95d87c;
-}
-.home_photo_gallery_container{
-    height: 35rem;
-    width: auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-.home_gallery_photo{
-    height: 31rem;
-    width: 85vw;
-    object-fit: cover;
-    align-self: center;
-    -webkit-box-shadow:0px 0px 30px 0px rgba(204,183,130,0.91);
-    -moz-box-shadow: 0px 0px 30px 0px rgba(204,183,130,0.91);
-    box-shadow: 0px 0px 30px 0px rgba(204,183,130,0.91);
-}
-.slick-list img{
-    border-radius: 12px;
-    margin-bottom: 2rem;
+  /* Base Carousel Containers */
+.h_carousel,
+.h2_carousel {
+  height: auto;
+  margin-top: 10rem;
+  color: white;
+  padding-bottom: 7vh;
+  background-color: #295e57c4; /* h_carousel */
 }
 
- 
-  .photo_name{
-    align-self: center;
-    padding: 1rem;
-    font-size: 18pt;
-    font-weight: 800;
+.h2_carousel {
+  background: rgb(29, 104, 81);
+  padding-bottom: 12vh;
+}
+
+/* Headings */
+.h_carousel h2,
+.h2_carousel h2 {
+  font-size: 30pt;
+  font-weight: 800;
+  padding: 2rem;
+  text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+               0px -5px 35px rgba(255,255,255,0.3);
+  color: #95d87c; /* h_carousel */
+}
+
+.h2_carousel h2 {
+  text-shadow: 0 0 10px #ffffff;
+  color: #102758;
+}
+
+/* Gallery Card & Container */
+.home_gallery_card {
+  margin-top: 2rem;
+  display: flex;
+}
+
+.home_photo_gallery_container {
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+}
+
+/* Images */
+.home_gallery_photo {
+  height: 31rem;
+  width: 85vw;
+  object-fit: cover;
+  align-self: center;
+  box-shadow: 0 0 30px 0 rgba(204,183,130,0.91);
+}
+
+.h2_carousel .home_gallery_photo {
+  box-shadow: 0 0 30px 0 rgba(18,144,167,0.91);
+}
+
+/* Slick Slider Overrides */
+.slick-list img {
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+.slick-dots {
+  bottom: -60px;
+}
+
+.slick-dots li {
+  /* default no extra padding */
+}
+
+.slick-active {
+  color: #DBBA4B;
+}
+
+/* Photo Captions */
+.photo_name {
+  align-self: center;
+  padding: 1rem;
+  font-size: 18pt;
+  font-weight: 800;
+}
+
+/* Custom Arrows */
+.sliderWrapper .custom-arrow {
+  all: unset;
+  position: absolute;
+  top: 0%;
+  transform: translateY(-50%);
+  z-index: 10;
+  font-size: 2rem;
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.sliderWrapper .prev-arrow { left: 0; }
+.sliderWrapper .next-arrow { right: 0; }
+
+/* Misc */
+.h_container_ul {
+  top: -90px;
+}
+
+/* -----------------------------------
+   Responsive Breakpoints
+   (min-width ascending order)
+-------------------------------------*/
+@media (min-width: 851px) {
+  .home_gallery_photo {
+    width: 45vw;
   }
 
-  .slick-dots {
-    bottom: -60px;
-  }
-
-
-  .slick-active{
-    color: #DBBA4B;
-  }
-
-  .sliderWrapper .custom-arrow {
-    all: unset; /* strip everything */
-    position: absolute;
-    top: 0%;
-    transform: translateY(-50%);
-    z-index: 10;
-    font-size: 2rem;
-    color: white;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    cursor: pointer;
-  }
-  
-  /* Position left & right arrows */
-  .sliderWrapper .prev-arrow {
-    left: 0px;
-  }
-  .sliderWrapper .next-arrow {
-    right: 0px;
-  }
-
-  
-
-  
-
-
-
-
-  @media (min-width:851px) { 
-    .home_gallery_photo{
-      width: 45vw;
-      object-fit: cover;
-  }
-  .h_carousel h2{
+  .h_carousel h2,
+  .h2_carousel h2 {
     font-size: 50pt;
   }
-  #flower-dot{
+
+  #flower-dot {
     font-size: 14pt;
   }
-  }
-  @media (min-width:1024px) { 
-    #flower-dot{
-      font-size: 20pt;
-    }
-    .slick-dots li {
-      padding: 0rem 0.5rem;
-    }
-    .slick-dots {
-
-      bottom: -50px;
-    }
-  }
-
-
-  @media (min-width:1481px) { 
-    .h_carousel{
-        align-self: center;
-        width: 100%;
-    }
-
-    .home_gallery_photo{
-        height: 31rem;
-        width: 40rem;
-        object-fit: cover;
-    }
-    .h_carousel h2{
-        font-size: 50pt;
-        font-weight: 800;
-        padding: 2rem;
-    }
-  }
-
-
-  
-  @media (min-width:1650px) {
-    .home_gallery_photo{
-      height: 35rem;
-      width: 50rem;
-      object-fit: cover;
-  }
-  .home_photo_gallery_container{
-    height: auto;
-}
-  }
-
-  @media (min-width:2030px) {
-        .home_gallery_photo{
-      height: 36rem;
-      width: 40rem;
-      object-fit: cover;
-  }
-  .home_photo_gallery_container{
-    height: 38rem;
-}
-  }
-
-
-  .h2_carousel{
-    height: auto;
-    background: rgb(29, 104, 81);
-    margin-top: 10rem;
-    color: white;
-   padding-bottom: 12vh; 
-}
-.home_gallery_card{
-    margin-top: 2rem;
-    display: flex;
-}
-.h2_carousel h2{
-    font-size: 30pt;
-    font-weight: 800;
-    padding: 2rem;
-    text-shadow: 0 0 10px #FFFFFF;
-    color: #102758;
-
-
-
-
-}
-.home_photo_gallery_container{
-    height: 35rem;
-    width: auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-.home_gallery_photo{
-    height: 31rem;
-    width: 85vw;
-    object-fit: cover;
-    align-self: center;
-    -webkit-box-shadow:0px 0px 30px 0px rgba(204,183,130,0.91);
-    -moz-box-shadow: 0px 0px 30px 0px rgba(204,183,130,0.91);
-    box-shadow: 0px 0px 30px 0px rgba(18, 144, 167, 0.91);
-}
-.slick-list img{
-    border-radius: 12px;
-    margin-bottom: 2rem;
 }
 
-  .slick-active{
-    color: #DBBA4B;
+@media (min-width: 1024px) {
+  #flower-dot {
+    font-size: 20pt;
   }
+
   .slick-dots {
     bottom: -50px !important;
   }
 
-  .photo_name{
+  .slick-dots li {
+    padding: 0 0.5rem;
+  }
+}
+
+@media (min-width: 1481px) {
+  .h_carousel,
+  .h2_carousel {
+    width: 100%;
     align-self: center;
-    padding: 1rem;
   }
 
-  .h_container_ul{
- top: -90px;
+  .home_gallery_photo {
+    /* only change for h_carousel */
+    width: 40rem;
+    height: 31rem;
+  }
+
+  .h2_carousel .home_gallery_photo {
+    /* inherits box-shadow only */
+  }
 }
 
 
 
-  
 
-
-
-
-
-
-  @media (min-width:851px) { 
-    .home_gallery_photo{
-      width: 45vw;
-      object-fit: cover;
-  }
-  .h2_carousel h2{
-    font-size: 50pt;
-  }
-  #flower-dot{
-    font-size: 14pt;
-  }
-  }
-  @media (min-width:1024px) { 
-    #flower-dot{
-      font-size: 20pt;
-    }
-    .slick-dots li {
-      padding: 0rem 0.5rem;
-    }
-
+@media (min-width: 1650px) {
+  .home_gallery_photo {
+    width: 50rem;
+    height: 35rem;
   }
 
-
-  @media (min-width:1481px) { 
-    .h2_carousel{
-        align-self: center;
-        width: 100%;
-    }
-
-    .home_gallery_photo{
-        height: 31rem;
-        width: 40rem;
-        object-fit: cover;
-    }
-    .h2_carousel h2{
-        font-size: 50pt;
-        font-weight: 800;
-        padding: 2rem;
-    }
-  }
-
-
-  
-  @media (min-width:1650px) {
-    .home_gallery_photo{
-      height: 35rem;
-      width: 50rem;
-      object-fit: cover;
-  }
-  .home_photo_gallery_container{
+  .home_photo_gallery_container {
     height: auto;
+  }
 }
+
+@media (min-width: 2030px) {
+  .home_gallery_photo {
+    width: 40rem;
+    height: 36rem;
   }
 
-  @media (min-width:2030px) {
-        .home_gallery_photo{
-      height: 36rem;
-      width: 40rem;
-      object-fit: cover;
-  }
-  .home_photo_gallery_container{
+  .home_photo_gallery_container {
     height: 38rem;
-}
   }
+}
+
+
+
+
+/* MORE HOME CSS GLOBAL HOME HERE */
 
 .h2_container_ul{
 position: absolute;
 top: -90px;
 }
+
 
 .home_container_outer{
     display: flex;
@@ -1318,13 +1220,12 @@ box-shadow: 0px 0px 47px 5px rgba(219,185,75,0.52);
     .home_sale_card{
         max-width: 700px;
     }
-    
-    
+  
      }
 
 
 
-/* MORE HOME CSS GLOBAL HOME HERE */
+
 .home{
   background-image: linear-gradient(#4FA673, #DBBA4B , #FB492C87) ;
   height: auto;

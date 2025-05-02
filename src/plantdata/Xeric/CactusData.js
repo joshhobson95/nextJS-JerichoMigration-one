@@ -245,6 +245,20 @@ const cactusdata =
         native: false
     },
     {
+        id: 15,
+        name: "Yellow Yucca",
+        scientificName: "Hesperaloe parviflora 'Yellow'",
+        image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/cactus/640px-Hesperaloe_(Agavaceae)_Hesperaloe_parviflora_fh_427.35_TX_Kulturpflanze_selten_gelbbl%C3%BChend.jpg",
+        description: "The Yellow Yucca is a rare and striking variant of the classic Red Yucca, prized for its elegant arching flower stalks that bloom with bright yellow flowers from late spring through summer. Like its red counterpart, it's extremely drought-tolerant, cold-hardy, and thrives in full sun with minimal care. The evergreen, grass-like foliage stays neat year-round, making it a standout in xeriscapes, rock gardens, or as a bold accent near pathways or driveways in New Mexico landscapes.",
+        sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
+        sunRequirement: "Full Sun",
+        waterIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/Low-water.png",
+        waterRequirement: "Low Water",
+        hardinessZones: "5-10",
+        matureSize: "3' x 5'",
+        native: true
+      },
+    {
         id: 17,
         name: "Navajo Yucca",
         scientificName: "Yucca baccata",

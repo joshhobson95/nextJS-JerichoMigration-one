@@ -80,7 +80,7 @@ function Gallery2() {
               <div className="home_photo_gallery_container">
                 <img
                   src={item.img_url}
-                  className="home_gallery_photo"
+                  className="home_gallery_photo h2_photo"
                   alt={item.alt_text}
                   title={item.name}
                 />

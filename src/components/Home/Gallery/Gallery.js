@@ -50,18 +50,22 @@ function Gallery() {
     nextArrow: <NextArrow />,
     responsive: [
       {
+        breakpoint: 2024,
+        settings: { slidesToShow: 2 }
+      },
+      {
         breakpoint: 1424,
-        settings: {
-          slidesToShow: 2,
-        },
+        settings: { slidesToShow: 2 }
       },
       {
         breakpoint: 824,
-        settings: {
-          slidesToShow: 1,
-        },
+        settings: { slidesToShow: 1, initialSlide: 2 }
       },
-    ],
+      {
+        breakpoint: 600,
+        settings: { slidesToShow: 1, initialSlide: 2 }
+      }
+    ]
   };
 
   return (
