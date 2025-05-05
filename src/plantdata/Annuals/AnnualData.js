@@ -175,7 +175,7 @@ const annualdata = {
             id: 2,
             name: "Gazania",
             scientificName: "Gazania rigens",
-            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/annuals/gazania.jpg",
+            image: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/annuals/gazania_1.jpg",
             description: "Gazanias bring bold, daisy-like blooms to dry landscapes and thrive with minimal care. Native to hot, arid environments, they’re right at home in New Mexico’s climate, especially in spots with full morning light and some relief from the harshest afternoon sun. These hardy annuals need little water once established and prefer well-drained soil. Their vivid colors make them perfect for brightening up borders, rock gardens, or containers, while also drawing in bees and butterflies.",
             sunIcon: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/plant_card_icons/FullSun.png",
             sunRequirement: "Full Sun",
