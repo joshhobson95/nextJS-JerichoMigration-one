@@ -987,9 +987,7 @@ transform: translateX(-100%);
   bottom: -60px !important;
 }
 
-.slick-dots li {
-  /* default no extra padding */
-}
+
 
 .slick-active {
   color: #DBBA4B;
@@ -1074,9 +1072,7 @@ transform: translateX(-100%);
     height: 31rem;
   }
 
-  .h2_carousel .home_gallery_photo {
-    /* inherits box-shadow only */
-  }
+
 }
 
 
