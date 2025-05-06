@@ -73,7 +73,7 @@ export function middleware(request) {
     }
     ipRateLimits.set(ip, entry);
   }
-  // console.log(`IP ${ip} has made ${entry.count} requests in the last ${Math.floor((now - entry.startTime) / 1000)} seconds`);
+  console.log(`IP ${ip} has made ${entry.count} requests in the last ${Math.floor((now - entry.startTime) / 1000)} seconds`);
 
   return NextResponse.next();
 }
