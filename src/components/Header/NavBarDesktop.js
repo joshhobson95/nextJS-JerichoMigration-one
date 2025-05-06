@@ -79,7 +79,7 @@ const NavBarDesktop = () => {
                 <li className="navbar__dropdownItem"><Link href="/videos">Videos</Link></li>
                 <li className="navbar__dropdownItem"><Link href="/instagram">Instagram</Link></li>
                 <li className="navbar__dropdownItem"><Link href="/gardeningcalendar">Gardening Calendar</Link></li>
-                <li className="navbar__dropdownItem"><Link href="/admin">Admin Login</Link></li>
+                <li className="navbar__dropdownItem"><Link href="/admin-login">Admin Login</Link></li>
             </ul>
           </li>
 

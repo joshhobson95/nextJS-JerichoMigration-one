@@ -46,7 +46,7 @@ function Footer() {
         <Link className={styles.na} href='/gardeningcalendar'>
           <li>Gardening Calendar</li>
         </Link>
-        <Link className={styles.na} href='/admin'>
+        <Link className={styles.na} href='/admin-login'>
           <li>Admin Login</li>
         </Link>
       </ul>

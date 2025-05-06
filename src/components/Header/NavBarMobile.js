@@ -146,7 +146,7 @@ function NavBarMobile() {
                   <Link href='/gardeningcalendar'>
                     <li className="navbar__dropdownItem_mobile">Gardening Calendar</li>
                   </Link>
-                  <Link href='/admin'>
+                  <Link href='/admin-login'>
                     <li className="navbar__dropdownItem_mobile">Admin Login</li>
                   </Link>
                 </ul>
