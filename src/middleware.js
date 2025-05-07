@@ -5,7 +5,6 @@ const ipRateLimits = new Map();
 export function middleware(request) {
   const path = request.nextUrl.pathname;
 
-  // 1. Block known dangerous paths
   const blocked = [
     '/wp-admin',
     '/wp-login',
@@ -58,7 +57,7 @@ export function middleware(request) {
   const ip = request.ip ?? request.headers.get('x-forwarded-for') ?? 'unknown';
   const now = Date.now();
 
-  const windowMs = 4 * 60 * 1000; // 4 minutes
+  const windowMs = 4 * 60 * 1000; 
   const maxRequests = 140;
   
 
