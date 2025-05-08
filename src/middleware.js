@@ -32,6 +32,14 @@ const botUserAgents = [
   /libwww-perl/i,
 ];
 
+// Good bots to allow
+const allowedBots = [
+  /Googlebot/i,
+  /Bingbot/i,
+  /Slurp/i,          // Yahoo
+  /DuckDuckBot/i,
+];
+
 const skipPatterns = [
   /^\/_next\/static\//,
   /^\/_next\/data\//,
@@ -48,6 +56,11 @@ export function middleware(request) {
 
   // Skip known safe asset paths
   if (skipPatterns.some((pattern) => pattern.test(path))) {
+    return NextResponse.next();
+  }
+
+  // ✅ Allow good bots (bypass rate limiting and blocking)
+  if (allowedBots.some((pattern) => pattern.test(userAgent))) {
     return NextResponse.next();
   }
 
