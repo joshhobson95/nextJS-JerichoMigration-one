@@ -3,6 +3,7 @@ import Link from 'next/link'
 import icon1 from '../../../../public/assets/Flower.png'
 import axios from 'axios'
 import styles from './newintheblog.module.css'
+import Image from 'next/image'
 
 function NewintheBlog() {
 
@@ -31,7 +32,13 @@ function NewintheBlog() {
     <div className={styles.nb_container}>
         <div className={styles.home_container_header}>
             <div className={styles.hc_icon}>
-                <img src={icon1.src} className={styles.c_icon} alt='' />
+<Image
+  src={icon1}
+  className={styles.c_icon}
+  alt=""
+  width={100} // replace with actual width
+  height={100} // replace with actual height
+/>
             </div>
             <div className={styles.home_container_header_text}>
                 <h2>New In the Blog</h2>
