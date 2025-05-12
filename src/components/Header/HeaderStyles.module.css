@@ -47,6 +47,23 @@ align-items: center;
 }
 
 
+.mobile_header {
+  display: none;
+}
+
+.desktop_header {
+  display: block;
+}
+
+@media (max-width: 500px) {
+  .mobile_header {
+    display: block;
+  }
+
+  .desktop_header {
+    display: none;
+  }
+}
 
 
 
