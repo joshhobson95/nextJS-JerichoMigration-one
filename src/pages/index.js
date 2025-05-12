@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import { Raleway } from 'next/font/google';
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 // Component imports; adjust paths based on your folder structure
@@ -22,10 +22,7 @@ import Popup from '@/components/Home/Popup/Popup';
 import PromotionsContainer from '@/components/Home/Containers/PromotionsContainer';
 
 
-const raleway = Raleway({
-  subsets: ['latin'],
-  weight: ['400', '700'],
-});
+
 
 export default function Home() {
   React.useEffect(() => {
@@ -63,7 +60,7 @@ export default function Home() {
 
 
 
-      <div className={`home ${raleway.className}`}>  
+      <div className={`home`}>  
         <div className="welcome">
           <div className="w">
             <p className="w_1">Welcome to</p>

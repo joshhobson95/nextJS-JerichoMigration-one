@@ -102,7 +102,7 @@ function Annuals() {
             <h2>Dozens and Dozens</h2>
             <p>At Jericho Nursery, we offer an incredible selection of annuals—dozens upon dozens of vibrant, high-quality plants to bring color and life to your garden. But the only way to truly appreciate the variety is to see it for yourself! Our carefully curated collection is one of the largest in the state, and we take great pride in providing gardeners with the best selection available. Stop by today and explore the beauty we have in store.</p>  
             <br></br>
-            <p>And while you're here, don’t forget to check out our extensive range of perennials, trees, and shrubs, each handpicked to thrive in our climate. Looking for low-maintenance, drought-tolerant plants? We also offer a fantastic selection of <strong>xeric options-</strong>perfect for water-wise landscaping without sacrificing beauty. Whether you’re planting for a single season or designing a garden that will flourish for years to come, we have everything you need to bring your vision to life.</p>
+            <p>And while you're here, don’t forget to check out our extensive range of perennials, trees, and shrubs, each handpicked to thrive in our climate. Did you know that most annuals need water every single day compared to their perennial or xeric counterparts? We also offer a fantastic selection of <strong>xeric options-</strong>perfect for water-wise landscaping without sacrificing beauty. Whether you’re planting for a single season or designing a garden that will flourish for years to come, we have everything you need to bring your vision to life.</p>
           </div>
         </div>
       </div>
