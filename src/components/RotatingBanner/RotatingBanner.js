@@ -1,25 +1,26 @@
 import { useState, useEffect } from 'react';
 import styles from './rotatingbanner.module.css';
 
-import cactus from '../../../public/assets/2024banners/cactus_v2.jpg'
-import cherry from '../../../public/assets/2024banners/cherry_v2.jpg'
-import ghostranch from '../../../public/assets/2024banners/ghostranch_v2.jpg'
-import smallflower from '../../../public/assets/2024banners/smallflower_v2.jpg'
-import moreBalloons from '../../../public/assets/more_balloons_v2.jpg'
-import succulent from '../../../public/assets/succulent_banner_v2.jpg'
-import desertflower from '../../../public/assets/desert_flower_v2.jpg'
-import highdesert from '../../../public/assets/high_desert_v2.jpg'
-
+import cherry from '../../../public/assets/2025banners/cherry_v2.webp'
+import smallflower from '../../../public/assets/2025banners/smallflower_v2.webp'
+import moreBalloons from '../../../public/assets/2025banners/more_balloons_v2.webp'
+import succulent from '../../../public/assets/2025banners/succulent_banner_v2.webp'
+import desertflower from '../../../public/assets/2025banners/desert_flower_v2.webp'
+import ghostranch from '../../../public/assets/2025banners/ghostranch_v2.webp'
+import balloons from '../../../public/assets/2025banners/balloons.webp'
+import cactus from '../../../public/assets/2025banners/cactus_v2.webp'
+import whitesand from '../../../public/assets/2025banners/high_desert_v2.webp'
 
 const images = [
   cactus,
+  balloons,
+  whitesand,
   cherry,
-  ghostranch,
   smallflower,
   moreBalloons,
   succulent,
   desertflower,
-  highdesert
+  ghostranch
 ];
 
 const RotatingBanner = () => {

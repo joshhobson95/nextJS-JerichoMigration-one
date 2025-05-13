@@ -3,14 +3,14 @@ import Link from 'next/link';
 import NavBarDesktop from './NavBarDesktop';
 import NavBarMobile from './NavBarMobile';
 import RotatingBanner from '../RotatingBanner/RotatingBanner';
-import Image from 'next/image';
+
 import logo from '../../../public/assets/Logo.png';
 import styles from './HeaderStyles.module.css';
 
 function Header() {
   return (
     <div className={styles.header_wrapper}>
-      {/* Mobile Header */}
+
       <div className={styles.mobile_header}>
         <NavBarMobile />
         <div className={styles.mobile_photo_banner}>
@@ -27,7 +27,6 @@ function Header() {
         </div>
       </div>
 
-      {/* Desktop Header */}
       <div className={styles.desktop_header}>
         <NavBarDesktop />
       </div>
