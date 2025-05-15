@@ -1,19 +1,27 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import Head from 'next/head';
-import suregreen from '../../../public/assets/suregreen.png';
 import styles from './brands.module.css'
+
+import logo1 from '../../../public/assets/bacastrees.jpg';
+import logo2 from '../../../public/assets/justsprinklers.jpg';
+import logo3 from '../../../public/assets/rehms.jpg';
+import logo4 from '../../../public/assets/soilmender.jpg';
+import logo5 from '../../../public/assets/505outside.jpg';
+import soil from '../../../public/assets/soilutionslogo.png';
+import suregreen from '../../../public/assets/suregreen.png';
 
 
 
 function Brands() {
 
     const brandData = [
-        {
+                   {
           id: 1,
           title: 'Gourment Grown',
           description: `"All of our crops are planted and harvested by hand in Fallbrook, CA. Each pot is hand spaced allwoing for optimum air and light circulation and fully acclimated in our mild, mediterranean like climate until ready for harvest, narutally"`,
-          img: 'https://s6r2y5.media.zestyio.com/GourmetGrown_Logo.jpg?width=310&height=200&fit=bounds',
+          img: 'https://images.squarespace-cdn.com/content/v1/62b21fbd0748d162770ccbad/594a8445-ba58-4ee9-9f52-0f87751772ea/GourmetGrown_Logo.jpg?format=500w',
         },
+  
         {
           id: 2,
           title: 'Monrovia',
@@ -44,6 +52,7 @@ function Brands() {
           description: `"Our company is committed to your success. The partnership we share has been and always will be extremely important to us. From all of us at Greenleaf Nursery Company, thank you for your business."`,
           img: 'https://www.greenleafnursery.com/image/Logo.png',
         },
+   
         {
           id: 7,
           title: 'Fertilome/Hi-Yield',
@@ -83,6 +92,47 @@ function Brands() {
       ];
 
 
+      const sponsorData = [
+        {
+          id: 1,
+          title: "Baca's Trees",
+          description: "Since 1980, Baca’s Trees has been caring for trees and shrubs throughout the community, offering ISA Certified Arborist Services in Albuquerque and throughout New Mexico. Our talented team is dedicated to exceptional tree care for all residential and commercial properties. Whether you are maintaining your shade and privacy, preparing for a wedding, or are just concerned about your trees, we have the experience and tools to get the job done right. We are licensed and insured to handle any job! Please give us a call to learn more about our services or to get started with a no-obligation estimate."
+        },
+        {
+          id: 2,
+          title: "Just Sprinklers",
+          description: "Imagine a yard that's the talk of the town—lush lawns, vibrant blooms, and maybe even the soothing murmur of a waterfall. At Just Sprinklers, we can make those dream yards a reality. We believe a beautiful landscape is more than just plants and rocks; it's an extension of your home, a place where life unfolds. With nearly 30 years of local experience, we know what it takes to create landscapes that flourish. Whether you're starting from scratch, need a little help getting your green thumb going, or simply want to explore new ideas, we're here to assist. We handle everything from designing and installing efficient irrigation systems (say goodbye to hand-watering!) to building stunning water features that bring tranquility to your outdoor space. We manage the entire project so you can relax and enjoy the transformation."
+        },
+        {
+          id: 3,
+          title: "Soil Menders",
+          description: "At Soil Mender, we have the tools and technologies to help growers address old and new challenges to yield and quality potential.  From our long-standing solutions in soil heath into our newer solutions in crop nutrition and protection, Soil Mender offers unique tools that help realize the genetic potential of a crop.  Our approach to growing provides a science-based, systems solution for managing nutrition and reaching a crop’s full potential, using a proper understanding of plant and soil biology, health, and quality"
+        },
+        {
+          id: 4,
+          title: "Soilutions",
+          description: "Nature invented and perfected the composting process over billions of years. Her brilliantly simple process transforms organic waste into the perfect fertilizer, ready to begin again the elegant cycle from seed to soil to seed that has existed always. At Soilutions, we are called to restore this beautiful solution, following Nature’s simple wisdom to help our Planet, our children, our community and future generations."
+        }
+
+
+      ];
+
+  const [selectedId, setSelectedId] = useState(sponsorData[0].id); 
+
+    useEffect(() => {
+    const interval = setInterval(() => {
+      setSelectedId((prevId) => {
+        const currentIndex = sponsorData.findIndex(s => s.id === prevId);
+        const nextIndex = (currentIndex + 1) % sponsorData.length;
+        return sponsorData[nextIndex].id;
+      });
+    }, 15000);
+
+    return () => clearInterval(interval); 
+  }, []);
+
+  const selectedSponsor = sponsorData.find((sponsor) => sponsor.id === selectedId);
+
 
 
   return (
@@ -95,30 +145,141 @@ function Brands() {
     </Head>
 
     <div className={styles.brands_welcome}>
-      <h1>Brands we Carry</h1>
-      <p>So you can do a little virtual window shopping.</p>
+      <h1>Brands and Partners</h1>
+      <p>These are Brands we Carry and Companies we really like</p>
     </div>
 
     <div className={styles.brands_body_main}>
-      <div className={styles.card_container}>
-        <div className={styles.cards}>
-          {brandData.map((item) => (
-            <div className={styles.card} key={item.id}>
-              <div>
-                <h3 className={styles.card_title}>{item.title}</h3>
-                <p className={styles.card_description}>{item.description}</p>
-              </div>
-             
-              <img
-                src={item.img}
-                alt={item.title}
-                className={styles.brand_img}
-              />
-            </div>
-          ))}
-        </div>
+
+
+      <div className={styles.partners_container}>
+
+
+  <div className={styles.sponsors_container}>
+        <h2 className={styles.partners_green}>Partners</h2>
+        <h3>A special thank you to our Garden Talk Sponsors</h3>
+    <div className={styles.sponsors_inner}>   
+          <a
+              href="https://www.bacastrees.com/"
+              target="_blank"
+              rel="noreferrer"
+              title="Take me to their Website!"
+            >
+              <img src={logo1.src} alt="Baca Trees" className={styles.partner_logos} />
+            </a>
+            <a
+              href="https://www.justsprinklers.com/"
+              target="_blank"
+              rel="noreferrer"
+              title="Take me to their Website!"
+            >
+              <img src={logo2.src} alt="Just Sprinklers" className={styles.partner_logos} />
+            </a>
+            <a
+              href="http://www.soilmender.com/"
+              target="_blank"
+              rel="noreferrer"
+              title="Take me to their Website!"
+            >
+              <img src={logo4.src} alt="Soil Mender" className={styles.partner_logos} />
+            </a>
+            <a
+              href="https://soilutions.net/"
+              target="_blank"
+              rel="noreferrer"
+              title="Take me to their Website!"
+            >
+              <img src={soil.src} alt="Soilutions" className={styles.partner_logos} />
+            </a>
+       </div>
+
+       <div className={styles.sponsors_text}>
+      <div className={styles.sponsors_text_titles}>
+        {sponsorData.map((sponsor) => (
+          <h4
+            key={sponsor.id}
+            className={selectedId === sponsor.id ? styles.active : ''}
+            onClick={() => setSelectedId(sponsor.id)}
+            style={{ cursor: 'pointer' }}
+          >
+            {sponsor.title}
+          </h4>
+        ))}
       </div>
+
+      <p>"{selectedSponsor?.description}"</p>
     </div>
+
+       <div className={styles.local_business}>
+        <h3>Local Companies we do business with</h3>
+
+         <img
+              src="https://lirp.cdn-website.com/d0a1fad2/dms3rep/multi/opt/logo-468x143-255w.png"
+              alt="Millers Feed and Supply LLC"
+              className={styles.millers}
+            />
+            <img src={suregreen.src} alt="Sure Green" className={styles.suregreen} />
+            <img src={logo5.src} alt="505 Outside" className={styles.five_oh_five} />
+            <img
+              src="https://images.squarespace-cdn.com/content/v1/619d2e8fd4dd083c86697cc9/223556e8-8c18-4fae-a4a2-7a60ca3d3ffb/ECM+logo+1.jpg?format=1500w"
+              alt="East Central Ministries"
+              className={styles.ecm}
+            />
+            <img
+              src="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/elpinto.webp"
+              alt="El Pinto"
+              className={styles.elpinto}
+            />
+            <img
+              src="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/vics.png"
+              alt="Vics Daily Cafe"
+              className={styles.vics}
+            />
+            <img
+              src="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/daves.png"
+              alt="Daves Valley Grill"
+              className={styles.daves}
+            />
+            <img
+              src="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Construction.jpg"
+              alt="Construction Rental & Supply"
+              className={styles.daves}
+            />
+
+       </div>
+
+
+    </div>
+    </div>
+
+
+<div className={styles.brands_container}>
+
+  <h2 className={styles.brands_yellow}>Brands</h2>
+
+    <h3>Brands we carry</h3>
+
+  <div className={styles.brands_inner}>
+
+
+       {brandData.map((brand) => (
+        <div key={brand.id} className={styles.brand_card}>
+          <img src={brand.img} alt={brand.title} className={styles.brand_image} />
+          
+          
+        </div>
+      ))}
+    
+    
+
+  </div>
+
+</div>
+
+
+
+    </div>
+
   </main>
   )
 }

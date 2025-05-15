@@ -43,9 +43,6 @@ const NavBarDesktop = () => {
                 <Link href="/plantcatalog">Plant Catalog</Link>
               </li>
               <li className="navbar__dropdownItem">
-                <Link href="/brands">Brands We Carry</Link>
-              </li>
-              <li className="navbar__dropdownItem">
                 <Link href="/delivery">Delivery and Planting</Link>
               </li>
             </ul>
@@ -92,7 +89,7 @@ const NavBarDesktop = () => {
               <p>Community</p>
             </div>
             <ul className="navbar__dropdownMenu_green">
-                <li className="navbar__dropdownItem"><Link href="/partners">Partners</Link></li>
+                <li className="navbar__dropdownItem"><Link href="/brands">Brands & Partners</Link></li>
                 <li className="navbar__dropdownItem"><Link href="/radio">Radio Show</Link></li>
                 <li className="navbar__dropdownItem"><Link href="/workshops">Workshops</Link></li>
                 <li className="navbar__dropdownItem"><Link href="/gardenresources">Garden Resources</Link></li>

@@ -3,7 +3,15 @@
     right: 0;
     top: 0;
     z-index: -1;
-    height: 35vh;
+    height: 40vh;
     width: 100%;
     object-fit: cover;
+  }
+
+
+  @media (min-width: 1500px) {
+
+    .balloons{
+      height: 35vh;
+    }
   }

@@ -117,9 +117,6 @@ function NavBarMobile() {
                   <Link href='/plantcatalog'>
                     <li className="navbar__dropdownItem_mobile">Plant Catalog</li>
                   </Link>
-                  <Link href='/brands'>
-                    <li className="navbar__dropdownItem_mobile">Brands we Carry</li>
-                  </Link>
                   <Link href='/delivery'>
                     <li className="navbar__dropdownItem_mobile">Delivery and Planting</li>
                   </Link>
@@ -153,8 +150,8 @@ function NavBarMobile() {
               )}
               {openCommunity && (
                 <ul className='green_mn'>
-                  <Link href='/partners'>
-                    <li className="navbar__dropdownItem_mobile">Partners</li>
+                  <Link href='/brands'>
+                    <li className="navbar__dropdownItem_mobile">Brands & Partners</li>
                   </Link>
                   <Link href='/radio'>
                     <li className="navbar__dropdownItem_mobile">Radio Show</li>

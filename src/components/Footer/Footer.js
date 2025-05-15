@@ -22,9 +22,6 @@ function Footer() {
         <Link className={styles.na} href='/plantcatalog'>
           <li>Plant Catalog</li>
         </Link>
-        <Link className={styles.na} href='/brands'>
-          <li>Brands We Carry</li>
-        </Link>
         <Link className={styles.na} href='/delivery'>
           <li>Delivery and Planting</li>
         </Link>
@@ -46,17 +43,15 @@ function Footer() {
         <Link className={styles.na} href='/gardeningcalendar'>
           <li>Gardening Calendar</li>
         </Link>
-        <Link className={styles.na} href='/admin-login'>
-          <li>Admin Login</li>
-        </Link>
+
       </ul>
     </div>
 
     <div className={styles.f_services}>
       <ul>
         <h4>Community</h4>
-        <Link className={styles.na} href='/partners'>
-          <li>Partners</li>
+        <Link className={styles.na} href='/brands'>
+          <li>Brands & Partners</li>
         </Link>
         <Link className={styles.na} href='/radio'>
           <li>Radio Show</li>

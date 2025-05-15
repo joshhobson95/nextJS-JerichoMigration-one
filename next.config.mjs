@@ -138,6 +138,11 @@ const nextConfig = {
         destination: '/_next/static/media/desert_flower_v2.5b8fef72.webp',
         permanent: true,
       },
+      {
+        source: '/partners',
+        destination: '/brands',
+        permanent: true,
+      },
     ]
   },
 };
