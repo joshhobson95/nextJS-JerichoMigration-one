@@ -146,7 +146,7 @@ function Brands() {
 
     <div className={styles.brands_welcome}>
       <h1>Brands and Partners</h1>
-      <p>These are Brands we Carry and Companies we really like</p>
+      <p>A list of some of the Brands we carry and shout-outs to our appreciated sponsors and companies we do business with</p>
     </div>
 
     <div className={styles.brands_body_main}>
