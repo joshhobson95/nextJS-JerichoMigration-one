@@ -47,9 +47,9 @@ return (
             <div className={styles.hc_paragraph}>
                 <h3>{firstItem} and {secondItem} just arrived</h3>
                 <p>
-                    Check out our promotions page, showcasing our newest shipments. Come get them before they are gone!
+                    Check out our Sales & Promotions page, showcasing our newest shipments. Come get them before they are gone!
                 </p>
-                <Link href='/promotions'>
+                <Link href='/sales'>
                     <button className={styles.hc_button}>See New Plants</button>
                 </Link>
             </div>

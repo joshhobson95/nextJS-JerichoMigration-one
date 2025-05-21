@@ -126,7 +126,6 @@ function GardenResources() {
             <button>LINK</button>
             </a>
           </div>
-      
       </div>
         </section>
 
