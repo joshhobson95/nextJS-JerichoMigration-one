@@ -109,10 +109,7 @@ function NavBarMobile() {
               {openProducts && (
                 <ul className='green_mn'>
                   <Link href='/sales'>
-                    <li className="navbar__dropdownItem_mobile">This Week's Specials</li>
-                  </Link>
-                  <Link href='/promotions'>
-                    <li className="navbar__dropdownItem_mobile">Promotions</li>
+                    <li className="navbar__dropdownItem_mobile">Sales & Promotions</li>
                   </Link>
                   <Link href='/plantcatalog'>
                     <li className="navbar__dropdownItem_mobile">Plant Catalog</li>

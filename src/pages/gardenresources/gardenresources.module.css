@@ -10,10 +10,7 @@
 .GardenResources p{
     line-height: 1.8;
 }
-.GardenResources h3{
-    font-size: 30pt;
-    padding: 1.5rem;
-}
+
 .gr_welcome{
     margin: 5vh;
     background-color: #242424;
@@ -34,17 +31,19 @@
 }
 .gr_welcome h1{
     color: #4FA673;
-    font-size: 60pt;
+    font-size: 30pt;
     font-weight: 700;
 }
 .gr_welcome p{
     padding: 1.5vw;
     line-height: 1.4;
+    font-size: 12pt;
+    
 }
 .gr_body_main{
     background-image: linear-gradient( #9f4a38, #6f5d53, #209276);
     height: auto;
-    width: 80vw;
+    width: 90vw;
     border-radius: 20px;
     box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
    align-self: center;
@@ -52,186 +51,369 @@
    padding-bottom: 2rem;
    margin-bottom: 4rem;
 }
-.fbt_header{
-    font-size: 40pt;
-    font-weight: 700;
-    color: rgb(173, 81, 235);
-    padding-bottom: 2rem;
-}
-.gr_body_top{
-    padding: 2rem 4rem;
-    font-size: 18pt;
-}
-.gr_body_top_img{
+
+.clubs{
     display: flex;
     justify-content: center;
-    padding: 4rem;
-    border-radius: 20px;
+    flex-direction: column;
 }
-.gr_body_top_img img{
-    border-radius: 20px;
-    max-width: 75vw;
+.clubs h2{
+    color: #662866;
+    background-color: #d9d9d9;
+    width: 60vw;
+    align-self: center;
+    font-size: 30pt;
+    border-radius: 12px;
+    margin: 1rem;
+    padding: 1rem;
+    margin: 5rem;
 }
-.gr_bb_bottom img{
-    border-radius: 20px;
-    height: 60vh;
-    width: 50vw;
-    object-fit: cover;
-}
-.gr_bt_img{
-    padding: 4rem;
-}
+.local_resources h2{
+    color: #662866;
+    background-color: #d9d9d9;
+    width: 60vw;
+    align-self: center;
+    font-size: 30pt;
+    border-radius: 12px;
+    margin: 1rem;
+    padding: 1rem;
+    margin-top: 6rem;
 
-
-
-
-.gr_body_bottom h1{
-    font-size: 40pt;
-    font-weight: 700;
-    color: rgb(185, 223, 50);
-    padding-bottom: 2rem;
-}
-.gr_body_bottom{
-    font-size: 18pt;
-    padding: 2rem 4rem;
 }
 
 
-.green_gr_button{
-height: auto;
-width: auto;
-padding: 1.25rem 1.5rem;
+.single_container{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    margin: 3rem 0rem;
+}
+.single_container h3{
+background-color: #662866;
 margin: 1rem;
- background-color: #4FA673;
- border: none;
- border-radius: 12px;
- font-family: 'Raleway';
- font-size: 12pt;
- font-weight: 600;
- color: white;
- align-self: center;
- cursor: pointer;
- box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.35);
- transition: 1s;
+padding: 1.5rem 0rem;
+font-size: 24pt;
 }
-.green_gr_button:hover{
-color: #4FA673;
-background-color: white;
-}
-.yellow_gr_button{
-height: auto;
-width: auto;
-padding: 1.25rem 1.5rem;
-margin: 1rem;
- background-color: #DBBA4B;
- border: none;
- border-radius: 12px;
- font-family: 'Raleway';
- font-size: 12pt;
- font-weight: 600;
- color: white;
- align-self: center;
- cursor: pointer;
- box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.35);
- transition: 1s;
-}
-.yellow_gr_button:hover{
-color: #DBBA4B;
-background-color: white;
-}
-
-.pumpkin_growing{
-    margin-bottom: 4rem;
-}
-
-
-
-.pumpkin_growing h1{
-    font-size: 40pt;
-    font-weight: 700;
-    color: rgb(235, 166, 110);
-    padding-bottom: 2rem;
-}
-.pumpkin_growing h4{
+.single_container p{
+    text-align: left;
+    align-self: center;
     margin: 1rem;
 }
-.pumpkin_photo{
+.single_container button{
+    background-color: #662866;
+    color: #d9d9d9;
+    font-weight: 700;
+    font-size: 16pt;
+    padding: 0.5rem 1rem;
+    border: none;
+    align-self: center;
+    cursor: pointer;
+}
+
+/* pics! */
+.abq_garden_center{
+    width: 20vw;
+    align-self: center;
+    background-color: #d9d9d9;
+    padding: 0.5rem;
+}
+.abq_master_gardeners{
+    width: 35vw;
+    align-self: center;
+}
+.usda{
     width: 30vw;
-    margin: 2rem;
-    border-radius: 20px;
+    align-self: center;
+    background-color: #d9d9d9;
+    padding: 0.3rem;
+}
+.abq_biopark{
+    width: 25vw;
+    align-self: center;
+}
+.five_oh_five{
+    width: 50vw;
+    align-self: center;
+    background-color: #d9d9d9;
+    padding: 0.3rem;
+}
+.abq_library{
+    width: 50vw;
+    align-self: center;
+    background-color: #d9d9d9;
+    padding: 0.3rem;
 }
 
 
 
 
 
+.image_background{
+    background-image: url('https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/mexican-evening-primrose.jpg');
+    height: 30vh;
+    width: 70vw;
+    align-self: center;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    filter: brightness(80%);
+    
+}
+.image_background2{
+    background-image: url('https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/hardy-african-daisy.jpg');
+    height: 30vh;
+    width: 70vw;
+    align-self: center;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    filter: brightness(80%);
+}
+.image_background3{
+    background-image: url('https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/indian-hawthorn-foliage.jpg');
+    height: 30vh;
+    width: 70vw;
+    align-self: center;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    filter: brightness(80%);
+}
+.image_background4{
+    background-image: url('https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/catawba-crape.jpg');
+    height: 30vh;
+    width: 70vw;
+    align-self: center;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    filter: brightness(80%);
+}
+.image_background5{
+    background-image: url('https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Xeric/bedding/oriental-poppy.jpg');
+    height: 30vh;
+    width: 70vw;
+    align-self: center;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    filter: brightness(80%);
+}
+.image_background6{
+    background-image: url('https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Trees/RGcottonwood.jpg');
+    height: 30vh;
+    width: 70vw;
+    align-self: center;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    filter: brightness(80%);
+}
+.image_background7{
+    background-image: url('https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Shrubs/flower/white-potentillas-6471446_1920.jpg');
+    height: 30vh;
+    width: 70vw;
+    align-self: center;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    filter: brightness(80%);
+}
+
+.local_resources{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.clubs_inner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.local_resources_inner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.single_container button:hover{
+   transition: 1s; 
+   background-color: #d9d9d9;
+   color: #662866;
+}
 
 
-@media (max-width: 650px){
-    .gr_welcome{
-        width: 75vw;
-        font-size: 12pt;
-    }
+
+@media (min-width: 825px){
     .gr_welcome h1{
         font-size: 30pt;
     }
-    .gr_body_main{
-        width: 90vw;
+    .gr_welcome p{
+        font-size: 14pt;
     }
-    .gr_body_main h1{
-        font-size: 26pt;
+
+    .single_container h3{
+        width: 50vw;
+        align-self: center;
     }
-    .gr_body_main p{
-        font-size: 12pt;
-        padding: 0;
+    .single_container p{
+        width: 70vw;
+        font-size: 14pt;
     }
-    .gr_body_top{
-        padding: 0 1rem;
+}
+
+@media (min-width: 1025px){
+      .gr_welcome h1{
+        font-size: 50pt;
     }
-    .gr_body_top h1{
-        padding-top: 2rem ;
+    .gr_welcome p{
+        font-size: 18pt;
+        line-height: 1.8;
+        padding: 1.5vw;
     }
-    .gr_body_bottom{
+       .clubs h2{
+        font-size: 36pt;
+    }
+       .local_resources h2{
+        font-size: 36pt;
+    }
+       .single_container h3{
+        width: 38vw;
+        font-size: 30pt;
         padding: 1rem;
     }
-    .gr_conclusion{
-        width: 75vw;
-        font-size: 12pt;
-    }
-    .gr_conclusion h1{
-        font-size: 26pt;
-    }
-
-    .gr_body_top_img{
-        padding: 2rem;
+       .single_container p{
+        font-size: 16pt;
 
     }
-    .gr_body_top_img img{
-        height: auto;
-        width: 80vw;
-    }
-    .gr_bb_bottom img{
-        height: 60vh;
-        width: 70vw;
-        object-fit: cover;
-    }
-    .gr_bt_img{
-        display: flex;
-        justify-content: center;
-        padding: 2rem;
-    }
-    .pumpkin_growing h1{
-        font-size: 30pt;
-        font-weight: 700;
-        color: rgb(235, 166, 110);
-        padding-bottom: 2rem;
-    }
-    .pumpkin_growing h4{
-        margin: 1rem;
-    }
-    .pumpkin_photo{
-        width: 50vw;
+    .single_container button{
+        font-size: 22pt;
         margin: 2rem;
     }
+    .abq_garden_center{
+        width: 15vw;
+    }
+    .abq_master_gardeners{
+        width: 25vw;
+    }
+    .abq_biopark{
+        width: 20vw;
+    }
+    .five_oh_five{
+        width: 35vw;
+    }
+    .usda{
+        width: 20vw;
+    }
+
+    }
     
+@media (min-width: 1200px) {
+.single_container p{
+    width: 60vw;
 }
+
+}
+
+
+@media (min-width: 1400px) {
+    .single_container p{
+    width: 38vw;
+}
+.single_container{
+    height: 85vh;
+    width: 40vw;
+    overflow: hidden;
+    margin: 2rem;
+}
+.clubs_inner{
+
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.local_resources_inner{
+   
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.abq_garden_center{
+    width: 10vw;
+}
+.abq_master_gardeners{
+    width: 15vw;
+}
+.abq_biopark{
+    width: 12vw;
+}
+.five_oh_five{
+    width: 20vw;
+}
+.abq_library{
+    width: 30vw;
+}
+.usda{
+    width: 12vw;
+}
+}
+
+@media (min-width: 1600px) {
+.single_container{
+    width: 38vw;
+    margin: 3rem;
+}
+.clubs h2{
+    font-size: 42pt;
+}
+}
+
+
+@media (min-width: 1800px) {
+.single_container p{
+    width: 32vw;
+}
+.single_container h3{
+    width: 32vw;
+    font-size: 40pt;
+}
+}
+
+@media (min-width: 2000px) {
+    .abq_garden_center{
+    width: 7vw;
+}
+.abq_master_gardeners{
+    width: 12vw;
+}
+.abq_biopark{
+    width: 10vw;
+}
+.five_oh_five{
+    width: 15vw;
+}
+.abq_library{
+    width: 20vw;
+}
+.usda{
+    width: 9vw;
+}
+.single_container h3{
+    width: 28vw;
+}
+.single_container p{
+    width: 28vw;
+}
+}
+

@@ -90,14 +90,128 @@ box-shadow: 0px 0px 19px 11px rgba(189,189,107,0.18);
     font-weight: 700;
     color: #DBBA4B;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        background-color: #1a2136;
 }
 .sales_card_bottom{
     padding-top: 0.5rem;
 }
 
 
+.promotions_card{
+    background-color: #361a36;
+    border: 3px solid #e0e0e0;
+    padding: 1rem;
+    margin: 1rem;
+    box-sizing: border-box;
+    border-radius: 12px;
+-webkit-box-shadow:0px 0px 19px 11px rgba(189,189,107,0.18);
+-moz-box-shadow: 0px 0px 19px 11px rgba(189,189,107,0.18);
+box-shadow: 0px 0px 19px 11px rgba(189,189,107,0.18);
+
+}
+.promotions_card h2{
+    font-size: 18pt;
+    font-weight: 800;
+    padding: 0.5rem;
+    text-decoration: underline;
+}
+.promotions_card h3{
+    color: #DBBA4B;
+    padding: 0.5rem;
+    font-weight: 600;
+    font-size: 18pt;
+}
+.promotions_card span{
+    font-size: 8pt;
+    color: #b1b1b1;
+}
+.promotions_card_top{
+    display: flex;
+    justify-content: center;
+}
+.promotions_card_img{
+    height: 40vh;
+    width: 70vw;
+    object-fit: cover;
+    border-radius: 12px;
+    padding: 0.5rem;
+}
+
+.promotions_body_header h2{
+    font-size: 20pt;
+    font-weight: 700;
+    color: #DBBA4B;
+    text-shadow: 2px 2px 4px rgba(83, 62, 62, 0.5);
+        background-color: #361a36;
+}
+.promotions_card_bottom{
+    padding-top: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 1024px) { 
+        .promotions{
+        font-size: 18pt;
+    }
+    .promotions_card h2{
+        padding: 0.5rem;
+        font-size: 24pt !important;
+    }
+    .promotions_welcome{
+        width: 40vw;
+        border-radius: 20px;
+    }
+.promotions_welcome h1{
+    font-size: 60pt;
+}
+.promotions_welcome p{
+    padding: 0.5vw;
+    font-size: 18pt;
+}
+.promotions_body_header {
+    padding: 4rem;
+}
+.promotions_body_header h2{
+    font-size: 50pt;
+    font-weight: 700;
+    background-color: #361a36;
+    border-radius: 12px;
+}
+.promotions_body{
+    margin-bottom: 6rem;
+    padding-bottom: 4rem;
+    width: 80vw;
+}
+.promotions_card h2{
+    font-size: 32pt !important;
+    padding: 2rem;
+}
+.promotions_card_container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.promotions_card{
+    height: auto;
+    width: 55vw;
+    align-self: center;
+    border-radius: 20px;
+    border: 4px solid #e0e0e0;
+}
+.promotions_card_img{
+    height: 35vh;
+    width: 50vw;
+    border-radius: 20px;
+}
     .sales{
         font-size: 18pt;
     }
@@ -170,11 +284,30 @@ box-shadow: 0px 0px 19px 11px rgba(189,189,107,0.18);
 .sales_welcome p{
     padding: 0.5vw;
 }
+.promotions_card{
+    height: auto;
+    width: 45vw;
+    padding: 2rem;
+}
+.promotions_body{
+    width: 65vw;
+}
+.promotions_card_img{
+    height: 40vh;
+    width: 40vw;
+    border-radius: 20px;
+}
+.promotions_welcome p{
+    padding: 0.5vw;
+}
 }
 
 
 @media (min-width:1600px) {
     .sales_card_img{
+        height: 45vh;
+    }
+        .promotions_card_img{
         height: 45vh;
     }
 
@@ -184,11 +317,19 @@ box-shadow: 0px 0px 19px 11px rgba(189,189,107,0.18);
 
 @media (min-width:2000px) {
     .sales_card{
-        width: 42vw;
+        width: 35vw;
     }
     .sales_card_img{
         height: 60vh;
-        width: 40vw;
+        width: 32vw;
+        border-radius: 20px;
+    }
+        .promotions_card{
+        width: 35vw;
+    }
+    .promotions_card_img{
+        height: 60vh;
+        width: 32vw;
         border-radius: 20px;
     }
 
@@ -199,6 +340,10 @@ box-shadow: 0px 0px 19px 11px rgba(189,189,107,0.18);
   and (max-height: 900px)  { 
 
 .sales_card_img{
+    height: 70vh;
+    border-radius: 20px;
+}
+.promotions_card_img{
     height: 70vh;
     border-radius: 20px;
 }

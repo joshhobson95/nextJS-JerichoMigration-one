@@ -7,24 +7,36 @@ import Head from 'next/head';
 
 export async function getServerSideProps() {
   try {
-
     const apiUrl = process.env.NEXT_PUBLIC_API_URL;
 
-   
-    const res = await axios.get(`${apiUrl}/api/sales`);
-    const salesData = res.data;
+    const [salesRes, promotionsRes] = await Promise.all([
+      axios.get(`${apiUrl}/api/sales`),
+      axios.get(`${apiUrl}/api/promotions`)
+    ]);
+
+    const salesData = salesRes.data;
+    const promotionsData = promotionsRes.data;
 
     return {
-      props: { salesData },
-    
+      props: {
+        salesData,
+        promotionsData,
+      },
     };
   } catch (error) {
     console.log(error);
-    return { props: { salesData: [] } }; 
+    return {
+      props: {
+        salesData: [],
+        promotionsData: [],
+      },
+    };
   }
 }
 
-function Sales({ salesData }) {
+
+
+function Sales({ salesData, promotionsData }) {
   
   // Calculate the current week range
   function getCurrentWeekRange() {
@@ -57,12 +69,60 @@ function Sales({ salesData }) {
 
 
       <div className={styles.sales_welcome}>
-        <h1>This Week's Specials</h1>
+        <h1>Sales & Promotions</h1>
         <p>For the Week</p>
         <p>({currentWeekRange})</p>
       </div>
 
       <div className={styles.sales_body}>
+
+          <div className={styles.promotions_body_header}>
+          <h2>New Product</h2>
+
+            <div className={styles.promotions_card_container}> 
+    {promotionsData.map((item) => (
+      <div className={styles.promotions_card} key={item.name}> 
+        <div className={styles.promotions_card_top}>
+          <img src={item.img_url} className={styles.promotions_card_img} alt='' />
+        </div>
+        <div className={styles.promotions_card_bottom}>
+          <h2>{item.name}</h2>   
+          <h3>{item.description}</h3>   
+          <h4>{item.price}</h4>
+          <h4>{item.discount}</h4>
+
+          <div className={styles.promotions_card_overflow}>
+            <div>
+              <span>{item.tagline}</span>
+            </div> 
+            <span>{item.start_date}--</span>
+            <span>{item.expiration}</span>
+          </div>   
+        </div>
+      </div>
+    ))}
+  </div>
+          
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <div className={styles.sales_body_header}>
           <h2>Sales this week</h2>
         </div>

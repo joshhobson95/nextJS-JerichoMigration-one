@@ -14,10 +14,7 @@ function Footer() {
       <ul>
         <h4>Products</h4>
         <Link className={styles.na} href='/sales'>
-          <li>This Week's Specials</li>
-        </Link>
-        <Link className={styles.na} href='/promotions'>
-          <li>Promotions</li>
+          <li>Sales & Promotions</li>
         </Link>
         <Link className={styles.na} href='/plantcatalog'>
           <li>Plant Catalog</li>

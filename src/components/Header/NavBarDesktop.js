@@ -34,10 +34,7 @@ const NavBarDesktop = () => {
             </div>
             <ul className="navbar__dropdownMenu_green">
               <li className="navbar__dropdownItem">
-                <Link href="/sales">This Week's Specials</Link>
-              </li>
-              <li className="navbar__dropdownItem">
-                <Link href="/promotions">Promotions</Link>
+                <Link href="/sales">Sales & Promotions</Link>
               </li>
               <li className="navbar__dropdownItem">
                 <Link href="/plantcatalog">Plant Catalog</Link>
