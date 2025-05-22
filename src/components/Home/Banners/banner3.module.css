@@ -1,0 +1,186 @@
+.b_img3 {
+    background-image: url('https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/sunset.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.b_3 {
+    width: 85vw;
+    padding: 1rem;
+    margin-top: 2.5vh;
+    background-color: #242424;
+    border-radius: 12px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.b_h3 {
+color: #ffffff;
+text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
+font-size: 30pt;
+
+}
+
+.b_j3 {
+    color: white;
+    font-size: 16pt;
+    margin: 1rem;
+}
+.b_j31 {
+    color: white;
+    font-size: 16pt;
+    margin: 1rem;
+    text-decoration: underline;
+}
+
+.banner_button3 {
+    padding: 0.75rem 1.75rem;
+    background-color: #378ab4;
+    border: none;
+    border-radius: 12px;
+    font-size: 14pt;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    transition: background-color 1s, color 1s;
+    margin: 1rem;
+}
+
+.banner_button3:hover {
+    background-color: white;
+    color: #378ab4;
+}
+
+.banner_3_lower {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.seminargray {
+    width: 50vw;
+}
+
+
+.boc_medal{
+    width: 40vw;
+}
+
+
+@media (min-width: 700px) {
+    .seminargray { width: 40vw; }
+    .b_3 {
+        width: 60vw;
+    }
+    .b_h3{
+        font-size: 40pt;
+    }
+    .b_j3{
+        font-size: 30pt;
+    }
+    .b_j31{
+        font-size: 30pt;
+    }
+    .boc_medal{
+    width: 35vw;
+    }
+    .banner_button3{
+        font-size: 32pt;
+    }
+
+}
+
+@media (min-width: 1025px) {
+    .b_3 { width: 50vw; }
+    .banner_button3 { font-size: 24pt; }
+    .seminargray { width: 26vw; }
+    .b_h3 { font-size: 45pt; }
+    .b_j3 { font-size: 22pt; }
+
+    .b_3{
+        display: flex;
+        flex-direction: column;
+    }
+    .b3_main{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .banner_3_upper{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+        .boc_medal{
+    width: 18vw;
+    }
+    .b3_h3{
+        margin-top: 0;
+    }
+
+
+
+}
+
+@media (min-width: 1225px) {
+    .seminargray { width: 22vw; }
+    .b_h3 { 
+    font-size: 46pt;
+    margin-top: 2rem;
+     }
+    .b_j3 { font-size: 22pt; }
+}
+
+@media (min-width: 1550px) {
+    .b_h3 { font-size: 54pt; }
+    .seminargray { width: 20vw; }
+    .boc_medal{
+    width: 14vw;
+    }
+}
+
+@media (min-width: 1700px) {
+    .boc_medal{
+    margin: 1rem;
+    }
+    .b3_main{
+        justify-content: space-evenly;
+    }
+
+}
+
+@media (min-width: 1825px) {
+    .b_3 { width: 45vw; }
+    .seminargray { width: 14vw; }
+
+    .b_j3{
+        font-size: 28pt;
+    }
+    .b_3{
+        height: auto;
+    }
+    .b_h3{
+        font-size: 60pt;
+        padding: 2rem;
+    }
+    .boc_medal{
+   width: 12vw;
+    }
+    .banner_button3{
+        margin-top: 4rem;
+    }
+}
+
+
+@media (min-width: 2000px) {
+    .banner_button3{
+        margin-top: 1rem;
+        font-size: 32pt;
+    }
+        .boc_medal{
+   width: 10vw;
+    }
+
+}

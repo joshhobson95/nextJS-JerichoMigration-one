@@ -20,6 +20,7 @@ import MapButtonHome from "@/components/Home/MapButton/MapButtonHome";
 import HoursButton from "@/components/Home/HoursButton/HoursButton";
 import Popup from '@/components/Home/Popup/Popup';
 import PromotionsContainer from '@/components/Home/Containers/PromotionsContainer';
+import Banner3 from "@/components/Home/Banners/Banner3";
 
 
 
@@ -106,7 +107,9 @@ export default function Home() {
           data-aos-once="true"
           data-aos-anchor-placement="top-center"
         >
-          <Banner7 />
+
+          <Banner3 />
+        
           <PromotionsContainer />
         </div>
 
@@ -131,7 +134,8 @@ export default function Home() {
           data-aos-once="true"
           data-aos-anchor-placement="top-center"
         >
-          <Banner2 />
+            <Banner7 />
+     
           <VideosContainer />
         </div>
 
@@ -146,6 +150,7 @@ export default function Home() {
         >
           <GardeningCalendar />
         </div>
+             <Banner2 />
 
         <Gallery2 />
         <MoreAboutJericho />
