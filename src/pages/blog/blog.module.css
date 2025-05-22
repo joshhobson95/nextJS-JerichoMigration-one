@@ -168,6 +168,11 @@ margin-bottom: 6vh;
     .Single_Blog_Post p{
         margin: 2rem 10rem;
     }
+
+
+    .Single_Blog_Post ul{
+        list-style-position: inside;
+    }
     
     .single_blog_welcome{
         height: auto;
@@ -420,7 +425,6 @@ margin-bottom: 6vh;
         justify-content: center;
         padding: 3rem;
     }
-
 
 
 
