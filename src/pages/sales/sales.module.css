@@ -70,7 +70,7 @@ box-shadow: 0px 0px 19px 11px rgba(189,189,107,0.18);
     font-size: 18pt;
 }
 .sales_card span{
-    font-size: 8pt;
+    font-size: 10pt;
     color: #b1b1b1;
 }
 .sales_card_top{
@@ -122,7 +122,7 @@ box-shadow: 0px 0px 19px 11px rgba(189,189,107,0.18);
     font-size: 18pt;
 }
 .promotions_card span{
-    font-size: 8pt;
+    font-size: 10pt;
     color: #b1b1b1;
 }
 .promotions_card_top{
@@ -159,6 +159,12 @@ box-shadow: 0px 0px 19px 11px rgba(189,189,107,0.18);
 
 
 @media (min-width: 1024px) { 
+    .sales_card span{
+    font-size: 15pt;
+}
+    .promotions_card span{
+    font-size: 15pt;
+}
         .promotions{
         font-size: 18pt;
     }
@@ -177,9 +183,7 @@ box-shadow: 0px 0px 19px 11px rgba(189,189,107,0.18);
     padding: 0.5vw;
     font-size: 18pt;
 }
-.promotions_body_header {
-    padding: 4rem;
-}
+
 .promotions_body_header h2{
     font-size: 50pt;
     font-weight: 700;
@@ -265,36 +269,46 @@ box-shadow: 0px 0px 19px 11px rgba(189,189,107,0.18);
     width: 50vw;
     border-radius: 20px;
 }
+
+
+.sales_card h3{
+    font-size: 26pt;
+}
+
+
+
+
+
 }
 
 @media (min-width:1225px) {
 .sales_card{
-    height: auto;
-    width: 45vw;
-    padding: 2rem;
+    height: 57vh;
+    width: 40vw;
+    padding: 1.6rem;
 }
 .sales_body{
     width: 65vw;
 }
 .sales_card_img{
-    height: 40vh;
-    width: 40vw;
+    height: 35vh;
+    width: 35vw;
     border-radius: 20px;
 }
 .sales_welcome p{
     padding: 0.5vw;
 }
 .promotions_card{
-    height: auto;
-    width: 45vw;
-    padding: 2rem;
+    height: 57vh;
+    width: 40vw;
+    padding: 1.6rem;
 }
 .promotions_body{
     width: 65vw;
 }
 .promotions_card_img{
-    height: 40vh;
-    width: 40vw;
+    height: 35vh;
+    width: 35vw;
     border-radius: 20px;
 }
 .promotions_welcome p{
@@ -303,48 +317,157 @@ box-shadow: 0px 0px 19px 11px rgba(189,189,107,0.18);
 }
 
 
-@media (min-width:1600px) {
-    .sales_card_img{
-        height: 45vh;
+
+
+
+
+
+
+
+@media (min-width:1400px) {
+    .sales_body{
+        width: 90vw;
     }
-        .promotions_card_img{
-        height: 45vh;
+ 
+    .promotions_card_container{
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
+    .sales_card_container{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
+
+
+
+
+
+@media (min-width:1600px) {
+    .sales_card{
+        width: 35vw;
+    }
+        .promotions_card{
+        width: 35vw;
+    }
+        .sales_card img{
+        width: 32vw;
+    }
+    .promotions_card img{
+        width: 32vw;
+    }
+}
+
+@media (min-width:1800px) {
+    .sales_card{
+        width: 32vw;
+    }
+        .promotions_card{
+        width: 32vw;
+    }
+        .sales_card img{
+        width: 29vw;
+    }
+    .promotions_card img{
+        width: 29vw;
+    }
+}
+
+
+
+
+
 
 
 
 @media (min-width:2000px) {
     .sales_card{
-        width: 35vw;
-    }
-    .sales_card_img{
-        height: 60vh;
-        width: 32vw;
-        border-radius: 20px;
+        width: 30vw;
     }
         .promotions_card{
-        width: 35vw;
+        width: 30vw;
     }
-    .promotions_card_img{
-        height: 60vh;
-        width: 32vw;
-        border-radius: 20px;
+    .sales_card img{
+        width: 27vw;
+    }
+    .promotions_card img{
+        width: 27vw;
     }
 
 }
+
+
+@media (min-width:2200px) {
+    .sales_card{
+        width: 28vw;
+    }
+        .promotions_card{
+        width: 28vw;
+    }
+    .sales_card img{
+        width: 25vw;
+    }
+    .promotions_card img{
+        width: 25vw;
+    }
+
+}
+
+@media (min-width:2400px) {
+    .sales_card{
+        width: 26vw;
+    }
+        .promotions_card{
+        width: 26vw;
+    }
+    .sales_card img{
+        width: 23vw;
+    }
+    .promotions_card img{
+        width: 23vw;
+    }
+
+}
+@media (min-width:2600px) {
+    .sales_card{
+        width: 24vw;
+    }
+        .promotions_card{
+        width: 24vw;
+    }
+    .sales_card img{
+        width: 21vw;
+    }
+    .promotions_card img{
+        width: 21vw;
+    }
+
+}
+
+
+
+
 
 @media screen 
   and (min-width: 1000px) 
   and (max-height: 900px)  { 
 
+    .sales_card{
+        height: auto;
+    }
+    .promotions_card{
+        height: auto;
+    }
+
 .sales_card_img{
-    height: 70vh;
+    height: 50vh;
+    width: 30vw;
     border-radius: 20px;
 }
 .promotions_card_img{
-    height: 70vh;
+    height: 50vh;
+    width: 30vw;
     border-radius: 20px;
 }
 }
