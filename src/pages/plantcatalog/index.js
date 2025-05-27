@@ -3,6 +3,7 @@ import styles from './plantcatalog.module.css'
 import Link from 'next/link';
 import Head from 'next/head';
 const baseUrl = process.env.NEXT_PUBLIC_SITE_URL;
+import Popup from '@/components/Popup/Popup';
 
 
 
@@ -58,7 +59,7 @@ function PlantCatalog() {
 
 <div className={styles.top_body_main}>
 
-
+<Popup />
 
 <Link href='plantcatalog/annuals'>
   <article className={styles.plant_category}>
