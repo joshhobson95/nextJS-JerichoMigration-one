@@ -80,7 +80,7 @@ export default function Home() {
 
         <div className="desktop_hours_and">
           <p>505-899-7555</p>
-          <p>Monday–Saturday 9–6 | Sundays 11–5</p>
+          <p>Monday–Saturday 9–5 | Sundays 11–5</p>
           <p>101 Alameda Blvd</p>
         </div>
 
