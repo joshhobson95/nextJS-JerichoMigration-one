@@ -21,6 +21,7 @@ import HoursButton from "@/components/Home/HoursButton/HoursButton";
 import Popup from '@/components/Home/Popup/Popup';
 import PromotionsContainer from '@/components/Home/Containers/PromotionsContainer';
 import Banner3 from "@/components/Home/Banners/Banner3";
+import Timetable from "@/components/Timetable/Timetable";
 
 
 
@@ -73,15 +74,17 @@ export default function Home() {
         <Popup />
 
         <div className="hours_and">
+
+
           <CallButton />
           <MapButtonHome />
           <HoursButton />
         </div>
 
         <div className="desktop_hours_and">
-          <p>505-899-7555</p>
-          <p>Monday–Saturday 9–5 | Sundays 11–5</p>
-          <p>101 Alameda Blvd</p>
+       
+          <Timetable />
+       
         </div>
 
         <Gallery />

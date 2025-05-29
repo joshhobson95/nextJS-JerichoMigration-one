@@ -3,6 +3,7 @@
     color: white;
     border: none;
     border-radius: 20px;
+    z-index: 10;
 }
 .modal p{
     padding: 1rem;
@@ -28,3 +29,44 @@
     color: #95562e;
     transition: 1s
   }
+
+
+.modal {
+  border: none;
+  padding: 1rem;
+  max-width: 90%;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.close_button {
+  float: right;
+  margin-bottom: 1rem;
+  background: transparent;
+  border: 1px solid #ccc;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+  border-radius: 6px;
+  color: white;
+}
+
+.schedule_table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.schedule_table th,
+.schedule_table td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.schedule_table th {
+ 
+  font-weight: bold;
+}
+
+
+  
