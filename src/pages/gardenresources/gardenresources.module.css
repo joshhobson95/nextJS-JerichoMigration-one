@@ -60,7 +60,7 @@
 .clubs h2{
     color: #662866;
     background-color: #d9d9d9;
-    width: 60vw;
+    
     align-self: center;
     font-size: 30pt;
     border-radius: 12px;
@@ -71,7 +71,6 @@
 .local_resources h2{
     color: #662866;
     background-color: #d9d9d9;
-    width: 60vw;
     align-self: center;
     font-size: 30pt;
     border-radius: 12px;

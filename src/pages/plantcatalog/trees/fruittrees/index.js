@@ -1,4 +1,4 @@
-import React from "react";
+import { useEffect, useRef, useState } from 'react';
 import styles from './fruit.module.css'
 import PlantSlider from "@/components/PlantSlider/PlantSlider";
 import fruitdata from "@/plantdata/Trees/FruitData";
@@ -6,8 +6,36 @@ import Head from "next/head";
 const baseUrl = process.env.NEXT_PUBLIC_SITE_URL;
 
 function Fruit() {
+  const [hasShownBlurb, setHasShownBlurb] = useState(false);
+  const [showBlurb, setShowBlurb] = useState(false);
+  const sectionRef = useRef(null);
+  const timerRef = useRef(null);
 
+useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting && !hasShownBlurb) {
+          setShowBlurb(true);
+          setHasShownBlurb(true);
+          timerRef.current = setTimeout(() => {
+            setShowBlurb(false);
+          }, 5000); // Show for 5 seconds
+        }
+      },
+      {
+        threshold: 0.3,
+      }
+    );
 
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    return () => {
+      if (sectionRef.current) observer.unobserve(sectionRef.current);
+      if (timerRef.current) clearTimeout(timerRef.current);
+    };
+  }, [hasShownBlurb]);
 
 
 
@@ -177,8 +205,16 @@ function Fruit() {
           </div>
         </div>
 
-        <div className={styles.tree_catalog_sub_section}>
+
+    <div ref={sectionRef} className={styles.tree_catalog_sub_section}>
             <h2 className={styles.tree_catalog_title}>Pecan Trees</h2>
+
+              {showBlurb && (
+        <div className={styles.blurb_popup}>
+          &gt; Harder to Find, stock may vary!
+        </div>
+      )}
+
             <div className={styles.catalog_cards}>
             <PlantSlider plants={fruitdata.pecans}/>
       
@@ -188,6 +224,12 @@ function Fruit() {
 
         <div className={styles.tree_catalog_sub_section}>
             <h2 className={styles.tree_catalog_title}>Pistachio Trees</h2>
+
+            {showBlurb && (
+        <div className={styles.blurb_popup}>
+          &gt; Harder to Find, stock may vary!
+        </div>
+      )}
             <div className={styles.catalog_cards}>
             <PlantSlider plants={fruitdata.pistachios}/>
       

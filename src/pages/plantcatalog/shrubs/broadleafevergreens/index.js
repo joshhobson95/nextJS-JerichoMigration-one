@@ -126,13 +126,13 @@ function Broadleaf() {
             </div>
           </div>
 
-          <div className={styles["attribution-container"]}>
-            <button className={styles["attribution-button"]} onClick={toggleVisible}>
+          <div className="attribution-container">
+            <button className="attribution-button" onClick={toggleVisible}>
               {visibleAttribution ? "Hide Image Attributions" : "View Image Attributions"}
             </button>
             {visibleAttribution && (
-              <div className={styles["attribution-content"]}>
-                <div className={styles.single_attribution}>
+              <div className="attribution-content">
+                <div className="single_attribution">
                   <span><strong>Manhattan Euonymus Image</strong></span>
                   <ul>
                     <li><strong>Title:</strong> <em>Euonymus kiautschovicus Manhattan 0zz.jpg</em></li>
@@ -158,7 +158,7 @@ function Broadleaf() {
                   </ul>
                 </div>
 
-                <div className={styles.single_attribution}>
+                <div className="single_attribution">
                   <span><strong>Alderleaf Mountain Mahogany</strong></span>
                   <ul>
                     <li><strong>Title:</strong> <em>Cercocarpus montanus kz07.jpg</em></li>
@@ -184,7 +184,7 @@ function Broadleaf() {
                   </ul>
                 </div>
 
-                <div className={styles.single_attribution}>
+                <div className="single_attribution">
                   <span><strong>Curl-leaf Mountain Mahogany</strong></span>
                   <ul>
                     <li><strong>Title:</strong> <em>Cercocarpus ledifolius 8219.jpg</em></li>
