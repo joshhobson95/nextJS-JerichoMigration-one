@@ -41,7 +41,7 @@ const HoursButton = () => {
               </tr>
             </thead>
             <tbody>
-              <tr><td>May 29</td><td>Thursday</td><td>9:00 AM – 5:00 PM</td></tr>
+              
               <tr><td>May 30</td><td>Friday</td><td>9:00 AM – 5:00 PM</td></tr>
               <tr><td>May 31</td><td>Saturday</td><td>9:00 AM – 5:00 PM</td></tr>
               <tr><td>June 1</td><td>Sunday</td><td>11:00 AM – 5:00 PM</td></tr>
