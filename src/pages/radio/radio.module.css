@@ -161,21 +161,7 @@
     margin: 0 7rem;
 padding: 3rem 5rem;
 }
-.decoy-radio{
-    height: 32rem;
-}
-.visible-radio{
-    display: flex;
-    justify-content: center;
-    transform: translateY(0);
-    height: 32rem;
-    width: 60rem;
-    opacity: 0.1;
-    animation-name: fade-in !important;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
-}
+
 
 .countdown_container{
 display: flex;
@@ -206,17 +192,7 @@ padding-top: 1rem;
 color: #DBBA4B;
 }
 
-.radio_container{
-    width: 30vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-self: center;
-}
-.radio_container_outer{
-    display: flex;
-    justify-content: center;
-}
+
 
 
 @media (max-width: 2000px){
@@ -228,9 +204,6 @@ color: #DBBA4B;
 
 @media screen and (max-width: 1400px){
 .radio_rick{
-    width: 40vw;
-}
-.radio_container{
     width: 40vw;
 }
 
@@ -329,26 +302,8 @@ margin-left: 0;
     font-size: 22pt;
     padding-bottom: 1rem;
 }
-.radio_rick{
-    margin: 0;
-    margin-bottom: 5rem;
-    margin-top: 5rem;
-    align-self: center;
-}
-.decoy_radio{
-    height: 15rem;
-}
-.visible-radio{
-    display: flex;
-    justify-content: center;
-    transform: translateY(0);
-    height: 15rem;
-    opacity: 0.1;
-    animation-name: fade-in !important;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
-}
+
+
 .cdh2{
     font-size: 16pt !important;
 }
@@ -360,15 +315,9 @@ margin-left: 0;
 }
 .partner_logos_radio{
     width: 30vw;
- 
 }
-.radio_container{
-    width: 70vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    justify-self: center;
-}
+
+
 
 }
 

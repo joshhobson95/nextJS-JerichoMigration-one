@@ -4,7 +4,7 @@ import logo1 from '../../../public/assets/bacastrees.jpg';
 import logo2 from '../../../public/assets/justsprinklers.jpg';
 import logo4 from '../../../public/assets/soilmender.jpg';
 import soil from '../../../public/assets/soilutionslogo.png';
-import RadioMic from '../../../public/svgs/RadioMic';
+import AnimatedRadioMic from '@/components/AnimatedSVGs/AnimatedRadioMic';
 import Countdown from '@/components/Countdown/Countdown';
 import Head from 'next/head';
 
@@ -25,24 +25,24 @@ function Radio() {
       </Head>
 
       <div className={styles.radio_welcome}>
-        <h1>We have been on air since 2005</h1>
+        <h1>Garden Talk on KKOB</h1>
         <p>
-          Garden Talk with Rick Hobson has been on the air for over 15 years and counting. Tune in every other Saturday to hear everything you need to know about Albuquerque gardening, southwestern horticulture, and all kinds of plants from zone 5-8.
+          Garden Talk with Rick Hobson has been on the air for over 20 years and counting. Tune in every other Saturday to hear everything you need to know about Albuquerque gardening, southwestern horticulture, and all kinds of plants from zone 5-8.
         </p>
       </div>
 
       <div className={styles.radio_body_main}>
         <div className={styles.radio_body_top}>
           <h1>Garden Talk</h1>
-          <h3>TUNE IN TO "GARDEN TALK" 11:00 AM SATURDAYS</h3>
+          <h3>TUNE IN TO "GARDEN TALK" </h3>
+          <h3>11:00 AM SELECT SATURDAYS SATURDAYS</h3>
           <h2>KKOB | 96.3 FM | 770 AM</h2>
         </div>
 
-    <div className={styles.radio_container_outer}>
-        <div className={styles.radio_container}>
-        <RadioMic />
-        </div>
-    </div>
+
+<div className={styles.radio_svg}> 
+    <AnimatedRadioMic />
+</div>
 
   
 
@@ -81,6 +81,8 @@ function Radio() {
             </a>
           </div>
         </div>
+
+
 
         <div className={styles.radio_sponsors}>
           <h1>Garden Talk Sponsors</h1>

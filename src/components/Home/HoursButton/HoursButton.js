@@ -42,17 +42,9 @@ const HoursButton = () => {
             </thead>
             <tbody>
               
-              <tr><td>May 30</td><td>Friday</td><td>9:00 AM – 5:00 PM</td></tr>
-              <tr><td>May 31</td><td>Saturday</td><td>9:00 AM – 5:00 PM</td></tr>
-              <tr><td>June 1</td><td>Sunday</td><td>11:00 AM – 5:00 PM</td></tr>
               <tr><td>June 2–6</td><td>Mon–Fri</td><td>8:00 AM – 5:00 PM</td></tr>
               <tr><td>June 7</td><td>Saturday</td><td>8:00 AM – 5:00 PM</td></tr>
-              <tr><td>June 8</td><td>Sunday</td><td>11:00 AM – 5:00 PM</td></tr>
-              <tr><td>New Weekday Hours:</td><td></td><td></td></tr>
-              <tr><td>June 9–13 (and onwards)</td><td>Mon–Fri</td><td>8:00 AM – 4:00 PM</td></tr> 
-              <tr><td>New Weekend Hours:</td><td></td><td></td></tr>
-              <tr><td>June 14 (and onwards)</td><td>Saturday</td><td>8:00 AM – 5:00 PM</td></tr>
-              <tr><td>June 15 (and onwards)</td><td>Sunday</td><td>11:00 AM – 5:00 PM</td></tr>
+              <tr><td>June 8</td><td>Sunday</td><td>11:00 AM – 5:00 PM</td></tr>      
             </tbody>
           </table>
         </dialog>
