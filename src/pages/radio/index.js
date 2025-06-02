@@ -35,7 +35,7 @@ function Radio() {
         <div className={styles.radio_body_top}>
           <h1>Garden Talk</h1>
           <h3>TUNE IN TO "GARDEN TALK" </h3>
-          <h3>11:00 AM SELECT SATURDAYS SATURDAYS</h3>
+          <h3>11:00 AM SELECT SATURDAYS</h3>
           <h2>KKOB | 96.3 FM | 770 AM</h2>
         </div>
 
