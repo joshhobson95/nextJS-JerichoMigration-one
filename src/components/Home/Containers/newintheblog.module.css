@@ -21,9 +21,11 @@
     font-weight: 600;
     padding:1rem;
 }
-.c_icon{
-    height: 8vh;
+.c_icon {
+  height: 8vh;
   width: auto;
+  aspect-ratio: 1.5 / 1; /* Update to your actual ratio */
+  margin-top: 1rem;
 }
 
 .nb_paragraph{

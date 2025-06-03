@@ -27,6 +27,8 @@
 .c_icon{
     height: 8vh;
     width: auto;
+    aspect-ratio: 1.5 / 1;
+    margin-top: 1rem;
 }
 .c_image{
     height: 40vh;

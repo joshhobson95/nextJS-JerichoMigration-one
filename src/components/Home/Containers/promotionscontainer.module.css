@@ -77,9 +77,10 @@ box-shadow: 0px 0px 47px 5px rgba(219,185,75,0.52);
 
 }
 .tree_c_icon {
-    height: 8vh;
-    margin-top: 1rem;
-    width: auto;
+  height: 8vh;
+  aspect-ratio: 1.5 / 1;
+  width: auto;
+  margin-top: 1rem;
   }
 
 
