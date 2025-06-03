@@ -3,13 +3,12 @@ import Head from 'next/head';
 import styles from './delivery.module.css'; // You will need to migrate your styles to this file
 import plantbox from '../../../public/assets/plantbox.jpg'
 import CallButton from '../../components/Contact/CallButton';
+import AnimatedDelivery from '@/components/AnimatedSVGs/AnimatedDelivery';
 
 
 
 
-// Dynamically import the DeliveryVan component to ensure it only runs on the client
-import dynamic from 'next/dynamic';
-const DeliveryVan = dynamic(() => import('../../../public/svgs/DeliveryVan'), { ssr: false });
+
 
 function Delivery() {
   const revealRef2 = useRef(null);
@@ -56,8 +55,8 @@ function Delivery() {
 
 
        
-          <div className={styles.delivery_van_size}>
-            <DeliveryVan />
+          <div className={styles.delivery_van_svg}>
+            <AnimatedDelivery />
           </div>
         
 

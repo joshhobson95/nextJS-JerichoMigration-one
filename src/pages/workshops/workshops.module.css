@@ -180,6 +180,12 @@ width: 23rem;
     justify-content: center;
 }
 
+.workshop_svg{
+    height: 250px;
+    width: 70vw;
+    justify-self: center;
+}
+
 
 @media (min-width:1025px) { 
     .seminars_welcome{
@@ -241,6 +247,11 @@ width: 23rem;
         margin-top: -10rem;
     }
 
+    .workshop_svg{
+        height: 600px;
+        width: 50vw;
+    }
+
 
   @keyframes fadeIn{
     from {
@@ -271,6 +282,9 @@ width: 23rem;
         align-self: center;
         width: 30vw;
     }
+        .workshop_svg{
+            width: 40vw;
+        }
 
 
 }
@@ -285,6 +299,10 @@ width: 23rem;
         display: flex;
         align-self: center;
     }
+
+        .workshop_svg{
+            width: 30vw;
+        }
     
 
 }

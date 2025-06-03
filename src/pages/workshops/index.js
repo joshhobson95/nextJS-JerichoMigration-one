@@ -3,6 +3,7 @@ import styles from './workshops.module.css';
 import SeminarIcon from "../../../public/svgs/SeminarIcon";
 import seminar_pic from '../../../public/assets/seminar_pic_new.png'
 import Head from "next/head";
+import AnimatedWorkshop from "@/components/AnimatedSVGs/AnimatedWorkshop";
 
 function Workshops() {
 
@@ -35,11 +36,12 @@ function Workshops() {
             For a limited time, Jericho Nursery is offering their enriching workshops at an affordable price of just $10. As an added bonus, participants will receive a complimentary $10 gift card to the nursery...
           </p>
         </div>
-    <div className={styles.seminar_icon_container_outer}>
-        <div className={styles.seminar_icon_container}>
-         <SeminarIcon />
-        </div>
-    </div>
+    
+  <div className={styles.workshop_svg}>
+         <AnimatedWorkshop />
+  </div>
+       
+
           
 
           <div className={styles.seminars_list}>

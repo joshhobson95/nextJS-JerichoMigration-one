@@ -193,6 +193,12 @@ color: #DBBA4B;
 }
 
 
+.radio_svg{
+    justify-self: center;
+    width: 35vw;
+    margin: 3rem;
+}
+
 
 
 @media (max-width: 2000px){
@@ -205,6 +211,12 @@ color: #DBBA4B;
 @media screen and (max-width: 1400px){
 .radio_rick{
     width: 40vw;
+}
+
+
+
+.radio_svg{
+    width: 55vw;
 }
 
 }
@@ -316,6 +328,14 @@ margin-left: 0;
 .partner_logos_radio{
     width: 30vw;
 }
+
+
+.radio_svg{
+    width: 80vw;
+    margin: 1rem;
+}
+
+
 
 
 
