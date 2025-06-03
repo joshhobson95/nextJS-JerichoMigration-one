@@ -38,11 +38,14 @@ function Gallery2() {
     infinite: true,
     dots: true,
     appendDots: dots => (
-      <div>
-        <ul className="h_container_ul">{dots}</ul>
-      </div>
+ 
+        <ul>{dots}</ul>
+
     ),
-    customPaging: () =>    <span class="material-symbols-outlined">yard</span>,
+    customPaging: () => (
+         <span class="material-symbols-outlined">yard</span>
+    )
+      ,
     centerPadding: "10px",
     slidesToShow: 3,
     speed: 500,

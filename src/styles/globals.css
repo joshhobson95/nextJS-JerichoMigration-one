@@ -1031,10 +1031,7 @@ transform: translateX(-100%);
 .sliderWrapper .prev-arrow { left: 0; }
 .sliderWrapper .next-arrow { right: 0; }
 
-/* Misc */
-.h_container_ul {
-  top: -90px;
-}
+
 
 /* -----------------------------------
    Responsive Breakpoints

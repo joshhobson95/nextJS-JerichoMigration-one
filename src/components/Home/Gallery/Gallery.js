@@ -40,9 +40,7 @@ function Gallery() {
     appendDots: dots => <ul>{dots}</ul>,
     customPaging: () => (
       
-      <span>
-        o
-      </span>
+    <span class="material-symbols-outlined">yard</span>
       
     ),
     centerPadding: '10px',
