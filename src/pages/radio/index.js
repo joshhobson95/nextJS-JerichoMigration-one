@@ -15,14 +15,35 @@ function Radio() {
 
   return (
     <div className={styles.Radio}>
-      <Head>
-        <title>Jericho Nursery Radio Show - Gardening Tips and Discussions</title>
-        <meta name="description" content="Tune in to the Jericho Nursery Radio Show for insightful gardening tips, plant discussions, and expert advice." />
-        <meta property="og:title" content="Jericho Nursery Radio Show - Gardening Tips and Discussions" />
-        <meta property="og:description" content="Tune in to the Jericho Nursery Radio Show for insightful gardening tips, plant discussions, and expert advice." />
-        <meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg" />
-        <meta property="og:type" content="website" />
-      </Head>
+<Head>
+  <title>Radio Show – Gardening Tips & Advice | Jericho Nursery</title>
+
+  <meta
+    name="description"
+    content="Tune in to the Jericho Nursery Radio Show for expert gardening advice, seasonal plant tips, and engaging discussions to help your garden thrive."
+  />
+
+  <meta
+    property="og:title"
+    content="Jericho Nursery Radio Show – Gardening Tips & Advice"
+  />
+  <meta
+    property="og:description"
+    content="Join the Jericho Nursery Radio Show for weekly gardening insights, plant care tips, and expert Q&A with our seasoned nursery team."
+  />
+  <meta
+    property="og:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg"
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.jerichonursery.com/radio" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.png" />
+  <link rel="canonical" href="https://www.jerichonursery.com/radio" />
+</Head>
+
+
 
       <div className={styles.radio_welcome}>
         <h1>Garden Talk on KKOB</h1>

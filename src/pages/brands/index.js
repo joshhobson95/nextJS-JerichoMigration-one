@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import Head from 'next/head';
 import styles from './brands.module.css'
-
 import logo1 from '../../../public/assets/bacastrees.jpg';
 import logo2 from '../../../public/assets/justsprinklers.jpg';
 import logo3 from '../../../public/assets/rehms.jpg';
@@ -137,12 +136,32 @@ function Brands() {
 
   return (
     <main className={styles.Brands}>
-    <Head>
-      <title>Brands Carried by Jericho Nursery</title>
-      <meta name="description" content="Discover the top-quality brands carried by Jericho Nursery. Explore a wide range of trusted brands for all your gardening and landscaping needs." />
-      <meta property="og:title" content="Brands Carried by Jericho Nursery" />
-      <meta property="og:description" content="Discover the top-quality brands carried by Jericho Nursery. Explore a wide range of trusted brands for all your gardening and landscaping needs." />
-    </Head>
+<Head>
+  <title>Brands & Partners | Jericho Nursery</title>
+
+  <meta
+    name="description"
+    content="Meet the trusted brands and valued partners of Jericho Nursery. We proudly carry top-quality products and collaborate with the best in gardening and landscaping."
+  />
+
+  <meta property="og:title" content="Brands & Partners | Jericho Nursery" />
+  <meta
+    property="og:description"
+    content="Meet the trusted brands and valued partners of Jericho Nursery. We proudly carry top-quality products and collaborate with the best in gardening and landscaping."
+  />
+  <meta
+    property="og:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg"
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.jerichonursery.com/brands" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.png" />
+  <link rel="canonical" href="https://www.jerichonursery.com/brands" />
+</Head>
+
+
 
     <div className={styles.brands_welcome}>
       <h1>Brands and Partners</h1>

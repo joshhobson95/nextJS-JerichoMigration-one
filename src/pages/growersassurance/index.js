@@ -13,14 +13,30 @@ function FAQ() {
   return (
 
 <main className={styles.FAQ}>
-    <Head>
-        <title>Grower's Assurance - Planting Guide and Warranty | Jericho Nursery</title>
-    <meta name="description" content="Explore Jericho Nursery's comprehensive Planting Guide and Warranty, ensuring your gardening experience is supported by expert advice and quality assurance." />
-    <meta property="og:title" content="Grower's Assurance - Planting Guide and Warranty | Jericho Nursery" />
-    <meta property="og:description" content="Explore Jericho Nursery's comprehensive Planting Guide and Warranty, ensuring your gardening experience is supported by expert advice and quality assurance." />
-    <meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg" />
-    <meta property="og:type" content="website" />
-    </Head>
+<Head>
+  <title>Grower’s Assurance | Planting Guide & Warranty | Jericho Nursery</title>
+
+  <meta
+    name="description"
+    content="Get peace of mind with Jericho Nursery’s Grower’s Assurance. Explore our planting guide, warranty details, and expert tips to ensure your plants thrive."
+  />
+
+  <meta property="og:title" content="Grower’s Assurance | Planting Guide & Warranty | Jericho Nursery" />
+  <meta
+    property="og:description"
+    content="Get peace of mind with Jericho Nursery’s Grower’s Assurance. Explore our planting guide, warranty details, and expert tips to ensure your plants thrive."
+  />
+  <meta
+    property="og:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg"
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.jerichonursery.com/growersassurance" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.png" />
+  <link rel="canonical" href="https://www.jerichonursery.com/growersassurance" />
+</Head>
 
 
 <div className={styles.faq_welcome}>

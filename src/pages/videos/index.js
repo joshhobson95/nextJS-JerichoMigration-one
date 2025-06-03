@@ -8,17 +8,39 @@ function Videos() {
 
   return (
     <main className={styles.Videos}>
-      <Head>
-        <title>Jericho Nursery's Video Page</title>
-        <meta
-          name="description"
-          content="Explore Jericho Nursery's collection of informative and engaging YouTube videos. Discover expert gardening tips, product reviews, and much more to enhance your gardening experience."
-        />
-        <meta
-          name="keywords"
-          content="Jericho Nursery, YouTube videos, gardening tips, plant care, gardening supplies, Albuqueruque, New Mexico, Southwest, xeric, xeriscape, flower, frequent, club, alameda, north valley, abq, horticulture, garden experts, hobson, jericho, nursery, all, your, yard, and, garden, needs"
-        />
-      </Head>
+ <Head>
+  <title>Gardening Videos & Tips – Jericho Nursery</title>
+
+  <meta
+    name="description"
+    content="Watch gardening videos from Jericho Nursery! Explore expert tips, plant care advice, product demos, and local gardening inspiration—all in one place."
+  />
+
+  <meta
+    name="keywords"
+    content="Jericho Nursery, gardening videos, plant care, gardening tips, Albuquerque, New Mexico, xeriscape, flower club, garden experts, horticulture, yard and garden needs"
+  />
+
+  <meta
+    property="og:title"
+    content="Gardening Videos & Expert Tips – Jericho Nursery"
+  />
+  <meta
+    property="og:description"
+    content="Explore Jericho Nursery's video library for expert gardening tips, how-to guides, and product insights tailored to New Mexico’s unique climate."
+  />
+  <meta
+    property="og:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg"
+  />
+  <meta property="og:type" content="video.other" />
+  <meta property="og:url" content="https://www.jerichonursery.com/videos" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.png" />
+  <link rel="canonical" href="https://www.jerichonursery.com/videos" />
+</Head>
+
 
       <div className={styles.videos_welcome}>
         <h1>Jericho's Videos</h1>

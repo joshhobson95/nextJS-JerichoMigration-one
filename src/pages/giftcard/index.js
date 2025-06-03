@@ -6,12 +6,31 @@ import Head from 'next/head';
 function GiftCard() {
   return (
     <main className={styles.GiftCard_Main}>
-      <Head>
-        <title>Gift Cards - Jericho Nursery</title>
-        <meta name="description" content="Buy gift cards for any occasion and let your loved ones choose their perfect gift." />
-        <meta property="og:title" content="Gift Cards - Jericho Nursery" />
-        <meta property="og:description" content="Buy gift cards for any occasion and let your loved ones choose their perfect gift." />
-      </Head>
+   <Head>
+  <title>Gift Cards | Thoughtful Gardening Gifts from Jericho Nursery</title>
+
+  <meta
+    name="description"
+    content="Give the gift of gardening! Purchase Jericho Nursery gift cards for any occasion—perfect for plant lovers, special events, or just because."
+  />
+
+  <meta property="og:title" content="Gift Cards | Thoughtful Gardening Gifts from Jericho Nursery" />
+  <meta
+    property="og:description"
+    content="Give the gift of gardening! Purchase Jericho Nursery gift cards for any occasion—perfect for plant lovers, special events, or just because."
+  />
+  <meta
+    property="og:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg"
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.jerichonursery.com/giftcard" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.png" />
+  <link rel="canonical" href="https://www.jerichonursery.com/giftcard" />
+</Head>
+
 
       <div className={styles.gc_main_welcome}>
         <h1>Give the gift of Growing</h1>

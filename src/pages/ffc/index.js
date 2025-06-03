@@ -18,13 +18,30 @@ function FFC() {
   return (
     <main className={styles.ffc}>
 <Head>
-        <title>Frequent Flower Club - Jericho Nursery</title>
-        <meta name="description" content="Join the Frequent Flower Club at Jericho Nursery and enjoy exclusive benefits, discounts, and special offers on a wide variety of flowers and plants. Enhance your gardening experience and save with our loyalty program." />
-        <meta property="og:title" content="Frequent Flower Club - Exclusive Benefits and Discounts" />
-        <meta property="og:description" content="Join the Frequent Flower Club at Jericho Nursery and enjoy exclusive benefits, discounts, and special offers on a wide variety of flowers and plants. Enhance your gardening experience and save with our loyalty program." />
-        <meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg" />
-        <meta property="og:type" content="website" />
+  <title>Frequent Flower Club | Jericho Nursery Loyalty Program</title>
+
+  <meta
+    name="description"
+    content="Join the Frequent Flower Club at Jericho Nursery and enjoy exclusive discounts, members-only perks, and special offers on flowers and plants. Reward your love for gardening."
+  />
+
+  <meta property="og:title" content="Frequent Flower Club | Jericho Nursery Loyalty Program" />
+  <meta
+    property="og:description"
+    content="Join the Frequent Flower Club at Jericho Nursery and enjoy exclusive discounts, members-only perks, and special offers on flowers and plants. Reward your love for gardening."
+  />
+  <meta
+    property="og:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg"
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.jerichonursery.com/ffc" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.png" />
+  <link rel="canonical" href="https://www.jerichonursery.com/ffc" />
 </Head>
+
 
 
 

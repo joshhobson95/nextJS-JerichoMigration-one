@@ -9,13 +9,30 @@ function ContactUs() {
   return (
     <main className={styles.contact_us}>
 <Head>
-        <title>Contact Us - Jericho Nursery</title>
-        <meta name="description" content="Contact Jericho Nursery for any inquiries, questions, or feedback. We are here to assist you with your gardening needs and provide excellent customer service." />
-        <meta property="og:title" content="Contact Us - Jericho Nursery" />
-        <meta property="og:description" content="Contact Jericho Nursery for any inquiries, questions, or feedback. We are here to assist you with your gardening needs and provide excellent customer service." />
-        <meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg" />
-        <meta property="og:type" content="website" />
+  <title>Contact Us | Jericho Nursery</title>
+
+  <meta
+    name="description"
+    content="Reach out to Jericho Nursery for inquiries, questions, or feedback. We're here to help with expert gardening advice and excellent customer service in Albuquerque."
+  />
+
+  <meta property="og:title" content="Contact Us | Jericho Nursery" />
+  <meta
+    property="og:description"
+    content="Reach out to Jericho Nursery for inquiries, questions, or feedback. We're here to help with expert gardening advice and excellent customer service in Albuquerque."
+  />
+  <meta
+    property="og:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg"
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.jerichonursery.com/contact" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.png" />
+  <link rel="canonical" href="https://www.jerichonursery.com/contact" />
 </Head>
+
 
 
 

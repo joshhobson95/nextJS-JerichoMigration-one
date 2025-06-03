@@ -37,11 +37,35 @@ function Delivery() {
 
   return (
     <main className={styles.delivery}>
-      <Head>
-        <title>Delivery Service - Jericho Nursery</title>
-        <meta name="description" content="Find fast and reliable delivery service for your plant parcels." />
-        <meta name="keywords" content="delivery service, fast delivery, reliable delivery" />
-      </Head>
+   <Head>
+  <title>Delivery Service | Jericho Nursery</title>
+
+  <meta
+    name="description"
+    content="Get fast, reliable delivery of plants, trees, and garden supplies from Jericho Nursery. Serving Albuquerque with care and convenience."
+  />
+  <meta
+    name="keywords"
+    content="plant delivery, garden delivery Albuquerque, tree delivery, fast delivery, reliable delivery service"
+  />
+
+  <meta property="og:title" content="Delivery Service | Jericho Nursery" />
+  <meta
+    property="og:description"
+    content="Get fast, reliable delivery of plants, trees, and garden supplies from Jericho Nursery. Serving Albuquerque with care and convenience."
+  />
+  <meta
+    property="og:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg"
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.jerichonursery.com/delivery" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.png" />
+  <link rel="canonical" href="https://www.jerichonursery.com/delivery" />
+</Head>
+
 
       <div className={styles.delivery_welcome}>
         <h1>Delivery and Planting</h1>

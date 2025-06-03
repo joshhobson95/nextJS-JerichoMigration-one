@@ -12,14 +12,33 @@ function Workshops() {
 
   return (
     <main className={styles.Seminars}>
-      <Head>
-        <title>Gardening Workshops - Jericho Nursery</title>
-        <meta name="description" content="Join our gardening workshops at Jericho Nursery to enhance your gardening skills, learn new techniques, and connect with fellow gardeners." />
-        <meta property="og:title" content="Gardening Workshops - Enhance Your Gardening Skills" />
-        <meta property="og:description" content="Join our gardening workshops at Jericho Nursery to enhance your gardening skills, learn new techniques, and connect with fellow gardeners." />
-        <meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg" />
-        <meta property="og:type" content="website" />
-      </Head>
+<Head>
+  <title>Gardening Workshops – Jericho Nursery</title>
+
+  <meta
+    name="description"
+    content="Join hands-on gardening workshops at Jericho Nursery. Learn expert techniques, ask questions, and grow your skills alongside fellow gardening enthusiasts."
+  />
+
+  <meta
+    property="og:title"
+    content="Gardening Workshops – Learn & Grow at Jericho Nursery"
+  />
+  <meta
+    property="og:description"
+    content="Attend gardening workshops at Jericho Nursery to boost your knowledge, connect with our experts, and cultivate confidence in your garden."
+  />
+  <meta
+    property="og:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg"
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.jerichonursery.com/workshops" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.png" />
+  <link rel="canonical" href="https://www.jerichonursery.com/workshops" />
+</Head>
 
       <div className={styles.seminars_welcome}>
         <h1>Workshops</h1>

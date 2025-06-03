@@ -20,13 +20,30 @@ function WhyWorkHere() {
   return (
     <main className={styles.employment}>
 <Head>
-        <title>Why Work Here - Jericho Nursery</title>
-        <meta name="description" content="Discover why Jericho Nursery is a great place to work. Join our team of passionate individuals, enjoy a supportive work environment, and contribute to the joy of gardening in our community." />
-        <meta property="og:title" content="Why Work Here - Join Our Passionate Team" />
-        <meta property="og:description" content="Discover why Jericho Nursery is a great place to work. Join our team of passionate individuals, enjoy a supportive work environment, and contribute to the joy of gardening in our community." />
-        <meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg" />
-        <meta property="og:type" content="website" />
+  <title>Why Work Here | Jericho Nursery Careers</title>
+
+  <meta
+    name="description"
+    content="Discover why Jericho Nursery is a great place to work. Join our passionate team, enjoy a supportive environment, and help bring the joy of gardening to Albuquerque."
+  />
+  
+  <meta property="og:title" content="Why Work Here | Jericho Nursery Careers" />
+  <meta
+    property="og:description"
+    content="Discover why Jericho Nursery is a great place to work. Join our passionate team, enjoy a supportive environment, and help bring the joy of gardening to Albuquerque."
+  />
+  <meta
+    property="og:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg"
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.jerichonursery.com/employment" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.png" />
+  <link rel="canonical" href="https://www.jerichonursery.com/employment" />
 </Head>
+
 
 <div className={styles.employment_welcome}>
 <h1>Employment at Jericho</h1>

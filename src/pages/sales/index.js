@@ -60,12 +60,33 @@ function Sales({ salesData, promotionsData }) {
 
   return (
     <main className={styles.sales}>
-      <Head>
-        <title>Shop This Week's Deals at Jericho Nursery</title>
-        <meta name="description" content="Explore our collection of high-quality plants at Jericho Nursery. Find the perfect plants to beautify your garden or home." />
-        <meta property="og:title" content="Shop High-Quality Plants at Jericho Nursery" />
-        <meta property="og:description" content="Explore our collection of high-quality plants at Jericho Nursery. Find the perfect plants to beautify your garden or home." />
-      </Head>
+  <Head>
+  <title>Sales & Weekly Promotions – Save Big at Jericho Nursery</title>
+
+  <meta
+    name="description"
+    content="Discover this week's best deals at Jericho Nursery! Save on flowers, trees, shrubs, gardening supplies, and more while supplies last."
+  />
+
+  <meta
+    property="og:title"
+    content="Sales & Weekly Promotions – Save Big at Jericho Nursery"
+  />
+  <meta
+    property="og:description"
+    content="Check out Jericho Nursery’s latest promotions and limited-time sales. Find unbeatable prices on plants, gardening tools, and seasonal items."
+  />
+  <meta
+    property="og:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg"
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.jerichonursery.com/sales" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.png" />
+  <link rel="canonical" href="https://www.jerichonursery.com/sales" />
+</Head>
 
 
       <div className={styles.sales_welcome}>

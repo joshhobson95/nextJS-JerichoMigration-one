@@ -15,13 +15,30 @@ function Aboutus() {
     <main className={styles.AboutUs}> 
 
 <Head>
-        <title>About Us - Jericho Nursery</title>
-        <meta name="description" content="Learn about Jericho Nursery, your trusted source for quality plants, gardening supplies, and expert advice. Discover our commitment to providing exceptional service and fostering a love for gardening." />
-        <meta property="og:title" content="About Us - Jericho Nursery" />
-        <meta property="og:description" content="Learn about Jericho Nursery, your trusted source for quality plants, gardening supplies, and expert advice. Discover our commitment to providing exceptional service and fostering a love for gardening." />
-        <meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg" />
-        <meta property="og:type" content="website" />
+  <title>About Us | Jericho Nursery</title>
+
+  <meta
+    name="description"
+    content="Get to know Jericho Nursery—Albuquerque’s trusted garden center for quality plants, expert advice, and outstanding customer service. Learn our story and mission."
+  />
+
+  <meta property="og:title" content="About Us | Jericho Nursery" />
+  <meta
+    property="og:description"
+    content="Get to know Jericho Nursery—Albuquerque’s trusted garden center for quality plants, expert advice, and outstanding customer service. Learn our story and mission."
+  />
+  <meta
+    property="og:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg"
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.jerichonursery.com/aboutus" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.png" />
+  <link rel="canonical" href="https://www.jerichonursery.com/aboutus" />
 </Head>
+
 
       <div className={styles.aboutus_welcome}>
         <h1> About Us here at Jericho</h1>

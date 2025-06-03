@@ -12,26 +12,31 @@ function GardenResources() {
 
   return (
     <div className={styles.GardenResources}>
-      <Head>
-        <title>Garden Resources - Jericho Nursery</title>
-        <meta
-          name="description"
-          content="Explore a collection of helpful garden resources and guides provided by Jericho Nursery."
-        />
-        <meta
-          property="og:title"
-          content="Garden Resources - Jericho Nursery"
-        />
-        <meta
-          property="og:description"
-          content="Explore a collection of helpful garden resources and guides provided by Jericho Nursery."
-        />
-        <meta
-          property="og:image"
-          content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg"
-        />
-        <meta property="og:type" content="website" />
-      </Head>
+ <Head>
+  <title>Garden Resources | Resources, Clubs and Community from Jericho Nursery</title>
+
+  <meta
+    name="description"
+    content="Browse expert gardening tips, seasonal guides, and helpful resources from Jericho Nursery. Your go-to source for planting success in Albuquerque."
+  />
+
+  <meta property="og:title" content="Garden Resources | Expert Tips & Guides from Jericho Nursery" />
+  <meta
+    property="og:description"
+    content="Browse expert gardening tips, seasonal guides, and helpful resources from Jericho Nursery. Your go-to source for planting success in Albuquerque."
+  />
+  <meta
+    property="og:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg"
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.jerichonursery.com/gardenresources" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.png" />
+  <link rel="canonical" href="https://www.jerichonursery.com/gardenresources" />
+</Head>
+
 
       <div className={styles.gr_welcome}>
         <h1>Gardening Resources</h1>

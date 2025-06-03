@@ -36,7 +36,6 @@ export default function Home() {
     <Head>
      
       <title>Jericho Nursery | All your Yard and Garden needs</title>
-
    
       <meta
         name="description"

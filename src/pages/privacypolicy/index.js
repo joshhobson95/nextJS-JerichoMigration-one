@@ -5,14 +5,34 @@ import Head from 'next/head';
 function PrivacyPolicy() {
   return (
     <div className={styles.privacy_policy_outer}>
-        <Head>
-        <title>Privacy Policy - Jericho Nursery</title>
-        <meta name="description" content="Review the Privacy Policy of Jericho Nursery. Learn how we collect, use, and protect your personal information when you interact with our website or services." />
-        <meta property="og:title" content="Privacy Policy - Jericho Nursery" />
-        <meta property="og:description" content="Find out how Jericho Nursery handles your data. Our Privacy Policy covers data collection, usage, and your rights regarding personal information." />
-        <meta property="og:image" content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg" />
-        <meta property="og:type" content="website" />
-        </Head>
+   <Head>
+  <title>Privacy Policy – Jericho Nursery</title>
+
+  <meta
+    name="description"
+    content="Review Jericho Nursery’s Privacy Policy to understand how we collect, use, and protect your personal information when you visit our website or use our services."
+  />
+
+  <meta
+    property="og:title"
+    content="Privacy Policy – Jericho Nursery"
+  />
+  <meta
+    property="og:description"
+    content="Find out how Jericho Nursery collects, uses, and safeguards your personal data. Our Privacy Policy outlines your rights and our practices in detail."
+  />
+  <meta
+    property="og:image"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg"
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.jerichonursery.com/privacypolicy" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.png" />
+  <link rel="canonical" href="https://www.jerichonursery.com/privacypolicy" />
+</Head>
+
       <div className={styles.privacy_policy_inner}>
         <h1>Jericho Nursery Privacy Policy</h1>
         <p>

@@ -37,10 +37,8 @@ function Gallery2() {
     centerMode: true,
     infinite: true,
     dots: true,
-    appendDots: dots => (
- 
+    appendDots: dots => ( 
         <ul>{dots}</ul>
-
     ),
     customPaging: () => (
          <span class="material-symbols-outlined">yard</span>
