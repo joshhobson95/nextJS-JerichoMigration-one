@@ -193,12 +193,12 @@ color: #DBBA4B;
 }
 
 
-.radio_svg{
-    justify-self: center;
-    width: 35vw;
-    margin: 3rem;
+.radio_svg {
+  width: 35vw;
+  height: auto;
+  margin: 3rem auto;
+  display: block;
 }
-
 
 
 @media (max-width: 2000px){

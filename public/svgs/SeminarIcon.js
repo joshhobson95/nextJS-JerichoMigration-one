@@ -12,7 +12,6 @@ function SeminarIcon() {
       strokeMiterlimit="10"
       clipRule="evenodd"
       viewBox="0 0 3370.82 2384.24"
-      id='seminar_icon'
     >
       <g vectornatorLayerName="Layer 1">
 

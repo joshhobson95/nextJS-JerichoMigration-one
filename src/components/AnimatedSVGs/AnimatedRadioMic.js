@@ -30,7 +30,7 @@ const AnimatedRadioMic = () => {
   }, []);
 
   return (
-    <div ref={ref}>
+    <div className='svg-container-flex' ref={ref}>
       {isVisible && <RadioMic />}
     </div>
   );

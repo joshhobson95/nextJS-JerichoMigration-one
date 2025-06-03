@@ -30,7 +30,7 @@ const AnimatedWorkshop = () => {
   }, []);
 
   return (
-    <div ref={ref}>
+      <div className='svg-container-flex' ref={ref}>
       {isVisible && <SeminarIcon />}
     </div>
   );
