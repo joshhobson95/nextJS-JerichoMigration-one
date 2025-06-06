@@ -1,14 +1,14 @@
-.contact_us{
-    height: auto;
-    padding-top: 5vh;
-    background-image: linear-gradient(#DBBA4B, #4BA7DB, #DB4BD5CF) ;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    overflow: hidden;
-    line-height: 1.4;
-    text-align: center;
+.contact_us {
+  min-height: 100vh; /* Ensures vertical stability before children load */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-image: linear-gradient(#DBBA4B, #4BA7DB, #DB4BD5CF);
+  overflow: hidden;
+  line-height: 1.4;
+  text-align: center;
 }
+
 .contact_us_welcome{
     margin: 5vh;
     background-color: #242424;
