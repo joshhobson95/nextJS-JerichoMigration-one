@@ -93,6 +93,9 @@
 }
 .spotify{
     height: 1rem;
+    width: auto;
+    aspect-ratio: 3.4 / 1;
+    
 }
 .spotify_p{
     color: white;

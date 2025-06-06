@@ -85,74 +85,9 @@ color: #4FA673;
 background-color: white;
 }
 
-.r_1 h3{
-    animation: ts_yellow 1s linear forwards;
-    animation-fill-mode: forwards;
-    animation-delay: 0.25s;
-   
-}
-.r_2 h3{
-    animation: ts_green 1s linear forwards;
-    animation-fill-mode: forwards;
-    animation-delay: 0.5s;
-    
-   
-}
-.r_3 h3{
-    animation: ts_brown 1s linear forwards;
-    animation-fill-mode: forwards;
-    animation-delay: 1s;
 
-}
 
-.a_s_1{
-    height: 100px;
-    width: 20px;
-    position: absolute;
-    right: 10vw ;
-    background-color: #DBBA4B;
-    opacity: 1;
-    animation: wipe 1s linear forwards;
-    animation-fill-mode: forwards;
-    animation-delay: 0.25s;
-    box-shadow:
-    0 0 60px 30px #DBBA4B,  
-    0 0 100px 60px #DBBA4B, 
-    0 0 140px 90px #DBBA4B; 
-    z-index: 0;
-}
-.a_s_2{
-    height: 100px;
-    width: 20px;
-    position: absolute;
-    right: 10vw ;
-    background-color: #4FA673;
-    opacity: 1;
-    animation: wipe 1s linear forwards;
-    animation-fill-mode: forwards;
-    animation-delay: 0.5s;
-    box-shadow:
-    0 0 60px 30px #4FA673,  
-    0 0 100px 60px #4FA673, 
-    0 0 140px 90px #4FA673; 
-    z-index: 0;
-}
-.a_s_3{
-    height: 100px;
-    width: 20px;
-    position: absolute;
-    right: 10vw ;
-    background-color: #95562E;
-    opacity: 1;
-    animation: wipe 1s linear forwards;
-    animation-fill-mode: forwards;
-    animation-delay: 1s;
-    box-shadow:
-    0 0 60px 30px #95562E,  
-    0 0 100px 60px #95562E, 
-    0 0 140px 90px #95562E; 
-    z-index: 0;
-}
+
 .maj_2{
     display: flex;
     justify-content: center;
@@ -178,41 +113,18 @@ background-color: white;
     padding: 2rem 1rem;
 }
 
+.r_1 h3{
+     text-shadow: 0px 4px 4px #DBBA4B;
+}
+.r_2 h3{
+     text-shadow: 0px 4px 4px #4FA673;
+}
+.r_3 h3{
+     text-shadow: 0px 4px 4px #95562E;
+}
 
 
-    @keyframes wipe{
-        from{ 
-            right: 10vw;
-        }
-        to {
-            right: 90vw;
-            opacity: 0;
-        }
-    }
-    @keyframes ts_yellow{
-       0%{
-        text-shadow: none;
-       }
-       100%{
-        text-shadow: 0px 4px 4px #DBBA4B;
-       }
-    }
-    @keyframes ts_green{
-        0%{
-         text-shadow: none;
-        }
-        100%{
-            text-shadow: 0px 4px 4px #4FA673;
-        }
-     }
-     @keyframes ts_brown{
-        0%{
-         text-shadow: none;
-        }
-        100%{
-            text-shadow: 0px 4px 4px #95562E;
-        }
-     }
+
 
      @media (min-width:1024px) { 
 

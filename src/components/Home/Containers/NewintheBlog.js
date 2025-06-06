@@ -36,8 +36,8 @@ function NewintheBlog() {
   src={icon1}
   className={styles.c_icon}
   alt=""
-  width={100} // replace with actual width
-  height={100} // replace with actual height
+  width={100} 
+  height={100} 
 />
             </div>
             <div className={styles.home_container_header_text}>

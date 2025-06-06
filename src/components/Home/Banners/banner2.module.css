@@ -23,10 +23,14 @@
     padding: 0.5rem;
   }
 
-.TJs{
-    width: 60vw;
-    align-self: center;
+.TJs {
+  width: 60vw;
+  aspect-ratio: 1 / 0.85; 
+  height: auto;
+  align-self: center;
+
 }
+
 
 .b_2{
     height: auto;
@@ -75,7 +79,7 @@
         font-size: 24pt;
     }
     .TJs{
-        width: 40vw;
+        width: 50vw;
     }
     .b_22 ul{
          font-size: 16pt;
@@ -92,7 +96,7 @@
         padding: 1rem;
     }
     .TJs{
-        width: 30vw;
+        width: 40vw;
     }
      .b_2{
         width: 75vw;
@@ -102,7 +106,7 @@
 @media (min-width:1350px) { 
 
     .TJs{
-        width: 20vw;
+        width: 30vw;
     }
     .b_2{
         width: 65vw;
