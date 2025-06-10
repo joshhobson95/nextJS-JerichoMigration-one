@@ -68,7 +68,7 @@ function PlantCatalog() {
     </div>
     <div className={styles.plant_text}>
      <h2>Annuals</h2>
-     <p>Annuals are the showstoppers of the garden, bursting with vibrant color and energy for a single growing season. From sunflowers to marigolds, these fast-growing plants bloom brilliantly before completing their life cycle in just one year. Explore a wide variety of annuals to create stunning, ever-changing displays in your garden each year.</p>
+     <p>Brighten your garden with bold color and seasonal charm from the annuals at Jericho Nursery. Perfect for flower beds, borders, containers, and hanging baskets, these fast-growing plants deliver nonstop blooms and instant impact all season long. Whether you're filling in gaps or designing a fresh display, our wide selection of annuals offers endless possibilities to personalize your outdoor space.</p>
     </div>
   </article>
 </Link>
@@ -86,17 +86,20 @@ function PlantCatalog() {
   </article>
 </Link>
 
-{/* <a href='/roses'>
-  <div className='plant_category'>
-  <div className='plant_image_container'>
-    <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/TypesofProducts/roses.jpg' alt='Roses available at Jericho Nursery in Albuquerque, New Mexico'/>
+<Link href='plantcatalog/houseplants'>
+<article className={styles.plant_category}>
+<div className={styles.plant_image_container}>
+    <img src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Houseplants/monstera-6817675_1280.jpg' alt='Houseplants available at Jericho Nursery in Albuquerque, New Mexico'/>
     </div>
-    <div className='plant_text'>
-     <h2>Roses</h2>
-      <p>Roses are cherished perennials, known for their beautiful blooms and fragrance. They thrive in Albuquerque’s dry climate, with varieties like the Knock Out rose. We receive over 50 varieties from Week's Roses around March to April, offering plenty of options for any garden.</p>
+    <div className={styles.plant_text}>
+     <h2>Houseplants</h2>
+     <p>Bring the beauty of the outdoors inside with lush, vibrant houseplants from Jericho Nursery. Whether you're looking to add a touch of green to your home office, brighten a shady corner, or create a calming indoor retreat, our diverse selection of houseplants makes it easy to find the perfect fit. From low-maintenance favorites to statement-making foliage, there’s something for every space and every level of plant care experience.</p>  
+
     </div>
-  </div>
-</a> */}
+  </article>
+</Link>
+
+
 
 <Link href='plantcatalog/trees'>
 <article className={styles.plant_category}>
