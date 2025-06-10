@@ -70,7 +70,7 @@ function Gallery() {
 
   return (
     <div className="h_carousel">
-      <h2>Spring has Sprung!</h2>
+      <h2>This Summer at Jericho</h2>
       {visible && <p>Swipe to see more photos..</p>}
       <div className="sliderWrapper">
         <Slider {...settings}>
