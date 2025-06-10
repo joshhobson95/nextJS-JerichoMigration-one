@@ -38,6 +38,11 @@
   width: 100%;
   border-radius: 10px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  font-size: 14pt;
+  line-height: 1.2;
+}
+.modal h1{
+  font-size: 16pt;
 }
 
 .close_button {

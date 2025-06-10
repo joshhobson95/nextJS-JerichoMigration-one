@@ -30,23 +30,13 @@ const HoursButton = () => {
           onClick={handleOutsideClick}
           className={styles.modal}
         >
-          <button onClick={closeModal} className={styles.close_button}>Close</button>
+          <button onClick={closeModal} className={styles.close_button}>x</button>
+          <h1>Store Hours</h1>
 
-          <table className={styles.schedule_table}>
-            <thead>
-              <tr>
-                <th>Date</th>
-                <th>Day</th>
-                <th>Hours</th>
-              </tr>
-            </thead>
-            <tbody>
-              
-              <tr><td>June 2–6</td><td>Mon–Fri</td><td>8:00 AM – 5:00 PM</td></tr>
-              <tr><td>June 7</td><td>Saturday</td><td>8:00 AM – 5:00 PM</td></tr>
-              <tr><td>June 8</td><td>Sunday</td><td>11:00 AM – 5:00 PM</td></tr>      
-            </tbody>
-          </table>
+          Mon-Fri: 8:00 am - 4:00 pm 
+          <br></br> Sat: 8:00 am - 5:00 pm | Sun: 11:00 am - 5:00 pm
+        
+       
         </dialog>
       )}
     </div>

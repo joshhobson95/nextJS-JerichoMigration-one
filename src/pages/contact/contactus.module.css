@@ -1,5 +1,5 @@
 .contact_us {
-  min-height: 100vh; /* Ensures vertical stability before children load */
+  min-height: 100vh; 
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
