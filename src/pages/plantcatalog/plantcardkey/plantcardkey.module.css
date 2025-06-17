@@ -1,0 +1,150 @@
+.PlantCardKey{
+    height: auto;
+    padding-top: 5vh;
+    background-image: linear-gradient(#95562E, #DB4B4B, #15F6C0a8  ) ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;   
+    text-align: center;
+}
+.plantcard_welcome{
+    margin: 5vh;
+    background-color: #242424;
+    height: auto;
+    width: 60vw;
+    border-radius: 20px;
+    box-shadow: 11px 13px 10px 5px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    align-self: center;
+    color: #95562E;
+    font-weight: 700;
+    padding: 5vh;
+  }
+   .plantcard_welcome h1{
+    color: #4FA673;
+    font-size: 26pt;
+    font-weight: 700;
+  }
+.plantcard_body {
+    align-self: center;
+    background-image: linear-gradient(#9f4a38, #6f5d53, #209276);
+    border-radius: 20px;
+    box-shadow: 11px 13px 10px 5px #00000040;
+    color: #fff;
+    height: auto;
+    margin-bottom: 2rem;
+    width: 90vw;
+    margin: 1rem;
+    padding-top: 2rem;
+}
+
+.plantcard_body h2 {
+    font-size: 30pt;
+    text-align: left;
+    font-weight: 600;
+    margin: 1rem;
+}
+.plantcard_body p{
+    margin: 1rem;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.plantcard_bottom{
+    margin: 1rem;
+}
+.zone_link{
+    color: #5a2706;
+}
+.imageWrapper {
+  position: relative;
+  height: 420px;
+  width: 100%;
+  max-width: 800px;
+  aspect-ratio: 3 / 3; /* fallback ratio */
+  margin: 0 auto;
+}
+
+
+
+
+@media (min-width:825px) {
+        .plantcard_welcome h1{
+        font-size: 40pt;
+    }
+
+
+}
+
+
+
+
+
+@media (min-width:1025px) {
+    .plantcard_welcome h1{
+        font-size: 60pt;
+    }
+    .plantcard_welcome p{
+        font-size: 22pt;
+    }
+    .plantcard_body h2 {
+        font-size: 40pt;
+    }
+    .plantcard_body p{
+        margin: 2rem 4rem;
+        font-size: 16pt;
+    }
+    .imageWrapper {
+  position: relative;
+  height: 800px;
+  width: 100%;
+  max-width: 800px;
+  aspect-ratio: 3 / 3; /* fallback ratio */
+  margin: 0 auto;
+}
+.plantcard_body {
+    padding: 3rem;
+    box-sizing: border-box;
+}
+
+}
+
+
+
+
+@media (min-width:1500px) {
+
+    .plantcard_body h2 {
+        font-size: 44pt;
+    }
+    .plantcard_body p {
+        font-size: 18pt;
+        margin: 2rem 4rem;
+    }
+    .plantcard_body {
+        margin: 2rem 6rem;
+    }
+    .plantcard_body {
+    padding: 5rem;
+    box-sizing: border-box;
+}
+.imageWrapper {
+  height: 1000px;
+}
+
+}
+@media (min-width: 1650px) {
+    .plantcard_body {
+        margin: 2rem 10rem;
+    }
+}
+
+
+@media (min-width:1900px) {
+    .plantcard_body {
+        margin: 2rem 6rem;
+    } 
+
+}

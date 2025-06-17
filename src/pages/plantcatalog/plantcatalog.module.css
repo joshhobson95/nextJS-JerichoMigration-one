@@ -105,6 +105,18 @@
   }
 
 
+  .plant_key{
+    margin: 1.5rem;
+    padding: 1.5rem;
+    border-top: 2px solid white;
+  }
+  .plant_key h3{
+    font-size: 22pt;
+  }
+  .plant_key p{
+    margin: 1rem;
+  }
+
 
   
   @media (min-width:700px) {

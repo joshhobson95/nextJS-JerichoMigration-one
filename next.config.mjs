@@ -1,6 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+
+  images: {
+    domains: ['jericho-content.nyc3.cdn.digitaloceanspaces.com'],
+  },
+  
   async redirects() {
     return [
       // Cactus
