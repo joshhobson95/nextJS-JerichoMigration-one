@@ -152,10 +152,12 @@ function PlantCatalog() {
 
 
 
+  <Link href='plantcatalog/plantcardkey'>
 <div className={styles.plant_key}>
   <h3>Plant Card Key</h3>
   <p>Click here to dive deeper into exactly how to read our plant card</p>
 </div>
+  </Link>
 
 
   </div>

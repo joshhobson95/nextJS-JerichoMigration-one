@@ -92,9 +92,9 @@ function Annuals() {
 
 
           <div className={styles.annual_mid_page}>
-            <Link className={styles.plant_catalog_link} href='xeric'>
-              <h4>Looking to be more water-wise?</h4>
-              <p>Click Here to view our Xeric Section</p>
+            <Link className={styles.plant_catalog_link} href='plantcardkey'>
+              <h4>Want more info about how to read our Plant Cards?</h4>
+              <p>Click Here to view our Plant Card Key</p>
             </Link>
           </div>
 

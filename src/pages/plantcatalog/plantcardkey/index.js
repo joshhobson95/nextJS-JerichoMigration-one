@@ -13,11 +13,12 @@ function PlantCardKey() {
 
         <div className={styles.plantcard_body}>
             <h2>Explanation of our Plant Card</h2>
-            <p>From us to you, a simple explanation of how to read our plant card. It is very similar to a plant tag you would get in any of your plants bought at Jericho Nursery or other retailers but differse in a few key ways that are worth explanation.</p>
+            <p>From us to you: a simple explanation of how to read our plant card.
+It’s very similar to a plant tag you might find on any plant purchased at Jericho Nursery or other retailers, but it differs in a few key ways that are worth explaining.</p>
 
 <div className={styles.imageWrapper}>
   <Image
-    src="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/PlantCardKey2.png"
+    src="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/PlantCard-Key.png"
     alt="Plant Card Key"
     fill
     className={styles.image}

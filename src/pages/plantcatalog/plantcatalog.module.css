@@ -112,9 +112,29 @@
   }
   .plant_key h3{
     font-size: 22pt;
+    position: relative;
+    display: inline-block;
   }
   .plant_key p{
     margin: 1rem;
+  }
+  .plant_key:hover{
+    background-color: #92207f21;
+    border-radius: 14px;
+  }
+    .plant_key h3::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 4px; /* Adjust the thickness of the underline */
+    bottom: -1px;
+    left: 0;
+    background-color: #ffffff; /* Adjust the underline color */
+    transition: width .5s ease; /* Match the transition duration */
+  }
+  
+  .plant_key:hover h3::after {
+    width: 100%;
   }
 
 
@@ -170,6 +190,20 @@
       display: flex;
       justify-content: center;
     }
+    
+    .plant_key{
+      margin: 1.5rem;
+      padding: 1.5rem;
+      border-top: 2px solid white;
+    }
+    .plant_key h3{
+      font-size: 28pt;
+    }
+    .plant_key p{
+      font-size: 16pt;
+    }
+
+
   }
   
   @media (min-width:1150px) {
