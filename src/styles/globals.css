@@ -1,4 +1,4 @@
-
+/* Meyer CSS reset */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -43,10 +43,7 @@ table {
 
 
 
-
-
-
-/* .rich-text styles (specific) */
+/* .rich-text styles (for rich text editor in blogs) */
 .rich-text-editor{
 	padding: 100px;
     margin-bottom: 100px;
@@ -71,7 +68,6 @@ table {
   padding: 0;
 }
 
-/* Increase specificity for strong and em elements within .rich-text */
 .rich-text strong {
   font-weight: 800;
 }
@@ -80,31 +76,23 @@ table {
   font-style: italic;
 }
 
-/* Override link styles within .rich-text */
 .rich-text a {
   text-decoration: underline;
   color: blue;
 }
 
 .rich-text ol ol {
-  list-style-type: square; /* You can change this to your preferred style */
-  margin-left: 20px; /* Adjust the left margin to create further indentation */
+  list-style-type: square; 
+  margin-left: 20px; 
 }
 .rich-text ul ul {
-	list-style-type: square; /* You can change this to your preferred style */
-	margin-left: 20px; /* Adjust the left margin to create further indentation */
+	list-style-type: square;
+	margin-left: 20px; 
   }
 
 
-  .tree_catalog_title{
-    font-size: 46pt;
-    font-weight: 700;
-    margin-bottom: 2rem;
-    text-shadow: 1px 1px 2px #000;
-  }
 
-
-/* DESKTOP NAVIGATION CSS */
+/* DESKTOP HEADER/NAVIGATION CSS */
 .navbar {
     justify-content: space-between;
     align-items: center;
@@ -121,7 +109,6 @@ table {
     width: 8vw;
   }
 
-  
   .navbar__menu {
     display: flex;
     justify-content: space-between;
@@ -166,22 +153,17 @@ table {
     background-color: #4FA673;
   }
 
-
-  
-
-
   .navbar__menuItem--hasDropdown:hover::before,
 .navbar__menuItem--hasDropdown:focus::before {
   content: '';
   position: absolute;
-  top: -10px; /* Adjust this value to increase or decrease the hover area vertically */
-  left: -10px; /* Adjust this value to increase or decrease the hover area horizontally */
-  width: calc(100% + 20px); /* Adjust this value to increase or decrease the hover area width */
-  height: calc(100% + 20px); /* Adjust this value to increase or decrease the hover area height */
+  top: -10px; 
+  left: -10px;
+  width: calc(100% + 20px); 
+  height: calc(100% + 20px); 
   z-index: -1;
   opacity: 0;
   transition: opacity 0.2s;
-  /* Pseudo-element styles for hover area overlay */
 }
   .navbar__menuItem--hasDropdown:hover .navbar__dropdownMenu_yellow {
     display: block;  
@@ -354,7 +336,7 @@ justify-content: center;
     border-radius: 20px;
   }
   }
-/* MOBILE NAVIGATION CSS */
+/* MOBILE HEADER/NAVIGATION CSS */
 .navbar__mobile{
   position: fixed;
   z-index: 10;
@@ -477,13 +459,8 @@ justify-content: center;
     }
    
     
-  
-     
 
-
-
-
-/* DELIVERY VAN ANIMATION */
+/* DELIVERY VAN SVG ANIMATION (Delivery Page) */
 #top_smoke{
 	animation: smoky;
 	animation-duration: 2s;
@@ -564,7 +541,7 @@ justify-content: center;
 		}
 	  }
 	
-/* RADIO  */
+/* RADIO SVG ANIMATION (Radio Page) */
 
 @keyframes swirl {
   0% {
@@ -681,8 +658,7 @@ animation-delay: .5s;
 }
 
 
-
-/* SEMINAR  */
+/* SEMINAR SVG ANIMATION (Seminar Page) */
 
 @keyframes swirl {
   0% {
@@ -930,7 +906,7 @@ transform: translateX(-100%);
   }
 
 
-  /* GALLERIES */
+  /* GALLERIES (Home Page) */
   /* Base Carousel Containers */
 .h_carousel,
 .h2_carousel {
@@ -938,7 +914,7 @@ transform: translateX(-100%);
   margin-top: 10rem;
   color: white;
   padding-bottom: 9vh;
-  background-color: #295e57c4; /* h_carousel */
+  background-color: #295e57c4; 
 }
 
 .h2_carousel {
@@ -954,7 +930,7 @@ transform: translateX(-100%);
   padding: 2rem;
   text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
                0px -5px 35px rgba(255,255,255,0.3);
-  color: #95d87c; /* h_carousel */
+  color: #95d87c;
 }
 
 .h2_carousel h2 {
@@ -976,7 +952,7 @@ transform: translateX(-100%);
   width: auto;
 }
 
-/* Images */
+/* Gallery Images */
 .home_gallery_photo {
   height: 31rem;
   width: 85vw;
@@ -998,8 +974,6 @@ transform: translateX(-100%);
 .slick-dots {
   bottom: -60px !important;
 }
-
-
 
 .slick-active {
   color: #DBBA4B;
@@ -1033,11 +1007,8 @@ transform: translateX(-100%);
 .sliderWrapper .prev-arrow { left: 0; }
 .sliderWrapper .next-arrow { right: 0; }
 
-
-
 /* -----------------------------------
-   Responsive Breakpoints
-   (min-width ascending order)
+   Responsive Breakpoints (Galleries)
 -------------------------------------*/
 @media (min-width: 851px) {
   .home_gallery_photo {
@@ -1076,16 +1047,12 @@ transform: translateX(-100%);
   }
 
   .home_gallery_photo {
-    /* only change for h_carousel */
     width: 40rem;
     height: 31rem;
   }
 
 
 }
-
-
-
 
 @media (min-width: 1650px) {
   .home_gallery_photo {
@@ -1110,15 +1077,12 @@ transform: translateX(-100%);
 }
 
 
-
-
-/* MORE HOME CSS GLOBAL HOME HERE */
+/* HOMEPAGE CSS MAIN */
 
 .h2_container_ul{
 position: absolute;
 top: -90px;
 }
-
 
 .home_container_outer{
     display: flex;
@@ -1184,16 +1148,14 @@ box-shadow: 0px 0px 47px 5px rgba(219,185,75,0.52);
 
 .home_sale_card{
     width: 100%;
-    max-width: 75vw; /* Set a maximum width for responsiveness */
+    max-width: 75vw; 
     aspect-ratio: 1/1; 
     border-radius: 20px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
     height: auto;
     object-fit: cover;
     margin: 2rem ;
-
 }
-
 
 @media (min-width:1025px) { 
 .home_container{
@@ -1229,8 +1191,6 @@ box-shadow: 0px 0px 47px 5px rgba(219,185,75,0.52);
      }
 
 
-
-
 .home{
   background-image: linear-gradient(#4FA673, #DBBA4B , #FB492C87) ;
   height: auto;
@@ -1240,7 +1200,6 @@ box-shadow: 0px 0px 47px 5px rgba(219,185,75,0.52);
   text-align: center;
   width: 100% !important;
   overflow: hidden !important;
-
 }
 
 .welcome{
@@ -1461,8 +1420,7 @@ margin-top: 3rem;
 
 
 
-
-/* ATTRIBUTION */
+/* ATTRIBUTION (plant catalog in xeric and trees) */
 .attribution-container{
   margin: 1rem;
 }
@@ -1485,7 +1443,7 @@ list-style: none;
     padding: 1rem;
 }
 
-/* Not Found  */
+/* Not Found Page */
 .not_found{
   height: auto;
   background-color: #242424;
@@ -1511,7 +1469,6 @@ width: 65vw;
 align-self: center;
 }
 .fof{
-
       height: auto;
       width: auto;
       padding: 1rem 1.25rem;
@@ -1533,6 +1490,12 @@ align-self: center;
   transition: 1s
 }
 
+  .tree_catalog_title{
+    font-size: 46pt;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 2px #000;
+  }
 
 
 
