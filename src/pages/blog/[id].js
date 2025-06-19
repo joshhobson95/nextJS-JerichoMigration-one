@@ -63,7 +63,7 @@ export default function SingleBlog({ blog }) {
               {blog.icon && <img alt="" src={blog.icon} />}
             </div>
 
-            {blog.intro && <p>{blog.intro}</p>}
+            {blog.intro && <p className={styles.blog_text_left}>{blog.intro}</p>}
 
             {blog.img_2_url && (
               <img
@@ -124,14 +124,14 @@ export default function SingleBlog({ blog }) {
 
         <div className={styles.blog_paragraph_mid}>
         
-            {blog.body_2 && <p>{blog.body_2}</p>}
+            {blog.body_2 && <p className={styles.blog_text_left}>{blog.body_2}</p>}
             {blog.span_green && <span className={styles.span_green}>{blog.span_green}</span>}
 
             {blog.img_5_url && <img src={blog.img_5_url} className={styles.blog_img} alt={blog.img_5_alt_text}/>}
             {blog.img_5_captions && <p>{blog.img_5_captions}</p>}
 
         
-            {blog.body_3 && <p>{blog.body_3}</p>}
+            {blog.body_3 && <p className={styles.blog_text_left}>{blog.body_3}</p>}
 
                 {blog.link2 && <a href={blog.link2}  target="_blank" rel="noreferrer">
                     <button>Link</button> 
@@ -166,7 +166,7 @@ export default function SingleBlog({ blog }) {
             <span className={styles.span_brown}>{blog.span_brown}</span>
             )}
             {blog.body_4 && (
-            <p>{blog.body_4}</p>
+            <p className={styles.blog_text_left}>{blog.body_4}</p>
             )}
             <div className={styles.blog_icon_3}>
             {blog.icon3 && (
@@ -181,7 +181,7 @@ export default function SingleBlog({ blog }) {
 
 
         {blog.conclusion && (
-            <p>{blog.conclusion}</p>
+            <p className={styles.blog_text_left}>{blog.conclusion}</p>
         )}
 
 

@@ -55,7 +55,9 @@ table {
 	display: flex;
 	justify-content: center;
 	align-self: center !important;
+  
 }
+
 .rich-text ol{  
 	list-style: decimal;
 	list-style-position: inside;

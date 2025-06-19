@@ -426,6 +426,11 @@ margin-bottom: 6vh;
         padding: 3rem;
     }
 
+    .blog_text_left{
+        text-align: left;
+   
+    }
+
 
 
 @media (min-width:1025px) { 
@@ -494,6 +499,10 @@ margin-bottom: 6vh;
 .page_numbers button{
     font-size: 18pt;
 }
+  .blog_text_left{
+      margin: 2rem 5rem !important;
+    }
+
 }
 
 @media (max-width: 1600px){
