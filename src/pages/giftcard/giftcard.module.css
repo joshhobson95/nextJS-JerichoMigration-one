@@ -39,6 +39,10 @@
    align-self: center;
    color: white;
    margin-bottom: 2rem ;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
 }
 .paypal_form{
     padding: 2rem;
