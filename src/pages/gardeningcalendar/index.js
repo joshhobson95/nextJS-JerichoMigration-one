@@ -38,7 +38,7 @@ function GardeningCalendar() {
                 <div className={styles.gc_welcome}>
             <h1>Gardening Calendar</h1>
                 <p> 
-                Have you ever wondered when the right time to plant seeds is? Or perhaps aren't sure when the best time to plant a large shade tree is. What should I do in the winter months to prep my garden? With the Jericho Gardening Calendar, you can get all of these answers. Catered specifically to New Mexico, this gardening calendar will serve as your gardening guide year-round.
+            Welcome to Jericho Nursery’s Gardening Calendar—your month-by-month guide to growing and thriving in Albuquerque’s unique high desert climate. From planting tips to seasonal care, we help you stay in tune with what your garden needs, all year long.
                 </p>
         </div>
    

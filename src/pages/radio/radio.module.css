@@ -27,6 +27,8 @@
 }
 .radio_welcome p{
     padding: 1.5vw;
+    line-height: 1.4;
+    font-size: 22pt;
 }
 .radio_welcome h1{
     color: #4FA673;
@@ -334,7 +336,9 @@ margin-left: 0;
     width: 80vw;
     margin: 1rem;
 }
-
+.radio_welcome p{
+    font-size: 12pt;
+}
 
 
 

@@ -27,7 +27,8 @@
     font-weight: 700;
 }
 .seminars_welcome p{
-    padding: 1rem 0rem;
+    padding: 1.5vw;
+    line-height: 1.4;
 }
 
 .seminars_body_main{
@@ -198,7 +199,7 @@ width: 23rem;
         font-weight: 700;
     }
     .seminars_welcome p{
-        padding: 0.5rem;
+        font-size: 22pt;
     }
     .seminars_body_main{
         width: 80vw;

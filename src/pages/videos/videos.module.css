@@ -32,6 +32,7 @@
 }
 .videos_welcome p{
     padding: 1.5vw;
+    line-height: 1.4;
 }
 .videos_body_main{
     background-image: linear-gradient(#b19c4a, #7271b7) ;
@@ -92,7 +93,7 @@ line-height: 1.8;
         padding-bottom: 1rem;
     }
     .videos_welcome p{
-        padding: 1.5vw;
+       font-size: 22pt;
     }
 
 

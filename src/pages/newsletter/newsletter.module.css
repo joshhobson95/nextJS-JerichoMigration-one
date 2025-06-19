@@ -38,8 +38,9 @@
     font-weight: 700;
 }
 .newsletter_welcome p{
-    margin-top: 1rem;
-    padding: 1.5vw;
+line-height: 1.4;
+font-size: 12pt;
+padding: 1.5vw;
 }
 .newsletter_body{
     background-image: linear-gradient(#b19c4a, #7271b7) ;
@@ -156,7 +157,7 @@
         padding-bottom: 1rem;
     }
     .newsletter_welcome p{
-        padding: 1.5vw;
+        font-size: 22pt;
     }
 
     .newsletter_body_top p{

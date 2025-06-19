@@ -48,7 +48,7 @@ function Radio() {
       <div className={styles.radio_welcome}>
         <h1>Garden Talk on KKOB</h1>
         <p>
-          Garden Talk with Rick Hobson has been on the air for over 20 years and counting. Tune in every other Saturday to hear everything you need to know about Albuquerque gardening, southwestern horticulture, and all kinds of plants from zone 5-8.
+  Join Rick Hobson on the Garden Talk Radio Show as he answers your garden questions live. Get expert tips and local advice to help your New Mexico garden thrive.
         </p>
       </div>
 

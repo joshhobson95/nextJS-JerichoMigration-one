@@ -33,6 +33,7 @@
 }
 .contact_us_welcome p{
     padding: 1.5vw;
+    line-height: 1.4;
 }
 .contact_us_body{
     background-image: linear-gradient(#b19c4a, #7271b7) ;
@@ -119,6 +120,9 @@
     }
     .contact_us_welcome{
         font-size: 18pt;
+    }
+    .contact_us_welcome p{
+        font-size: 22pt;
     }
     .contact_us_welcome h1 {
         font-size: 60pt;

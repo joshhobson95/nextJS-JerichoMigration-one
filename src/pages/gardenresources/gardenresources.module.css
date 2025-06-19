@@ -38,7 +38,6 @@
     padding: 1.5vw;
     line-height: 1.4;
     font-size: 12pt;
-    
 }
 .gr_body_main{
     background-image: linear-gradient( #9f4a38, #6f5d53, #209276);
@@ -279,9 +278,7 @@ font-size: 24pt;
         font-size: 50pt;
     }
     .gr_welcome p{
-        font-size: 18pt;
-        line-height: 1.8;
-        padding: 1.5vw;
+        font-size: 22pt;
     }
        .clubs h2{
         font-size: 36pt;

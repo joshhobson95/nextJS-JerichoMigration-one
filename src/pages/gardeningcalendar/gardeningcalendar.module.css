@@ -25,6 +25,11 @@
     font-size: 18pt;
     padding: 5vh;
 }
+.gc_welcome p{
+line-height: 1.4;
+padding: 1.5vw;
+font-size: 22pt;
+}
 .gc_welcome h1{
     color: #4FA673;
     font-size: 60pt;
@@ -42,6 +47,9 @@
     }
     .gc_welcome h1{
     font-size: 32pt;
+    }
+    .gc_welcome p{
+        font-size: 16pt;
     }
 }
 

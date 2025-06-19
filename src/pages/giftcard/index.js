@@ -35,12 +35,31 @@ function GiftCard() {
       <div className={styles.gc_main_welcome}>
         <h1>Give the gift of Growing</h1>
         <div className={styles.giftcard_svg}>
-          <GiftCardIcon />
+          
         </div>
       </div>
 
       <div className={styles.gc_main_body}>
-        <h2 className={styles.gc_h2}>Gift Card Checkout</h2>            
+        <h2 className={styles.gc_h2}>Gift Card Checkout</h2> 
+
+<div className={styles.giftcard_body}>
+    <div className={styles.giftcard_body_upper}>
+            <GiftCardIcon />
+    </div>
+    <div className={styles.giftcard_body_middle}>
+      <h2>Plant a thoughtful gift by buying someone in your life a Jericho Nursery Gift Card</h2>
+      <ul className={styles.giftcard_list}>
+        <li>Purchase below through our PayPal</li>
+        <li>Get a receipt via email as conformation</li>
+        <li>Bring your receipt to Jericho Nursery to exchange for a physical giftcard</li>
+      </ul>
+
+    </div>
+</div>
+
+
+
+
         <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" className={styles.paypal_form}>
           <input type="hidden" name="cmd" value="_s-xclick" />
           <input type="hidden" name="hosted_button_id" value="XKK5TS48D6QA6" />
