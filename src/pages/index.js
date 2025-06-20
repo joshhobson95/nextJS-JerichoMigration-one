@@ -18,10 +18,11 @@ import MoreAboutJericho from '@/components/Home/MoreAboutJericho/MoreAboutJerich
 import CallButton from "../components/Contact/CallButton";
 import MapButtonHome from "@/components/Home/MapButton/MapButtonHome";
 import HoursButton from "@/components/Home/HoursButton/HoursButton";
-import Popup from '@/components/Home/Popup/Popup';
+
 import PromotionsContainer from '@/components/Home/Containers/PromotionsContainer';
 import Banner3 from "@/components/Home/Banners/Banner3";
 import Timetable from "@/components/Timetable/Timetable";
+import Bulletin from "@/components/Bulletin/Bulletin";
 
 
 
@@ -60,17 +61,17 @@ export default function Home() {
     </Head>
 
 
-
       <div className={`home`}>  
-        <div className="welcome">
+        {/* <div className="welcome">
           <div className="w">
             <p className="w_1">Welcome to</p>
             <h1 className="w_2">Jericho Nursery</h1>
             <p className="w_3">All your Yard and Garden needs</p>
           </div>
-        </div>
+        </div> */}
 
-        <Popup />
+
+ <Bulletin />
 
         <div className="hours_and">
 
@@ -81,8 +82,10 @@ export default function Home() {
         </div>
 
         <div className="desktop_hours_and">
-       
+     
+         
           <Timetable />
+ 
        
         </div>
 
@@ -152,7 +155,7 @@ export default function Home() {
         >
           <GardeningCalendar />
         </div>
-             <Banner2 />
+
 
         <Gallery2 />
         <MoreAboutJericho />

@@ -61,8 +61,7 @@ function Workshops() {
   </div>
        
 
-          
-
+        
           <div className={styles.seminars_list}>
     
             <ul>
@@ -75,6 +74,7 @@ function Workshops() {
         <div className={styles.seminar_pic_section}></div>
 
 
+{/* Workshop Signup */}
         {/* <div className={styles.seminars_body_bottom}>
           <h1>Click the Button Below to Sign up for Workshops</h1> 
           <div className={styles.seminar_form}>
