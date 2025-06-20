@@ -50,9 +50,9 @@ function GiftCard() {
       <h2>Plant a thoughtful gift by buying someone in your life a Jericho Nursery Gift Card</h2>
       <ul className={styles.giftcard_list}>
         <li>Purchase below through our PayPal</li>
-        <li>Get a receipt via email as conformation</li>
-        <li>Bring your receipt to Jericho Nursery to exchange for a physical giftcard</li>
-        <li>Your Done!</li>
+        <li>Get a receipt via email as confirmation</li>
+        <li>Provide mailing address</li>
+        <li>Then we will mail you your physical Jericho Nursery Giftcard!</li>
       </ul>
 
     </div>
