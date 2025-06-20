@@ -135,6 +135,11 @@
   background: rgba(0, 0, 0, 0);
 }
 
+.bulletin_lower_shell{
+  display: flex;
+  justify-content: center;
+}
+
 
 
 

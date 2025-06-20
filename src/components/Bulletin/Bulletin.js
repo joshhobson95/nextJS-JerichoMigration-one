@@ -91,21 +91,22 @@ function Bulletin() {
             </div>
           ))}
         </div>
-
+   <div className={styles.bulletin_lower_shell}>
         <div className={styles.bulletin_lower}>
           <h3 className={styles.selected_bulletin_title}>{selectedBulletin.title}</h3>
           <p className={styles.selected_bulletin_paragraph}>{selectedBulletin.paragraph}</p>
        {selectedBulletin.link && (
-      <a
-        className={styles.selected_bulletin_link}
-        href={selectedBulletin.link}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+         <a
+         className={styles.selected_bulletin_link}
+         href={selectedBulletin.link}
+         target="_blank"
+         rel="noopener noreferrer"
+         >
         Click Here for more
       </a>
     )}
-        </div>
+    </div>
+  </div>
       </div>
     </section>
   );
