@@ -66,7 +66,7 @@ export default function Home() {
           <div className="w">
             <p className="w_1">Welcome to</p>
             <h1 className="w_2">Jericho Nursery</h1>
-            <p className="w_3">All your Yard and Garden needs</p>
+            <p className="w_3">All your Yard and Garden needs!</p>
           </div>
         </div> */}
 
