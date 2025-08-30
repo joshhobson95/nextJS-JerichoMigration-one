@@ -113,7 +113,7 @@ export default function Home() {
           data-aos-anchor-placement="top-center"
         >
 
-          <Banner3 />
+          {/* <Banner3 /> */}
         
           <PromotionsContainer />
         </div>
