@@ -9,68 +9,68 @@ function StaffPictures() {
 
     const staff_pics = [
         {
-            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/staff_photos/Richard-1.jpg",
+            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Things%20we%20Carry/Shrubs/flowerings/Indian_Hawthorn_Bloom.jpg",
             name: 'Richard',
             position: 'Co-Owner'
         },
         {
-            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/staff_photos/Jennifer.jpg",
+            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Things%20we%20Carry/Shrubs/flowerings/alba-lilac.jpg",
             name: 'Jennifer',
             position: 'Co-Owner'
         },
         {
-            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/staff_photos/Jesse.png",
+            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Things%20we%20Carry/Shrubs/flowerings/apache-plume-1937218_1920.jpg",
             name: 'Jesse',
             position: 'Manager'
         },
         {
-            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/staff_photos/alfredo.jpg",
+            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Things%20we%20Carry/Shrubs/flowerings/aphrodite-ROS.jpg",
             name: 'Alfredo',
             position: 'Gardening Angel'
             
         },
         {
-            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/staff_photos/download.jpg",
+            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Things%20we%20Carry/Shrubs/flowerings/autumn-sage.jpg",
             name: 'Pam',
             position: 'Gardening Angel'
         },
         {
-            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/staff_photos/kiana.jpg",
+            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Things%20we%20Carry/Shrubs/flowerings/butterflybush-dark-purple.jpg",
             name: 'Kiana',
             position: 'Gardening Angel'
         },
         {
-            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/staff_photos/scott.png",
+            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Things%20we%20Carry/Shrubs/flowerings/catawba-crape.jpg",
             name: 'Scott',
             position: 'Gardening Angel'
         },
         {
-            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/staff_photos/Chantelle.png",
+            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Things%20we%20Carry/Shrubs/flowerings/crape-pink.jpg",
             name: 'Chantelle',
             position: 'Gardening Angel'
         },
         {
-            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/staff_photos/Kelly.jpg",
+            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Things%20we%20Carry/Shrubs/flowerings/leucophyllum-4932726_1920.jpg",
             name: 'Kelly',
             position: 'Gardening Angel'
         },
         {
-            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/staff_photos/Heather.jpg",
+            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Things%20we%20Carry/Shrubs/flowerings/pink-potentilla.jpg",
             name: 'Heather',
             position: 'Gardening Angel'
         },
         {
-            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/staff_photos/andrew-small-EfhCUc_fjrU-unsplash.jpg",
+            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Things%20we%20Carry/Shrubs/flowerings/redheart-ROS.jpg",
             name: 'Dolly',
             position: 'Gardening Angel'
         },
         {
-            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/staff_photos/aaron-burden-2IzoIHBgYAo-unsplash.jpg",
+            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Things%20we%20Carry/Shrubs/flowerings/spanish-broom.jpg",
             name: 'Isaac',
             position: 'Gardening Angel'
         },
         {
-            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/staff_photos/erda-estremera-6ZyLeconAsg-unsplash.jpg",
+            src: "https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Things%20we%20Carry/Shrubs/flowerings/tinkerbell-lilac.jpg",
             name: 'Kendra',
             position: 'Gardening Angel'
         },

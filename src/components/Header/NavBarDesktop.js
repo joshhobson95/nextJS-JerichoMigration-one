@@ -36,9 +36,9 @@ const NavBarDesktop = () => {
               <li className="navbar__dropdownItem">
                 <Link href="/sales">Sales & Promotions</Link>
               </li>
-              <li className="navbar__dropdownItem">
+              {/* <li className="navbar__dropdownItem">
                 <Link href="/plantcatalog">Plant Catalog</Link>
-              </li>
+              </li> */}
               <li className="navbar__dropdownItem">
                 <Link href="/delivery">Delivery and Planting</Link>
               </li>

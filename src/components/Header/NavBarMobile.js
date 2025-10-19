@@ -111,9 +111,9 @@ function NavBarMobile() {
                   <Link href='/sales'>
                     <li className="navbar__dropdownItem_mobile">Sales & Promotions</li>
                   </Link>
-                  <Link href='/plantcatalog'>
+                  {/* <Link href='/plantcatalog'>
                     <li className="navbar__dropdownItem_mobile">Plant Catalog</li>
-                  </Link>
+                  </Link> */}
                   <Link href='/delivery'>
                     <li className="navbar__dropdownItem_mobile">Delivery and Planting</li>
                   </Link>

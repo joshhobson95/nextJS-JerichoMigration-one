@@ -32,7 +32,7 @@ function FFC() {
   />
   <meta
     property="og:image"
-    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/jh-restoration-images/Jericho-logo.png"
   />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.jerichonursery.com/ffc" />
@@ -63,7 +63,7 @@ function FFC() {
                         <h2>Welcome to Jericho's Frequent Flower Club</h2>
                             </div>
                         <div className={styles.ffc_introduction}>
-                            <img className={styles.jericho_ffc_flower} src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/New_FFC/main-Flower' alt='Jericho FFC homepage'/>
+                            <img className={styles.jericho_ffc_flower} src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Things%20we%20Carry/annuals/blackeyedsusan.jpg' alt='Jericho FFC homepage'/>
 
                             <div className={styles.ffc_intro_paragraph}>
                                 <h2>Introducing Jericho's new FFC Rewards Program</h2>
