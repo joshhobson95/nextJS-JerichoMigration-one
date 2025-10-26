@@ -33,8 +33,8 @@ const HoursButton = () => {
           <button onClick={closeModal} className={styles.close_button}>x</button>
           <h1>Store Hours</h1>
 
-          Mon-Fri: 8:00 am - 4:30 pm 
-          <br></br> Sat: 8:00 am - 5:00 pm | Sun: 11:00 am - 5:00 pm
+          Mon-Fri: 9:00 am - 5:00 pm 
+          <br></br> Sat: 9:00 am - 5:00 pm | Sun: 11:00 am - 5:00 pm
         
        
         </dialog>
