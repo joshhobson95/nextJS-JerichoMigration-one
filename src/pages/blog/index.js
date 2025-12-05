@@ -74,7 +74,7 @@ export default function BlogList() {
       <meta name='description' content='Discover helpful gardening tips, plant care advice, and more on the Jericho Nursery blog.' />
       <meta property='og:title' content='Jericho Nursery Blog - Gardening Tips, Plant Care, and More' />
       <meta property='og:description' content='Discover helpful gardening tips, plant care advice, and more on the Jericho Nursery blog.' />
-      <meta property='og:image' content='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg' />
+      <meta property='og:image' content='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/jh-restoration-images/Jericho-logo.png' />
       <meta property='og:type' content='website' />
 
     </Head>

@@ -49,7 +49,7 @@ export default function Home() {
       />
       <meta
         property="og:image"
-        content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg"
+        content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/jh-restoration-images/Jericho-logo.png"
       />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://www.jerichonursery.com/" />
@@ -113,7 +113,7 @@ export default function Home() {
           data-aos-anchor-placement="top-center"
         >
 
-          <Banner3 />
+          {/* <Banner3 /> */}
         
           <PromotionsContainer />
         </div>
@@ -139,7 +139,7 @@ export default function Home() {
           data-aos-once="true"
           data-aos-anchor-placement="top-center"
         >
-            <Banner7 />
+            {/* <Banner7 /> */}
      
           <VideosContainer />
         </div>

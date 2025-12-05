@@ -31,7 +31,7 @@ function Brands() {
           id: 3,
           title: 'Bonide',
           description: `"We offer weed, Insect, disease and animal controls in a variety of formulations and applications to meet any gardener’s needs. Sold in national, regional and local home centers, hardware stores, mass merchants and garden centers across America BONIDE is a recognized and respected industry leader."`,
-          img: 'https://149502146.v2.pressablecdn.com/wp-content/uploads/2013/08/bonide-logo.jpg',
+          img: 'https://jericho-content.nyc3.cdn.digitaloceanspaces.com/jh-restoration-images/Bonide.jpg',
         },
         {
           id: 4,
@@ -151,7 +151,7 @@ function Brands() {
   />
   <meta
     property="og:image"
-    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/jh-restoration-images/Jericho-logo.png"
   />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.jerichonursery.com/brands" />
@@ -245,25 +245,25 @@ function Brands() {
               className={styles.ecm}
             />
             <img
-              src="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/elpinto.webp"
+              src="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/jh-restoration-images/el%20pinto.png"
               alt="El Pinto"
               className={styles.elpinto}
             />
             <img
-              src="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/vics.png"
+              src="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/jh-restoration-images/Vic;s.jpg"
               alt="Vics Daily Cafe"
               className={styles.vics}
             />
             <img
-              src="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/daves.png"
+              src="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/jh-restoration-images/Dave's%20valley%20Grill.jpg"
               alt="Daves Valley Grill"
               className={styles.daves}
             />
-            <img
+            {/* <img
               src="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/Construction.jpg"
               alt="Construction Rental & Supply"
               className={styles.daves}
-            />
+            /> */}
 
        </div>
 

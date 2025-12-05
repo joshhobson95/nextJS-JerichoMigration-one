@@ -24,7 +24,7 @@ function Newsletter() {
   />
   <meta
     property="og:image"
-    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/jh-restoration-images/Jericho-logo.png"
   />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.jerichonursery.com/newsletter" />
@@ -46,7 +46,7 @@ function Newsletter() {
         <div className={styles.newsletter_body_top}>
           <div className={styles.newsletter_introduction}>
             <h2>Want more Jericho?</h2>
-            <img className={styles.garden_phone} src="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/VARIOUS/SEO_photos/gardenphone.jpg" alt="Join Jericho Nursery's Newsletter for all your garden updates" />
+            <img className={styles.garden_phone} src="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Things%20we%20Carry/tree/GoldenRainTree.png" alt="Join Jericho Nursery's Newsletter for all your garden updates" />
             <p>
               Sign up for Jericho Nursery’s free Newsletter and Text Alerts to stay updated on everything happening at the nursery each week! Our weekly email brings you the latest news, gardening tips, special promotions, and event announcements, so you never miss out on what’s blooming. Plus, our text alerts provide quick reminders about sales, workshops, and seasonal updates straight to your phone. It’s the best way to stay connected with Jericho Nursery and get expert advice for your garden—all at no cost to you!
             </p>

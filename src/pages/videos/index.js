@@ -31,7 +31,7 @@ function Videos() {
   />
   <meta
     property="og:image"
-    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/jh-restoration-images/Jericho-logo.png"
   />
   <meta property="og:type" content="video.other" />
   <meta property="og:url" content="https://www.jerichonursery.com/videos" />

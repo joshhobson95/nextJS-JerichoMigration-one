@@ -23,7 +23,7 @@ function ContactUs() {
   />
   <meta
     property="og:image"
-    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Photos_from_Jericho_Gallery/CashHouse.jpg"
+    content="https://jericho-content.nyc3.cdn.digitaloceanspaces.com/jh-restoration-images/Jericho-logo.png"
   />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.jerichonursery.com/contact" />
@@ -44,7 +44,7 @@ function ContactUs() {
         <div className={styles.contact_us_body}>
 
         <div className={styles.contact_pic_container}>
-        <img alt='Jericho Nursery' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/EvergreenContent/cashHouse.jpg' className={styles.contact_pic} />
+        <img alt='Jericho Nursery' src='https://jericho-content.nyc3.cdn.digitaloceanspaces.com/Restoration%20Images/BlogFeature.png' className={styles.contact_pic} />
         </div>
 
 
