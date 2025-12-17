@@ -914,7 +914,7 @@ transform: translateX(-100%);
   margin-top: 10rem;
   color: white;
   padding-bottom: 9vh;
-  background-color: #4d3213c4; 
+  background-color: #d11717c4; 
 }
 
 .h2_carousel {
@@ -930,7 +930,7 @@ transform: translateX(-100%);
   padding: 2rem;
   text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
                0px -5px 35px rgba(255,255,255,0.3);
-  color: #d8b07c;
+  color: #dce4e0;
 }
 
 .h2_carousel h2 {
