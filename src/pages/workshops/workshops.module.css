@@ -128,7 +128,10 @@ width: 100%;
     padding: 4rem;
     color: black;
     width: auto;
-}    
+}   
+.seminar_form button{
+    font-size: 18pt;
+} 
 .s_decoy{
 height: 15rem;
 width: 23rem;

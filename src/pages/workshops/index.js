@@ -63,11 +63,33 @@ function Workshops() {
 
         
           <div className={styles.seminars_list}>
-    
+<h2></h2>
             <ul>
-              <li>Workshops will start back at a later date</li>
-              <span>Thank you to all who attended</span>
+<li>January 10th: Rebates and Xeric</li>
+<span>------</span>
+<li>January 24th: Tree Pruning</li>
+<span>------</span>
+<li>February 7th: Beekeeping Basics</li>
+<span>------</span>
+<li>February 21st: Irrigation</li>
+<span>------</span>
+<li>March 7th: Soil Amendments</li>
+<span>------</span>
+<li>March 21st: Rose Pruning</li>
+<span>------</span>
             </ul>
+
+            {/* Workshop Signup */}
+        <div className={styles.seminars_body_bottom}>
+          <h1>Click the Button Below to Sign up for Workshops</h1> 
+          <div className={styles.seminar_form}>
+            {/* <h2>Workshop Signup</h2> */}
+            <a href="https://links.lightworkdigital.com/widget/form/3qaO8XFwZsIzsspf04OE">
+              <button className={styles.seminar_button}>Workshop Signup</button>
+            </a> 
+          </div>
+        </div>
+            
           </div>
         </div>
 
@@ -79,12 +101,12 @@ function Workshops() {
           <h1>Click the Button Below to Sign up for Workshops</h1> 
           <div className={styles.seminar_form}>
             <h2>This week's Workshop</h2>
-            <a href="https://link.lightworkdigital.com/widget/form/vLlzQeIgoQN6azYxdwJB">
+            <a href="https://links.lightworkdigital.com/widget/form/3qaO8XFwZsIzsspf04OE">
               <button className={styles.seminar_button}>Landscape Design</button>
             </a> 
           </div>
-        </div> */}
-     
+        </div>
+      */}
     </main>
   );
 }
