@@ -52,7 +52,7 @@ function Workshops() {
           <h2>This Year's Workshops</h2>
           <img alt="Workshops at Jericho Nursery" src={seminar_pic.src} className={styles.seminar_pic} />
           <p>
-            For a limited time, Jericho Nursery is offering their enriching workshops at an affordable price of just $10. As an added bonus, participants will receive a complimentary $10 gift card to the nursery...
+            For a limited time, Jericho Nursery is offering their enriching workshops at an affordable price of just $20. As an added bonus, participants will receive a complimentary $20 gift card to the nursery...
           </p>
         </div>
     
