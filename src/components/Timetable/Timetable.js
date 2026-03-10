@@ -7,8 +7,8 @@ export default function Timetable() {
   
 
   const rows = [
-    [ 'Monday-Friday', '9:00 AM – 5:00 PM'],
-    [ 'Saturday', '9:00 AM – 5:00 PM'],
+    [ 'Monday-Friday', '9:00 AM – 6:00 PM'],
+    [ 'Saturday', '9:00 AM – 6:00 PM'],
     [ 'Sunday', '11:00 AM – 5:00 PM']
   ];
 
